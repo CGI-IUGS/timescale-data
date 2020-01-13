@@ -13857,7 +13857,7 @@ ts:gts2019
   dct:title "Geologic Time Scale (2019)"@en ;
   vann:preferredNamespacePrefix "isc"@en ;
   vann:preferredNamespaceUri isc: ;
-  void:dataDump <https://github.com/dr-shorthair/timescale-data/rdf/isc2019.ttl> ;
+  void:dataDump <https://github.com/CGI-IUGS/timescale-data/rdf/isc2019.ttl> ;
   void:exampleResource isc:BaseOrdovician ;
   void:exampleResource isc:BaseOrdovicianSP ;
   void:exampleResource isc:BaseOrdovicianTime ;
@@ -14021,9 +14021,9 @@ Also: changed samfl:shape --> geo:hasGeometry"""@en ;
   skos:changeNote "2020-01-13 - updated to 2019 version see http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014-2015-2016-2017-2018-2019.txt"@en ;
   skos:changeNote "Added informal definition of chronometric temporal reference system - Millions of years, counting backwards from 1950"@en ;
   skos:changeNote "See <http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014-2015-2016-2017-2018.txt> for changes from prior versions"@en ;
-  skos:editorialNote """<p>This dataset is being <a href=\"https://github.com/dr-shorthair/timescale-data/\">maintained in GitHub</a></p>
+  skos:editorialNote """<p>This dataset is being <a href=\"https://github.com/CGI-IUGS/timescale-data/\">maintained in GitHub</a></p>
 
-<p>Please report errors, or propose improvements, using the <a href=\"https://github.com/dr-shorthair/timescale-data/issues\">GitHub issue-tracker</a>."""^^rdf:HTML ;
+<p>Please report errors, or propose improvements, using the <a href=\"https://github.com/CGI-IUGS/timescale-data/issues\">GitHub issue-tracker</a>."""^^rdf:HTML ;
   skos:hasTopConcept isc:Boundary-unspecified ;
   skos:hasTopConcept isc:Phanerozoic ;
   skos:hasTopConcept isc:Precambrian ;
@@ -14033,8 +14033,8 @@ Also: changed samfl:shape --> geo:hasGeometry"""@en ;
       a doap:Project ;
       doap:repository [
           a doap:GitRepository ;
-          doap:browse <https://github.com/dr-shorthair/timescale-data/> ;
-          doap:location <https://github.com/dr-shorthair/timescale-data.git> ;
+          doap:browse <https://github.com/CGI-IUGS/timescale-data/> ;
+          doap:location <https://github.com/CGI-IUGS/timescale-data.git> ;
         ] ;
     ] ;
 .
