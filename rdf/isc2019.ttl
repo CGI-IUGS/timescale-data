@@ -220,7 +220,7 @@ isc:Ages
   skos:member isc:Maastrichtian ;
   skos:member isc:Meghalayan ;
   skos:member isc:Messinian ;
-  skos:member isc:MiddlePleistocene ;
+  skos:member isc:Chibanian ;
   skos:member isc:Moscovian ;
   skos:member isc:Norian ;
   skos:member isc:Northgrippian ;
@@ -3167,6 +3167,16 @@ isc:BaseMiddlePennsylvanianUncertainty
   time:numericDuration 0.2 ;
   time:unitType <http://www.opengis.net/def/uom/UCUM/0/Ma> ;
 .
+isc:BaseChibanian
+  a gts:GeochronologicBoundary ;
+  a thors:EraBoundary ;
+  a skos:Concept ;
+  a time:Instant ;
+  rdfs:label "Base of Chibanian"@en ;
+  skos:prefLabel "Base of Chibanian"@en ;
+  time:inTemporalPosition isc:BaseChibanianTime ;
+  dct:replaces isc:BaseMiddlePleistocene ;
+.
 isc:BaseMiddlePleistocene
   a gts:GeochronologicBoundary ;
   a thors:EraBoundary ;
@@ -3175,11 +3185,19 @@ isc:BaseMiddlePleistocene
   rdfs:label "Base of Middle Pleistocene"@en ;
   skos:prefLabel "Base of Middle Pleistocene"@en ;
   time:inTemporalPosition isc:BaseMiddlePleistoceneTime ;
+  dct:isReplacedBy isc:BaseChibanian ;
+.
+isc:BaseChibanianTime
+  a time:TimePosition ;
+  time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
+  time:numericPosition 0.773 ;
+  dct:replaces isc:BaseMiddlePleistoceneTime ;
 .
 isc:BaseMiddlePleistoceneTime
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 0.773 ;
+  dct:isReplacedBy isc:BaseChibanianTime ;
 .
 isc:BaseMiddleTriassic
   a gts:GeochronologicBoundary ;
@@ -4924,7 +4942,7 @@ isc:Boundaries
   skos:member isc:BaseMiddleMississippian ;
   skos:member isc:BaseMiddleOrdovician ;
   skos:member isc:BaseMiddlePennsylvanian ;
-  skos:member isc:BaseMiddlePleistocene ;
+  skos:member isc:BaseChibanian ;
   skos:member isc:BaseMiddleTriassic ;
   skos:member isc:BaseNeoarchean ;
   skos:member isc:BaseNeogene ;
@@ -5081,7 +5099,7 @@ isc:Boundaries
       isc:BasePiacenzian
       isc:BaseQuaternary
       isc:BaseCalabrian
-      isc:BaseMiddlePleistocene
+      isc:BaseChibanian
       isc:BaseLatePleistocene
       isc:BaseHolocene
       isc:BaseNorthgrippian
@@ -5169,7 +5187,7 @@ isc:Boundary-unspecified
   skos:narrower isc:BaseMiddleMississippian ;
   skos:narrower isc:BaseMiddleOrdovician ;
   skos:narrower isc:BaseMiddlePennsylvanian ;
-  skos:narrower isc:BaseMiddlePleistocene ;
+  skos:narrower isc:BaseChibanian ;
   skos:narrower isc:BaseMiddleTriassic ;
   skos:narrower isc:BaseNeoarchean ;
   skos:narrower isc:BaseNeogene ;
@@ -5297,10 +5315,10 @@ isc:Calabrian
   skos:prefLabel "カラブリア期"@ja ;
   skos:prefLabel "卡拉布里亚期"@zh ;
   time:hasBeginning isc:BaseCalabrian ;
-  time:hasEnd isc:BaseMiddlePleistocene ;
+  time:hasEnd isc:BaseChibanian ;
   time:intervalDuring isc:Pleistocene ;
   time:intervalIn isc:Pleistocene ;
-  time:intervalMeets isc:MiddlePleistocene ;
+  time:intervalMeets isc:Chibanian ;
   time:intervalMetBy isc:Gelasian ;
   foaf:primaryTopicOf <http://sweetontology.net/stateTimeGeologic/Calabrian> ;
 .
@@ -5999,7 +6017,7 @@ isc:Cenozoic
   skos:narrowerTransitive isc:Lutetian ;
   skos:narrowerTransitive isc:Meghalayan ;
   skos:narrowerTransitive isc:Messinian ;
-  skos:narrowerTransitive isc:MiddlePleistocene ;
+  skos:narrowerTransitive isc:Chibanian ;
   skos:narrowerTransitive isc:Miocene ;
   skos:narrowerTransitive isc:Northgrippian ;
   skos:narrowerTransitive isc:Oligocene ;
@@ -9525,12 +9543,79 @@ isc:MiddlePennsylvanian
   time:intervalMetBy isc:LowerPennsylvanian ;
   foaf:primaryTopicOf <http://sweetontology.net/stateTimeGeologic/MiddlePennsylvanian> ;
 .
+isc:Chibanian
+  a gts:Age ;
+  a gts:GeochronologicEra ;
+  a skos:Concept ;
+  a time:ProperInterval ;
+  dct:replaces isc:Ionian ;
+  rdfs:comment "older bound -0.781 Ma"@en ;
+  rdfs:comment "younger bound -0.126 Ma"@en ;
+  rdfs:label "Chibanian Age"@en ;
+  owl:sameAs <http://dbpedia.org/resource/Ionian> ;
+  skos:altLabel "Ion"@cs ;
+  skos:altLabel "Ion"@fi ;
+  skos:altLabel "Ion"@pl ;
+  skos:altLabel "Ionian"@da ;
+  skos:altLabel "Ionian"@en ;
+  skos:altLabel "Ioniano"@pt ;
+  skos:altLabel "Ionien"@fr ;
+  skos:altLabel "Ioniense"@es ;
+  skos:altLabel "Ionium"@de ;
+  skos:altLabel "Ionium"@no ;
+  skos:altLabel "Iooni"@et ;
+  skos:altLabel "ion"@sv ;
+  skos:altLabel "ioni"@hu ;
+  skos:altLabel "ioniano"@it ;
+  skos:altLabel "ionij"@sl ;
+  skos:altLabel "jonian"@sk ;
+  skos:altLabel "lonis"@lt ;
+  skos:altLabel "Йониан"@bg ;
+  skos:altLabel "“爱奥尼亚”期"@zh ;
+  skos:altLabel "イオニアン期"@ja ;
+  skos:broader isc:Pleistocene ;
+  skos:broaderTransitive isc:Cenozoic ;
+  skos:broaderTransitive isc:Phanerozoic ;
+  skos:broaderTransitive isc:Quaternary ;
+  skos:historyNote "Previously known as 'Ionian'"@en ;
+  skos:inScheme ts:gts2019 ;
+  skos:notation "a1.1.1.1.2.2"^^gts:EraCode ;
+  skos:prefLabel "Kesk-Pleistotseen"@et ;
+  skos:prefLabel "Keski-Pleistoseeni"@fi ;
+  skos:prefLabel "Mellem Pleistocæn"@da ;
+  skos:prefLabel "Midden Pleistoceen/ Midden terras"@nl ;
+  skos:prefLabel "Middle Pleistocene"@en ;
+  skos:prefLabel "Midtre pleistocen"@no ;
+  skos:prefLabel "Mittlere Pleistozän"@de ;
+  skos:prefLabel "Pleistoceno Medio"@es ;
+  skos:prefLabel "Plistocénico Médio"@pt ;
+  skos:prefLabel "Pléistocène moyen"@fr ;
+  skos:prefLabel "Střední pleistocén"@cs ;
+  skos:prefLabel "Vidurinis Pleistocenas"@lt ;
+  skos:prefLabel "középső-pleisztocén"@hu ;
+  skos:prefLabel "mellersta pleistocen"@sv ;
+  skos:prefLabel "pleistocene medio"@it ;
+  skos:prefLabel "srednji pleistocen"@sl ;
+  skos:prefLabel "stredný pleistocén"@sk ;
+  skos:prefLabel "Środkowy Plejstocen"@pl ;
+  skos:prefLabel "Среден Плейѿтоцен"@bg ;
+  time:hasBeginning isc:BaseChibanian ;
+  time:hasEnd isc:BaseLatePleistocene ;
+  time:intervalDuring isc:Pleistocene ;
+  time:intervalIn isc:Pleistocene ;
+  time:intervalMeets isc:UpperPleistocene ;
+  time:intervalMetBy isc:Calabrian ;
+  foaf:primaryTopicOf <http://sweetontology.net/stateTimeGeologic/Ionian> ;
+  dct:replaces isc:MiddlePleistocene ;
+.
 isc:MiddlePleistocene
   a gts:Age ;
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
   dct:replaces isc:Ionian ;
+  dct:isReplacedBy isc:Chibanian ;
+  skos:changeNote "Superseded by \"Middle Pleistocene\""@en ;
   rdfs:comment "older bound -0.781 Ma"@en ;
   rdfs:comment "younger bound -0.126 Ma"@en ;
   rdfs:label "Middle Pleistocene Age"@en ;
@@ -10912,7 +10997,7 @@ isc:Phanerozoic
   skos:narrowerTransitive isc:MiddleMississippian ;
   skos:narrowerTransitive isc:MiddleOrdovician ;
   skos:narrowerTransitive isc:MiddlePennsylvanian ;
-  skos:narrowerTransitive isc:MiddlePleistocene ;
+  skos:narrowerTransitive isc:Chibanian ;
   skos:narrowerTransitive isc:MiddleTriassic ;
   skos:narrowerTransitive isc:Miocene ;
   skos:narrowerTransitive isc:Mississippian ;
@@ -11071,7 +11156,7 @@ isc:Pleistocene
   skos:inScheme ts:gts2019 ;
   skos:narrower isc:Calabrian ;
   skos:narrower isc:Gelasian ;
-  skos:narrower isc:MiddlePleistocene ;
+  skos:narrower isc:Chibanian ;
   skos:narrower isc:UpperPleistocene ;
   skos:notation "a1.1.1.1.2"^^gts:EraCode ;
   skos:prefLabel "Pleistoceen"@nl ;
@@ -11098,7 +11183,7 @@ isc:Pleistocene
   time:hasBeginning isc:BaseQuaternary ;
   time:hasEnd isc:BaseHolocene ;
   time:intervalContains isc:Calabrian ;
-  time:intervalContains isc:MiddlePleistocene ;
+  time:intervalContains isc:Chibanian ;
   time:intervalFinishedBy isc:UpperPleistocene ;
   time:intervalIn isc:Quaternary ;
   time:intervalMeets isc:Holocene ;
@@ -11499,7 +11584,7 @@ isc:Quaternary
   skos:narrowerTransitive isc:Gelasian ;
   skos:narrowerTransitive isc:Greenlandian ;
   skos:narrowerTransitive isc:Meghalayan ;
-  skos:narrowerTransitive isc:MiddlePleistocene ;
+  skos:narrowerTransitive isc:Chibanian ;
   skos:narrowerTransitive isc:Northgrippian ;
   skos:narrowerTransitive isc:UpperPleistocene ;
   skos:notation "a1.1.1.1"^^gts:EraCode ;
@@ -13410,7 +13495,7 @@ isc:UpperPleistocene
   time:intervalFinishes isc:Pleistocene ;
   time:intervalIn isc:Pleistocene ;
   time:intervalMeets isc:Holocene ;
-  time:intervalMetBy isc:MiddlePleistocene ;
+  time:intervalMetBy isc:Chibanian ;
   foaf:primaryTopicOf <http://sweetontology.net/stateTimeGeologic/UpperPleistocene> ;
 .
 isc:UpperTriassic
@@ -13944,7 +14029,7 @@ ts:gts2019
   thors:referencePoint isc:BaseMiddleMississippian ;
   thors:referencePoint isc:BaseMiddleOrdovician ;
   thors:referencePoint isc:BaseMiddlePennsylvanian ;
-  thors:referencePoint isc:BaseMiddlePleistocene ;
+  thors:referencePoint isc:BaseChibanian ;
   thors:referencePoint isc:BaseMiddleTriassic ;
   thors:referencePoint isc:BaseNeoarchean ;
   thors:referencePoint isc:BaseNeogene ;
