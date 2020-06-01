@@ -13,8 +13,10 @@
 @prefix iso-trs: <http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rank: <http://resource.geosciml.org/ontology/timescale/rank/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
 @prefix sf: <http://www.opengis.net/ont/sf#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix thors: <http://resource.geosciml.org/ontology/timescale/thors#> .
@@ -69,6 +71,7 @@ isc:Aalenian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -174.1 +|-1.0 Ma"@en ;
   rdfs:comment "younger bound -170.3 +|-1.4 Ma"@en ;
   rdfs:label "Aalenian Age"@en ;
@@ -114,6 +117,7 @@ isc:Aeronian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -440.8 +|-1.2 Ma"@en ;
   rdfs:comment "younger bound -438.5 +|-1.1 Ma"@en ;
   rdfs:label "Aeronian Age"@en ;
@@ -265,6 +269,7 @@ isc:Albian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -113.0 Ma"@en ;
   rdfs:comment "younger bound -100.5 Ma"@en ;
   rdfs:label "Albian Age"@en ;
@@ -310,6 +315,7 @@ isc:Anisian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -247.2 Ma"@en ;
   rdfs:comment "younger bound -242 Ma"@en ;
   rdfs:label "Anisian Age"@en ;
@@ -355,6 +361,7 @@ isc:Aptian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -125.0 Ma"@en ;
   rdfs:comment "younger bound -113.0 Ma"@en ;
   rdfs:label "Aptian Age"@en ;
@@ -399,6 +406,7 @@ isc:Aquitanian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -23.03 Ma"@en ;
   rdfs:comment "younger bound -20.44 Ma"@en ;
   rdfs:label "Aquitanian Age"@en ;
@@ -445,6 +453,7 @@ isc:Archean
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Eon ;
   rdfs:comment "older bound -4000 Ma"@en ;
   rdfs:comment "younger bound -2500 Ma"@en ;
   rdfs:label "Archean Eon"@en ;
@@ -498,6 +507,7 @@ isc:Artinskian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -290.1 +|-0.26 Ma"@en ;
   rdfs:comment "younger bound -283.5 +|-0.6 Ma"@en ;
   rdfs:label "Artinskian Age"@en ;
@@ -542,6 +552,7 @@ isc:Asselian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -298.9 +|-0.15 Ma"@en ;
   rdfs:comment "younger bound -295.0 +|-0.18 Ma"@en ;
   rdfs:label "Asselian Age"@en ;
@@ -589,6 +600,7 @@ isc:Bajocian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -170.3 +|-1.4 Ma"@en ;
   rdfs:comment "younger bound -168.3 +|-1.3 Ma"@en ;
   rdfs:label "Bajocian Age"@en ;
@@ -633,6 +645,7 @@ isc:Barremian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -129.4 Ma"@en ;
   rdfs:comment "younger bound -125.0 Ma"@en ;
   rdfs:label "Barremian Age"@en ;
@@ -677,6 +690,7 @@ isc:Bartonian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -41.2 Ma"@en ;
   rdfs:comment "younger bound -37.8 Ma"@en ;
   rdfs:label "Bartonian Age"@en ;
@@ -4714,6 +4728,7 @@ isc:Bashkirian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -323.2 +|-0.4 Ma"@en ;
   rdfs:comment "younger bound -315.2 +|-0.2 Ma"@en ;
   rdfs:label "Bashkirian Age"@en ;
@@ -4762,6 +4777,7 @@ isc:Bathonian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -168.3 +|-1.3 Ma"@en ;
   rdfs:comment "younger bound -166.1 +|-1.2 Ma"@en ;
   rdfs:label "Bathonian Age"@en ;
@@ -4806,6 +4822,7 @@ isc:Berriasian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -145.0 Ma"@en ;
   rdfs:comment "younger bound -139.8 Ma"@en ;
   rdfs:label "Berriasian Age"@en ;
@@ -5221,6 +5238,7 @@ isc:Burdigalian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -20.44 Ma"@en ;
   rdfs:comment "younger bound -15.97 Ma"@en ;
   rdfs:label "Burdigalian Age"@en ;
@@ -5265,6 +5283,7 @@ isc:Calabrian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -1.80 Ma"@en ;
   rdfs:comment "younger bound -0.781 Ma"@en ;
   rdfs:label "Calabrian Age"@en ;
@@ -5309,6 +5328,7 @@ isc:Callovian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -166.1 +|-1.2 Ma"@en ;
   rdfs:comment "younger bound -163.5 +|-1.0 Ma"@en ;
   rdfs:label "Callovian Age"@en ;
@@ -5354,6 +5374,7 @@ isc:Calymmian
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -1600 Ma"@en ;
   rdfs:comment "younger bound -1400 Ma"@en ;
   rdfs:label "Calymmian Period"@en ;
@@ -5398,6 +5419,7 @@ isc:Cambrian
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -541.0 +|-1.0 Ma"@en ;
   rdfs:comment "younger bound -485.4 +|-1.9 Ma"@en ;
   rdfs:label "Cambrian Period"@en ;
@@ -5463,6 +5485,7 @@ isc:CambrianSeries2
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -521 Ma"@en ;
   rdfs:comment "younger bound -509 Ma"@en ;
   rdfs:label "Cambrian Series 2 Epoch"@en ;
@@ -5536,6 +5559,7 @@ isc:CambrianStage10
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -489.5 Ma"@en ;
   rdfs:comment "younger bound -485.4 +|-1.9 Ma"@en ;
   rdfs:label "Cambrian Stage 10 Age"@en ;
@@ -5580,6 +5604,7 @@ isc:CambrianStage2
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -529 Ma"@en ;
   rdfs:comment "younger bound -521 Ma"@en ;
   rdfs:label "Cambrian Stage 2 Age"@en ;
@@ -5623,6 +5648,7 @@ isc:CambrianStage3
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -521 Ma"@en ;
   rdfs:comment "younger bound -514 Ma"@en ;
   rdfs:label "Cambrian Stage 3 Age"@en ;
@@ -5666,6 +5692,7 @@ isc:CambrianStage4
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -514 Ma"@en ;
   rdfs:comment "younger bound -509 Ma"@en ;
   rdfs:label "Cambrian Stage 4 Age"@en ;
@@ -5735,6 +5762,7 @@ isc:Campanian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -83.6 +|-0.2 Ma"@en ;
   rdfs:comment "younger bound -72.1 +|-0.2 Ma"@en ;
   rdfs:label "Campanian Age"@en ;
@@ -5779,6 +5807,7 @@ isc:Capitanian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -265.1 +|-0.4 Ma"@en ;
   rdfs:comment "younger bound -259.1 +|-0.5 Ma"@en ;
   rdfs:label "Capitanian Age"@en ;
@@ -5823,6 +5852,7 @@ isc:Carboniferous
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -358.9 +|-0.4 Ma"@en ;
   rdfs:comment "younger bound -298.9 +|-0.15 Ma"@en ;
   rdfs:label "Carboniferous Period"@en ;
@@ -5886,6 +5916,7 @@ isc:Carnian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -237 Ma"@en ;
   rdfs:comment "younger bound -227 Ma"@en ;
   rdfs:label "Carnian Age"@en ;
@@ -5931,6 +5962,7 @@ isc:Cenomanian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -100.5 Ma"@en ;
   rdfs:comment "younger bound -93.9 Ma"@en ;
   rdfs:label "Cenomanian Age"@en ;
@@ -5976,6 +6008,7 @@ isc:Cenozoic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Era ;
   rdfs:comment "older bound -66.0 Ma"@en ;
   rdfs:comment "younger bound -0.0 Ma"@en ;
   rdfs:label "Cenozoic Era"@en ;
@@ -6058,6 +6091,7 @@ isc:Changhsingian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -254.14 +|-0.07 Ma"@en ;
   rdfs:comment "younger bound -251.902 +|-0.024 Ma"@en ;
   rdfs:label "Changhsingian Age"@en ;
@@ -6105,6 +6139,7 @@ isc:Chattian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -27.82 Ma"@en ;
   rdfs:comment "younger bound -23.03 Ma"@en ;
   rdfs:label "Chattian Age"@en ;
@@ -6151,6 +6186,7 @@ isc:Cisuralian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -298.9 +|-0.15 Ma"@en ;
   rdfs:comment "younger bound -272.95 +|-0.11 Ma"@en ;
   rdfs:label "Cisuralian Epoch"@en ;
@@ -6207,6 +6243,7 @@ isc:Coniacian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -89.8 +|-0.3 Ma"@en ;
   rdfs:comment "younger bound -86.3 +|-0.5 Ma"@en ;
   rdfs:label "Coniacian Age"@en ;
@@ -6251,6 +6288,7 @@ isc:Cretaceous
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -145.0 Ma"@en ;
   rdfs:comment "younger bound -66.0 Ma"@en ;
   rdfs:label "Cretaceous Period"@en ;
@@ -6314,6 +6352,7 @@ isc:Cryogenian
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -720 Ma"@en ;
   rdfs:comment "younger bound -635 Ma"@en ;
   rdfs:label "Cryogenian Period"@en ;
@@ -6357,6 +6396,7 @@ isc:Danian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -66.0 Ma"@en ;
   rdfs:comment "younger bound -61.6 Ma"@en ;
   rdfs:label "Danian Age"@en ;
@@ -6404,6 +6444,7 @@ isc:Dapingian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -470.0 +|-1.4 Ma"@en ;
   rdfs:comment "younger bound -467.3 +|-1.1 Ma"@en ;
   rdfs:label "Dapingian Age"@en ;
@@ -6449,6 +6490,7 @@ isc:Darriwilian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -467.3 +|-1.1 Ma"@en ;
   rdfs:comment "younger bound -458.4 +|-0.9 Ma"@en ;
   rdfs:label "Darriwilian Age"@en ;
@@ -6494,6 +6536,7 @@ isc:Devonian
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -419.2 +|-3.2 Ma"@en ;
   rdfs:comment "younger bound -358.9 +|-0.4 Ma"@en ;
   rdfs:label "Devonian Period"@en ;
@@ -6553,6 +6596,7 @@ isc:Drumian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -504.5 Ma"@en ;
   rdfs:comment "younger bound -500.5 Ma"@en ;
   rdfs:label "Drumian Age"@en ;
@@ -6597,6 +6641,7 @@ isc:Ectasian
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -1400 Ma"@en ;
   rdfs:comment "younger bound -1200 Ma"@en ;
   rdfs:label "Ectasian Period"@en ;
@@ -6641,6 +6686,7 @@ isc:Ediacaran
   a skos:Concept ;
   a time:ProperInterval ;
   dct:description "Enorama Creek, Flinders Ranges, South Australia |  31.3314 S 138.6334 E |  Base of the Marinoan cap Carbonate |  (1) rapid decay of Marinoan ice sheets and onset of distinct cap carbonates throughout the world, and (2) the beginning of a distinctive pattern of secular changes in carbon isotopes. |  Ratified 1990 |  Lethaia 39, p.13 30, 2006 | http://stratigraphy.science.purdue.edu/references/EdiacaranGSSP_Lethaia060.pdf"@en ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -635 Ma"@en ;
   rdfs:comment "younger bound -541.0 +|-1.0 Ma"@en ;
   rdfs:label "Ediacaran Period"@en ;
@@ -6688,6 +6734,7 @@ isc:Eifelian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -393.3 +|-1.2 Ma"@en ;
   rdfs:comment "younger bound -387.7 +|-0.8 Ma"@en ;
   rdfs:label "Eifelian Age"@en ;
@@ -6733,6 +6780,7 @@ isc:Emsian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -407.6 +|-2.6 Ma"@en ;
   rdfs:comment "younger bound -393.3 +|-1.2 Ma"@en ;
   rdfs:label "Emsian Age"@en ;
@@ -6778,6 +6826,7 @@ isc:Eoarchean
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Era ;
   rdfs:comment "older bound -4000 Ma"@en ;
   rdfs:comment "younger bound -3600 Ma"@en ;
   rdfs:label "Eoarchean Era"@en ;
@@ -6822,6 +6871,7 @@ isc:Eocene
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -56 Ma"@en ;
   rdfs:comment "younger bound -33.9 Ma"@en ;
   rdfs:label "Eocene Epoch"@en ;
@@ -6945,6 +6995,7 @@ isc:Famennian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -372.2 +|-1.6 Ma"@en ;
   rdfs:comment "younger bound -358.9 +|-0.4 Ma"@en ;
   rdfs:label "Famennian Age"@en ;
@@ -6992,6 +7043,7 @@ isc:Floian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -477.7 +|-1.4 Ma"@en ;
   rdfs:comment "younger bound -470.0 +|-1.4 Ma"@en ;
   rdfs:label "Floian Age"@en ;
@@ -7059,6 +7111,7 @@ isc:Fortunian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -541.0 +|-1.0 Ma"@en ;
   rdfs:comment "younger bound -529 Ma"@en ;
   rdfs:label "Fortunian Age"@en ;
@@ -7106,6 +7159,7 @@ isc:Frasnian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -382.7 +|-1.6 Ma"@en ;
   rdfs:comment "younger bound -372.2 +|-1.6 Ma"@en ;
   rdfs:label "Frasnian Age"@en ;
@@ -7151,6 +7205,7 @@ isc:Furongian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -497 Ma"@en ;
   rdfs:comment "younger bound -485.4 +|-1.9 Ma"@en ;
   rdfs:label "Furongian Epoch"@en ;
@@ -7203,6 +7258,7 @@ isc:Gelasian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -2.58 Ma"@en ;
   rdfs:comment "younger bound -1.80 Ma"@en ;
   rdfs:label "Gelasian Age"@en ;
@@ -7261,6 +7317,7 @@ isc:Givetian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -387.7 +|-0.8 Ma"@en ;
   rdfs:comment "younger bound -382.7 +|-1.6 Ma"@en ;
   rdfs:label "Givetian Age"@en ;
@@ -7306,6 +7363,7 @@ isc:Gorstian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -427.4 +|-0.5 Ma"@en ;
   rdfs:comment "younger bound -425.6 +|-0.9 Ma"@en ;
   rdfs:label "Gorstian Age"@en ;
@@ -7351,6 +7409,7 @@ isc:Greenlandian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -0.0117 Ma"@en ;
   rdfs:comment "younger bound -0.0082 Ma"@en ;
   rdfs:label "Greenlandian Age"@en ;
@@ -7376,6 +7435,7 @@ isc:Guadalupian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -272.95 +|-0.11 Ma"@en ;
   rdfs:comment "younger bound -259.1 +|-0.5 Ma"@en ;
   rdfs:label "Guadalupian Epoch"@en ;
@@ -7427,6 +7487,7 @@ isc:Guzhangian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -500.5 Ma"@en ;
   rdfs:comment "younger bound -497 Ma"@en ;
   rdfs:label "Guzhangian Age"@en ;
@@ -7472,6 +7533,7 @@ isc:Gzhelian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -303.7 +|-0.1 Ma"@en ;
   rdfs:comment "younger bound -298.9 +|-0.15 Ma"@en ;
   rdfs:label "Gzhelian Age"@en ;
@@ -7519,6 +7581,7 @@ isc:Hadean
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Eon ;
   rdfs:comment "older bound -4567 +|-1 Ma"@en ;
   rdfs:comment "younger bound -4000 Ma"@en ;
   rdfs:label "Hadean Eon"@en ;
@@ -7559,6 +7622,7 @@ isc:Hauterivian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -132.9 Ma"@en ;
   rdfs:comment "younger bound -129.4 Ma"@en ;
   rdfs:label "Hauterivian Age"@en ;
@@ -7603,6 +7667,7 @@ isc:Hettangian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -201.3 +|-0.2 Ma"@en ;
   rdfs:comment "younger bound -199.3 +|-0.3 Ma"@en ;
   rdfs:label "Hettangian Age"@en ;
@@ -7649,6 +7714,7 @@ isc:Hirnantian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -445.2 +|-1.4 Ma"@en ;
   rdfs:comment "younger bound -443.8 +|-1.5 Ma"@en ;
   rdfs:label "Hirnantian Age"@en ;
@@ -7695,6 +7761,7 @@ isc:Holocene
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -0.0117 Ma"@en ;
   rdfs:comment "younger bound -0.0 Ma"@en ;
   rdfs:label "Holocene Epoch"@en ;
@@ -7744,6 +7811,7 @@ isc:Homerian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -430.5 +|-0.7 Ma"@en ;
   rdfs:comment "younger bound -427.4 +|-0.5 Ma"@en ;
   rdfs:label "Homerian Age"@en ;
@@ -7789,6 +7857,7 @@ isc:Induan
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -251.902 +|-0.024 Ma"@en ;
   rdfs:comment "younger bound -251.2 Ma"@en ;
   rdfs:label "Induan Age"@en ;
@@ -7861,6 +7930,7 @@ isc:Jiangshanian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -494 Ma"@en ;
   rdfs:comment "younger bound -489.5 Ma"@en ;
   rdfs:label "Jiangshanian Age"@en ;
@@ -7905,6 +7975,7 @@ isc:Jurassic
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -201.3 +|-0.2 Ma"@en ;
   rdfs:comment "younger bound -145.0 Ma"@en ;
   rdfs:label "Jurassic Period"@en ;
@@ -7968,6 +8039,7 @@ isc:Kasimovian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -307 +|-0.1 Ma"@en ;
   rdfs:comment "younger bound -303.7 +|-0.1 Ma"@en ;
   rdfs:label "Kasimovian Age"@en ;
@@ -8014,6 +8086,7 @@ isc:Katian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -453 +|-0.7 Ma"@en ;
   rdfs:comment "younger bound -445.2 +|-1.4 Ma"@en ;
   rdfs:label "Katian Age"@en ;
@@ -8058,6 +8131,7 @@ isc:Kimmeridgian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -157.3 +|-1.0 Ma"@en ;
   rdfs:comment "younger bound -152.1 +|-0.9 Ma"@en ;
   rdfs:label "Kimmeridgian Age"@en ;
@@ -8102,6 +8176,7 @@ isc:Kungurian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -283.5 +|-0.6 Ma"@en ;
   rdfs:comment "younger bound -272.95 +|-0.11 Ma"@en ;
   rdfs:label "Kungurian Age"@en ;
@@ -8147,6 +8222,7 @@ isc:Ladinian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -242 Ma"@en ;
   rdfs:comment "younger bound -237 Ma"@en ;
   rdfs:label "Ladinian Age"@en ;
@@ -8192,6 +8268,7 @@ isc:Langhian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -15.97 Ma"@en ;
   rdfs:comment "younger bound -13.82 Ma"@en ;
   rdfs:label "Langhian Age"@en ;
@@ -8236,6 +8313,7 @@ isc:Llandovery
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -443.8 +|-1.5 Ma"@en ;
   rdfs:comment "younger bound -433.4 +|-0.8 Ma"@en ;
   rdfs:label "Llandovery Epoch"@en ;
@@ -8288,6 +8366,7 @@ isc:Lochkovian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -419.2 +|-3.2 Ma"@en ;
   rdfs:comment "younger bound -410.8 +|-2.8 Ma"@en ;
   rdfs:label "Lochkovian Age"@en ;
@@ -8333,6 +8412,7 @@ isc:Lopingian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -259.1 +|-0.5 Ma"@en ;
   rdfs:comment "younger bound -251.902 +|-0.024 Ma"@en ;
   rdfs:label "Lopingian Epoch"@en ;
@@ -8383,6 +8463,7 @@ isc:LowerCretaceous
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -145.0 Ma"@en ;
   rdfs:comment "younger bound -100.5 Ma"@en ;
   rdfs:label "Early Cretaceous Epoch"@en ;
@@ -8460,6 +8541,7 @@ isc:LowerDevonian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -419.2 +|-3.2 Ma"@en ;
   rdfs:comment "younger bound -393.3 +|-1.2 Ma"@en ;
   rdfs:label "Early Devonian Epoch"@en ;
@@ -8532,6 +8614,7 @@ isc:LowerJurassic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -201.3 +|-0.2 Ma"@en ;
   rdfs:comment "younger bound -174.1 +|-1.0 Ma"@en ;
   rdfs:label "Early Jurassic Epoch"@en ;
@@ -8607,6 +8690,7 @@ isc:LowerMississippian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -358.9 +|-0.4 Ma"@en ;
   rdfs:comment "younger bound -346.7 +|-0.4 Ma"@en ;
   rdfs:label "Early Mississippian Epoch"@en ;
@@ -8641,6 +8725,7 @@ isc:LowerOrdovician
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -485.4 +|-1.9 Ma"@en ;
   rdfs:comment "younger bound -470.0 +|-1.4 Ma"@en ;
   rdfs:label "Early Ordovician Epoch"@en ;
@@ -8712,6 +8797,7 @@ isc:LowerPennsylvanian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -323.2 +|-0.4 Ma"@en ;
   rdfs:comment "younger bound -315.2 +|-0.2 Ma"@en ;
   rdfs:label "Early Pennsylvanian Epoch"@en ;
@@ -8745,6 +8831,7 @@ isc:LowerTriassic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -251.902 +|-0.024 Ma"@en ;
   rdfs:comment "younger bound -247.2 Ma"@en ;
   rdfs:label "Early Triassic Epoch"@en ;
@@ -8817,6 +8904,7 @@ isc:Ludfordian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -425.6 +|-0.9 Ma"@en ;
   rdfs:comment "younger bound -423 +|-2.3 Ma"@en ;
   rdfs:label "Ludfordian Age"@en ;
@@ -8861,6 +8949,7 @@ isc:Ludlow
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -427.4 +|-0.5 Ma"@en ;
   rdfs:comment "younger bound -423 +|-2.3 Ma"@en ;
   rdfs:label "Ludlow Epoch"@en ;
@@ -8909,6 +8998,7 @@ isc:Lutetian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -47.8 Ma"@en ;
   rdfs:comment "younger bound -41.2 Ma"@en ;
   rdfs:label "Lutetian Age"@en ;
@@ -8953,6 +9043,7 @@ isc:Maastrichtian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -72.1 +|-0.2 Ma"@en ;
   rdfs:comment "younger bound -66.0 Ma"@en ;
   rdfs:label "Maastrichtian Age"@en ;
@@ -9000,6 +9091,7 @@ isc:Meghalayan
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -0.0042 Ma"@en ;
   rdfs:comment "younger bound 0 Ma"@en ;
   rdfs:label "Meghalayan Age"@en ;
@@ -9023,6 +9115,7 @@ isc:Mesoarchean
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Era ;
   rdfs:comment "older bound -3200 Ma"@en ;
   rdfs:comment "younger bound -2800 Ma"@en ;
   rdfs:label "Mesoarchean Era"@en ;
@@ -9067,6 +9160,7 @@ isc:Mesoproterozoic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Era ;
   rdfs:comment "older bound -1600 Ma"@en ;
   rdfs:comment "younger bound -1000 Ma"@en ;
   rdfs:label "Mesoproterozoic Era"@en ;
@@ -9117,6 +9211,7 @@ isc:Mesozoic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Era ;
   rdfs:comment "older bound -251.902 +|-0.024 Ma"@en ;
   rdfs:comment "younger bound -66.0 Ma"@en ;
   rdfs:label "Mesozoic Era"@en ;
@@ -9208,6 +9303,7 @@ isc:Messinian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -7.246 Ma"@en ;
   rdfs:comment "younger bound -5.333 Ma"@en ;
   rdfs:label "Messinian Age"@en ;
@@ -9254,6 +9350,7 @@ isc:Miaolingian
   a skos:Concept ;
   a time:ProperInterval ;
   dct:replaces isc:CambrianSeries3 ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -509 Ma"@en ;
   rdfs:comment "younger bound -497 Ma"@en ;
   rdfs:label "Miaolingian Epoch"@en ;
@@ -9309,6 +9406,7 @@ isc:MiddleDevonian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -393.3 +|-1.2 Ma"@en ;
   rdfs:comment "younger bound -382.7 +|-1.6 Ma"@en ;
   rdfs:label "Middle Devonian Epoch"@en ;
@@ -9360,6 +9458,7 @@ isc:MiddleJurassic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -174.1 +|-1.0 Ma"@en ;
   rdfs:comment "younger bound -163.5 +|-1.0 Ma"@en ;
   rdfs:label "Middle Jurassic Epoch"@en ;
@@ -9415,6 +9514,7 @@ isc:MiddleMississippian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -346.7 +|-0.4 Ma"@en ;
   rdfs:comment "younger bound -330.9 +|-0.2 Ma"@en ;
   rdfs:label "Middle Mississippian Epoch"@en ;
@@ -9447,6 +9547,7 @@ isc:MiddleOrdovician
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -470.0 +|-1.4 Ma"@en ;
   rdfs:comment "younger bound -458.4 +|-0.9 Ma"@en ;
   rdfs:label "Middle Ordovician Epoch"@en ;
@@ -9498,6 +9599,7 @@ isc:MiddlePennsylvanian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -315.2 +|-0.2 Ma"@en ;
   rdfs:comment "younger bound -307 +|-0.1 Ma"@en ;
   rdfs:label "Middle Pennsylvanian Epoch"@en ;
@@ -9531,6 +9633,7 @@ isc:MiddlePleistocene
   a skos:Concept ;
   a time:ProperInterval ;
   dct:replaces isc:Ionian ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -0.781 Ma"@en ;
   rdfs:comment "younger bound -0.126 Ma"@en ;
   rdfs:label "Middle Pleistocene Age"@en ;
@@ -9594,6 +9697,7 @@ isc:MiddleTriassic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -247.2 Ma"@en ;
   rdfs:comment "younger bound -237 Ma"@en ;
   rdfs:label "Middle Triassic Epoch"@en ;
@@ -9645,6 +9749,7 @@ isc:Miocene
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -23.03 Ma"@en ;
   rdfs:comment "younger bound -5.333 Ma"@en ;
   rdfs:label "Miocene Epoch"@en ;
@@ -9703,6 +9808,7 @@ isc:Mississippian
   a gts:Sub-Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Sub-Period ;
   rdfs:comment "older bound -358.9 +|-0.4 Ma"@en ;
   rdfs:comment "younger bound -323.2 +|-0.4 Ma"@en ;
   rdfs:label "Mississippian Sub-period"@en ;
@@ -9759,6 +9865,7 @@ isc:Moscovian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -315.2 +|-0.2 Ma"@en ;
   rdfs:comment "younger bound -307 +|-0.1 Ma"@en ;
   rdfs:label "Moscovian Age"@en ;
@@ -9806,6 +9913,7 @@ isc:Neoarchean
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Era ;
   rdfs:comment "older bound -2800 Ma"@en ;
   rdfs:comment "younger bound -2500 Ma"@en ;
   rdfs:label "Neoarchean Era"@en ;
@@ -9852,6 +9960,7 @@ isc:Neogene
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -23.03 Ma"@en ;
   rdfs:comment "younger bound -2.58 Ma"@en ;
   rdfs:label "Neogene Period"@en ;
@@ -9910,6 +10019,7 @@ isc:Neoproterozoic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Era ;
   rdfs:comment "older bound -1000 Ma"@en ;
   rdfs:comment "younger bound -541.0 +|-1.0 Ma"@en ;
   rdfs:label "Neoproterozoic Era"@en ;
@@ -9963,6 +10073,7 @@ isc:Norian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -227 Ma"@en ;
   rdfs:comment "younger bound -208.5 Ma"@en ;
   rdfs:label "Norian Age"@en ;
@@ -10007,6 +10118,7 @@ isc:Northgrippian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -0.0082 Ma"@en ;
   rdfs:comment "younger bound -0.0042 Ma"@en ;
   rdfs:label "Northgrippian Age"@en ;
@@ -10031,6 +10143,7 @@ isc:Olenekian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -251.2 Ma"@en ;
   rdfs:comment "younger bound -247.2 Ma"@en ;
   rdfs:label "Olenekian Age"@en ;
@@ -10076,6 +10189,7 @@ isc:Oligocene
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -33.9 Ma"@en ;
   rdfs:comment "younger bound -23.03 Ma"@en ;
   rdfs:label "Oligocene Epoch"@en ;
@@ -10126,6 +10240,7 @@ isc:Ordovician
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -485.4 +|-1.9 Ma"@en ;
   rdfs:comment "younger bound -443.8 +|-1.5 Ma"@en ;
   rdfs:label "Ordovician Period"@en ;
@@ -10185,6 +10300,7 @@ isc:Orosirian
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -2050 Ma"@en ;
   rdfs:comment "younger bound -1800 Ma"@en ;
   rdfs:label "Orosirian Period"@en ;
@@ -10228,6 +10344,7 @@ isc:Oxfordian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -163.5 +|-1.0 Ma"@en ;
   rdfs:comment "younger bound -157.3 +|-1.0 Ma"@en ;
   rdfs:label "Oxfordian Age"@en ;
@@ -10273,6 +10390,7 @@ isc:Paibian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -497 Ma"@en ;
   rdfs:comment "younger bound -494 Ma"@en ;
   rdfs:label "Paibian Age"@en ;
@@ -10318,6 +10436,7 @@ isc:Paleoarchean
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Era ;
   rdfs:comment "older bound -3600 Ma"@en ;
   rdfs:comment "younger bound -3200 Ma"@en ;
   rdfs:label "Paleoarchean Era"@en ;
@@ -10362,6 +10481,7 @@ isc:Paleocene
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -66.0 Ma"@en ;
   rdfs:comment "younger bound -56 Ma"@en ;
   rdfs:label "Paleocene Epoch"@en ;
@@ -10417,6 +10537,7 @@ isc:Paleogene
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -66.0 Ma"@en ;
   rdfs:comment "younger bound -23.03 Ma"@en ;
   rdfs:label "Paleogene Period"@en ;
@@ -10481,6 +10602,7 @@ isc:Paleoproterozoic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Era ;
   rdfs:comment "older bound -2500 Ma"@en ;
   rdfs:comment "younger bound -1600 Ma"@en ;
   rdfs:label "Paleoproterozoic Era"@en ;
@@ -10535,6 +10657,7 @@ isc:Paleozoic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Era ;
   rdfs:comment "older bound -541.0 +|-1.0 Ma"@en ;
   rdfs:comment "younger bound -251.902 +|-0.024 Ma"@en ;
   rdfs:label "Paleozoic Era"@en ;
@@ -10668,6 +10791,7 @@ isc:Pennsylvanian
   a gts:Sub-Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Sub-Period ;
   rdfs:comment "older bound -323.2 +|-0.4 Ma"@en ;
   rdfs:comment "younger bound -298.9 +|-0.15 Ma"@en ;
   rdfs:label "Pennsylvanian Sub-period"@en ;
@@ -10751,6 +10875,7 @@ isc:Permian
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -298.9 +|-0.15 Ma"@en ;
   rdfs:comment "younger bound -251.902 +|-0.024 Ma"@en ;
   rdfs:label "Permian Period"@en ;
@@ -10815,6 +10940,7 @@ isc:Phanerozoic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Eon ;
   rdfs:comment "older bound -541.0 +|-1.0 Ma"@en ;
   rdfs:comment "younger bound -0.0 Ma"@en ;
   rdfs:label "Phanerozoic Eon"@en ;
@@ -11015,6 +11141,7 @@ isc:Piacenzian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -3.6 Ma"@en ;
   rdfs:comment "younger bound -2.58 Ma"@en ;
   rdfs:label "Piacenzian Age"@en ;
@@ -11061,6 +11188,7 @@ isc:Pleistocene
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -2.58 Ma"@en ;
   rdfs:comment "younger bound -0.0117 Ma"@en ;
   rdfs:label "Pleistocene Epoch"@en ;
@@ -11114,6 +11242,7 @@ isc:Pliensbachian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -190.8 +|-1.0 Ma"@en ;
   rdfs:comment "younger bound -182.7 +|-0.7 Ma"@en ;
   rdfs:label "Pliensbachian Age"@en ;
@@ -11158,6 +11287,7 @@ isc:Pliocene
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -5.333 Ma"@en ;
   rdfs:comment "younger bound -2.58 Ma"@en ;
   rdfs:label "Pliocene Epoch"@en ;
@@ -11208,6 +11338,7 @@ isc:Pragian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -410.8 +|-2.8 Ma"@en ;
   rdfs:comment "younger bound -407.6 +|-2.6 Ma"@en ;
   rdfs:label "Pragian Age"@en ;
@@ -11252,6 +11383,7 @@ isc:Precambrian
   a gts:Super-Eon ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Super-Eon ;
   gts:status "Informal" ;
   rdfs:comment "older bound -4567 +|-1 Ma"@en ;
   rdfs:comment "younger bound -541.0 +|-1.0 Ma"@en ;
@@ -11333,6 +11465,7 @@ isc:Priabonian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -37.8 Ma"@en ;
   rdfs:comment "younger bound -33.9 Ma"@en ;
   rdfs:label "Priabonian Age"@en ;
@@ -11378,6 +11511,7 @@ isc:Pridoli
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -423 +|-2.3 Ma"@en ;
   rdfs:comment "younger bound -419.2 +|-3.2 Ma"@en ;
   rdfs:label "Pridoli Epoch"@en ;
@@ -11424,6 +11558,7 @@ isc:Proterozoic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Eon ;
   rdfs:comment "older bound -2500 Ma"@en ;
   rdfs:comment "younger bound -541.0 +|-1.0 Ma"@en ;
   rdfs:label "Proterozoic Eon"@en ;
@@ -11486,6 +11621,7 @@ isc:Quaternary
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -2.58 Ma"@en ;
   rdfs:comment "younger bound -0.0 Ma"@en ;
   rdfs:label "Quaternary Period"@en ;
@@ -11540,6 +11676,7 @@ isc:Rhaetian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -208.5 Ma"@en ;
   rdfs:comment "younger bound -201.3 +|-0.2 Ma"@en ;
   rdfs:label "Rhaetian Age"@en ;
@@ -11586,6 +11723,7 @@ isc:Rhuddanian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -443.8 +|-1.5 Ma"@en ;
   rdfs:comment "younger bound -440.8 +|-1.2 Ma"@en ;
   rdfs:label "Rhuddanian Age"@en ;
@@ -11632,6 +11770,7 @@ isc:Rhyacian
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -2300 Ma"@en ;
   rdfs:comment "younger bound -2050 Ma"@en ;
   rdfs:label "Rhyacian Period"@en ;
@@ -11675,6 +11814,7 @@ isc:Roadian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -272.95 +|-0.11 Ma"@en ;
   rdfs:comment "younger bound -268.8 +|-0.5 Ma"@en ;
   rdfs:label "Roadian Age"@en ;
@@ -11720,6 +11860,7 @@ isc:Rupelian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -33.9 Ma"@en ;
   rdfs:comment "younger bound -28.1 Ma"@en ;
   rdfs:label "Rupelian Age"@en ;
@@ -11765,6 +11906,7 @@ isc:Sakmarian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -295.0 +|-0.18 Ma"@en ;
   rdfs:comment "younger bound -290.1 +|-0.26 Ma"@en ;
   rdfs:label "Sakmarian Age"@en ;
@@ -11809,6 +11951,7 @@ isc:Sandbian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -458.4 +|-0.9 Ma"@en ;
   rdfs:comment "younger bound -453.0 +|-0.7 Ma"@en ;
   rdfs:label "Sandbian Age"@en ;
@@ -11854,6 +11997,7 @@ isc:Santonian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -86.3 +|-0.5 Ma"@en ;
   rdfs:comment "younger bound -83.6 +|-0.2 Ma"@en ;
   rdfs:label "Santonian Age"@en ;
@@ -11898,6 +12042,7 @@ isc:Selandian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -61.6 Ma"@en ;
   rdfs:comment "younger bound -59.2 Ma"@en ;
   rdfs:label "Selandian Age"@en ;
@@ -11942,6 +12087,7 @@ isc:Serpukhovian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -330.9 +|-0.2 Ma"@en ;
   rdfs:comment "younger bound -323.2 +|-0.4 Ma"@en ;
   rdfs:label "Serpukhovian Age"@en ;
@@ -11991,6 +12137,7 @@ isc:Serravallian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -13.82 Ma"@en ;
   rdfs:comment "younger bound -11.63 Ma"@en ;
   rdfs:label "Serravallian Age"@en ;
@@ -12035,6 +12182,7 @@ isc:Sheinwoodian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -433.4 +|-0.8 Ma"@en ;
   rdfs:comment "younger bound -430.5 +|-0.7 Ma"@en ;
   rdfs:label "Sheinwoodian Age"@en ;
@@ -12080,6 +12228,7 @@ isc:Siderian
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -2500 Ma"@en ;
   rdfs:comment "younger bound -2300 Ma"@en ;
   rdfs:label "Siderian Period"@en ;
@@ -12124,6 +12273,7 @@ isc:Silurian
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -443.8 +|-1.5 Ma"@en ;
   rdfs:comment "younger bound -419.2 +|-3.2 Ma"@en ;
   rdfs:label "Silurian Period"@en ;
@@ -12186,6 +12336,7 @@ isc:Sinemurian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -199.3 +|-0.3 Ma"@en ;
   rdfs:comment "younger bound -190.8 +|-1.0 Ma"@en ;
   rdfs:label "Sinemurian Age"@en ;
@@ -12230,6 +12381,7 @@ isc:Statherian
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -1800 Ma"@en ;
   rdfs:comment "younger bound -1600 Ma"@en ;
   rdfs:label "Statherian Period"@en ;
@@ -12274,6 +12426,7 @@ isc:Stenian
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -1200 Ma"@en ;
   rdfs:comment "younger bound -1000 Ma"@en ;
   rdfs:label "Stenian Period"@en ;
@@ -12551,6 +12704,7 @@ isc:Telychian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -438.5 +|-1.1 Ma"@en ;
   rdfs:comment "younger bound -433.4 +|-0.8 Ma"@en ;
   rdfs:label "Telychian Age"@en ;
@@ -12596,6 +12750,7 @@ isc:Terreneuvian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -541.0 +|-1.0 Ma"@en ;
   rdfs:comment "younger bound -521 Ma"@en ;
   rdfs:label "Terreneuvian Epoch"@en ;
@@ -12647,6 +12802,7 @@ isc:Thanetian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -59.2 Ma"@en ;
   rdfs:comment "younger bound -56 Ma"@en ;
   rdfs:label "Thanetian Age"@en ;
@@ -12692,6 +12848,7 @@ isc:Tithonian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -152.1 +|-0.9 Ma"@en ;
   rdfs:comment "younger bound -145.0 Ma"@en ;
   rdfs:label "Tithonian Age"@en ;
@@ -12738,6 +12895,7 @@ isc:Toarcian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -182.7 +|-0.7 Ma"@en ;
   rdfs:comment "younger bound -174.1 +|-1.0 Ma"@en ;
   rdfs:label "Toarcian Age"@en ;
@@ -12783,6 +12941,7 @@ isc:Tonian
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -1000 Ma"@en ;
   rdfs:comment "younger bound -720 Ma"@en ;
   rdfs:label "Tonian Period"@en ;
@@ -12827,6 +12986,7 @@ isc:Tortonian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -11.63 Ma"@en ;
   rdfs:comment "younger bound -7.246 Ma"@en ;
   rdfs:label "Tortonian Age"@en ;
@@ -12871,6 +13031,7 @@ isc:Tournaisian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -358.9 +|-0.4 Ma"@en ;
   rdfs:comment "younger bound -346.7 +|-0.4 Ma"@en ;
   rdfs:label "Tournaisian Age"@en ;
@@ -12919,6 +13080,7 @@ isc:Tremadocian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -485.4 +|-1.9 Ma"@en ;
   rdfs:comment "younger bound -477.7 +|-1.4 Ma"@en ;
   rdfs:label "Tremadocian Age"@en ;
@@ -12965,6 +13127,7 @@ isc:Triassic
   a gts:Period ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Period ;
   rdfs:comment "older bound -251.902 +|-0.024 Ma"@en ;
   rdfs:comment "younger bound -201.3 +|-0.2 Ma"@en ;
   rdfs:label "Triassic Period"@en ;
@@ -13025,6 +13188,7 @@ isc:Turonian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -93.9 Ma"@en ;
   rdfs:comment "younger bound -89.8 +|-0.3 Ma"@en ;
   rdfs:label "Turonian Age"@en ;
@@ -13069,6 +13233,7 @@ isc:UpperCretaceous
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -100.5 Ma"@en ;
   rdfs:comment "younger bound -66.0 Ma"@en ;
   rdfs:label "Late Cretaceous Epoch"@en ;
@@ -13129,6 +13294,7 @@ isc:UpperDevonian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -382.7 +|-1.6 Ma"@en ;
   rdfs:comment "younger bound -358.9 +|-0.4 Ma"@en ;
   rdfs:label "Late Devonian Epoch"@en ;
@@ -13181,6 +13347,7 @@ isc:UpperJurassic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -163.5 +|-1.0 Ma"@en ;
   rdfs:comment "younger bound -145.0 Ma"@en ;
   rdfs:label "Late Jurassic Epoch"@en ;
@@ -13234,6 +13401,7 @@ isc:UpperMississippian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -330.9 +|-0.2 Ma"@en ;
   rdfs:comment "younger bound -298.9 +|-0.15 Ma"@en ;
   rdfs:label "Late Mississippian Epoch"@en ;
@@ -13268,6 +13436,7 @@ isc:UpperOrdovician
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -458.4 +|-0.9 Ma"@en ;
   rdfs:comment "younger bound -443.8 +|-1.5 Ma"@en ;
   rdfs:label "Late Ordovician Epoch"@en ;
@@ -13321,6 +13490,7 @@ isc:UpperPennsylvanian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -307 +|-0.1 Ma"@en ;
   rdfs:comment "younger bound -298.9 +|-0.15 Ma"@en ;
   rdfs:label "Late Pennsylvanian Epoch"@en ;
@@ -13373,6 +13543,7 @@ isc:UpperPleistocene
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -0.126 Ma"@en ;
   rdfs:comment "younger bound -0.0117 Ma"@en ;
   rdfs:label "Late Pleistocene Age"@en ;
@@ -13418,6 +13589,7 @@ isc:UpperTriassic
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -237 Ma"@en ;
   rdfs:comment "younger bound -201.3 +|-0.2 Ma"@en ;
   rdfs:label "Late Triassic Epoch"@en ;
@@ -13471,6 +13643,7 @@ isc:Valanginian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -139.8 Ma"@en ;
   rdfs:comment "younger bound -132.9 Ma"@en ;
   rdfs:label "Valanginian Age"@en ;
@@ -13515,6 +13688,7 @@ isc:Visean
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -346.7 +|-0.4 Ma"@en ;
   rdfs:comment "younger bound -330.9 +|-0.2 Ma"@en ;
   rdfs:label "Visean Age"@en ;
@@ -13562,6 +13736,7 @@ isc:Wenlock
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Epoch ;
   rdfs:comment "older bound -433.4 +|-0.8 Ma"@en ;
   rdfs:comment "younger bound -427.4 +|-0.5 Ma"@en ;
   rdfs:label "Wenlock Epoch"@en ;
@@ -13611,6 +13786,7 @@ isc:Wordian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -268.8 +|-0.5 Ma"@en ;
   rdfs:comment "younger bound -265.1 +|-0.4 Ma"@en ;
   rdfs:label "Wordian Age"@en ;
@@ -13655,6 +13831,7 @@ isc:Wuchiapingian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -259.1 +|-0.5 Ma"@en ;
   rdfs:comment "younger bound -254.14 +|-0.07 Ma"@en ;
   rdfs:label "Wuchiapingian Age"@en ;
@@ -13701,6 +13878,7 @@ isc:Wuliuan
   a skos:Concept ;
   a time:ProperInterval ;
   dct:replaces isc:CambrianStage5 ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -509 Ma"@en ;
   rdfs:comment "younger bound -504.5 Ma"@en ;
   rdfs:label "Wuliuan Age"@en ;
@@ -13745,6 +13923,7 @@ isc:Ypresian
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -56 Ma"@en ;
   rdfs:comment "younger bound -47.8 Ma"@en ;
   rdfs:label "Ypresian Age"@en ;
@@ -13790,6 +13969,7 @@ isc:Zanclean
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   rdfs:comment "older bound -5.333 Ma"@en ;
   rdfs:comment "younger bound -3.6 Ma"@en ;
   rdfs:label "Zanclean Age"@en ;
@@ -14029,14 +14209,7 @@ Also: changed samfl:shape --> geo:hasGeometry"""@en ;
   skos:hasTopConcept isc:Precambrian ;
   skos:hasTopConcept isc:Stratotype-unspecified ;
   skos:prefLabel "Geological Timescale (2019)"@en ;
-  prov:wasGeneratedBy [
-      a doap:Project ;
-      doap:repository [
-          a doap:GitRepository ;
-          doap:browse <https://github.com/CGI-IUGS/timescale-data/> ;
-          doap:location <https://github.com/CGI-IUGS/timescale-data.git> ;
-        ] ;
-    ] ;
+  sdo:codeRepository <https://github.com/CGI-IUGS/timescale-data.git> ;
 .
 time:TimePosition
   rdfs:subClassOf skos:Concept ;
