@@ -1,6 +1,7 @@
 # Geologic Timescale
 
-Multiple versions of a RDF representation of the ISC, as published at https://stratigraphy.org/chart 
+Multiple versions of a RDF representation of the ISC are in https://github.com/CGI-IUGS/timescale-data/tree/master/rdf. 
+These are based on data published by the **International Commission on Stratigraphy** at https://stratigraphy.org/chart. 
 
 ISC Timescale vocabularies after ISC2016-12 are formalized according to geologic timescale ontology http://resource.geosciml.org/ontology/timescale/gts, which aligns with OWL-Time (http://www.w3.org/2006/time), and imports SOSA (http://www.w3.org/ns/sosa/), a lightweight alignment with ISO19156. Spatial data uses GeoSPARQL.
 
