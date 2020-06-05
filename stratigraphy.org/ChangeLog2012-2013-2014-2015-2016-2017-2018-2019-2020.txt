@@ -1,0 +1,137 @@
+Starting from version 2012  = the version distributed August 2012 at 34th IGC Brisbane), this change log lists:
+Changes ICS chart v.2013/01 
+Changes ICS chart v.2013/Episodes
+Changes ICS chart v.2014/02
+Changes ICS chart v.2014/10 
+Changes ICS chart v.2015/01 
+Changes ICS chart v.2016/04 = the version distributed at 35th IGC Cape Town
+Changes ICS chart v.2016/10
+Changes ICS chart v.2016/12 
+Changes ICS chart v.2017/02 
+Changes ICS chart v.2018/07 
+Changes ICS chart v.2018/08 
+Changes ICS chart v.2019/05 
+Changes ICS chart v.2020/01 = actual version (for distribution at the time of 36th IGC Delhi
+
+GSSPs added:
+2020/01 - Cretaceous: Hauterivian Stage: GSSP added as it was ratified by IUGS (15-12-2019)
+        - Quaternary: Chibanian Stage: GSSP added as it was ratified by IUGS (15-01-2020)
+2018/07 - Permian: Sakmarian Stage: GSSP added as it was ratified by IUGS (21-7-2018)
+2018/07 - Cambrian: Miaolingian Series (was Series 3) / Wuliuan Stage (was Stage 5): GSSP added as it was ratified by IUGS (26-06-2018)
+2018/07 - Quaternary: Holocene Series / divided in tree stages: Greenlandian, Northgrippian, Meghalayan; GSSPs ratified by IUGS (26-06-2018)
+        - in top of the outer left column, the graphic thickness of the Holocene was modestly increased and that of the Late and Middle Pleistocene decreased. Two lines were added to partion the Holocene Series in three.
+2016/10 - Paleogene: Chattian Stage: GSSP added as it was ratified by IUGS (1-10-2016)
+2016/04 - Cretaceous: Albian Stage: GSSP added as it was ratified by IUGS (8-4-2016)
+2015/01 - Jurassic: Toarcian Stage: GSSP added as it was ratified. 
+2013 - Cretaceous: Santonian Stage: GSSP added as it was ratified. 
+
+GSSAs changed/dropped:
+2015/01 - base Cryogenian: changed to ~720 Ma (was 850 Ma, an Episodes paper by the subcommission in preparation).
+        - In the outer right column, the graphic thickness of Cryogenian is reduced and that of the Tonian increased.
+2016/04 - With the tuned age of the base Cryogenian being established, it is no-longer a ratified GSSA and the icon is dropped.
+
+Numeric Ages altered:
+2020/01 - Cretaceous: numeric age Base Hauterivian Stage changed to 132.6 Ma (was 132.9) - by request of CSC (Maria Rose Petrizio), in consultation with Hauterivian GSSP working group, awaiting GTS-2020 book publication, and based on data by Aguirre et al (2015) and Martinez et al. (2015) 132 Ma +-1 Ma. 
+        - Quaternary: numeric age Base Late Pleistocene (Subseries / unnamed Stage) changed to 129 ka (was 126 ka) - by request of SQS (Martin Head), anticipating renewed GSSP-candidate locality search. The age sought is near the mid-point of Termination II in the marine isotope stratigraphy. 
+        - Quaternary: numeric age Base Chibanian Stage changed to 774 ka (in accordance with GSSP documentation; GSSP is 1 m below base Brunhes Chron in type section; base Brunhes Chron at 773 ka provided the numeric age in prior chart versions)
+
+2019/05 - Quaternary: numeric age Base Middle Pleistocene to 773 ka (was 781 ka) - by request of SQS (Martin Head).  
+2018/08 - Permian: numeric ages of the base Sakmarian changed to 293.52  +/-0.17 in accordance with GSSP - by request of SPS (Shen Shuzhong)
+2018/07 - Holocene: numeric ages of the subseries added: base  Meghalayan 0.0042, base Northgrippian 0.0082
+
+2017/02 - Paleogene: Base of Chattian: The numeric age is updated to that at the ratified GSSP (27.82 Ma; Nanno et al. exp. 2017; by request of Simonetti Monechi)
+
+2016/12 - Permian-Triassic boundary: 251.902 +/- 0.024 Ma (Burgess et al., 2014, PNAS) - by request of SPS (Shen Shuzhong) and STS (Mark Hounslow)
+2016/12 - Permian: Base of Lopingian (Wuchiapingian): 259.1 +/- 0.5 Ma (Zhong et al., 2014, Lithos) - by request SPS (Shen Shuzhong)
+2016/12 - Permian: Base of Guadalupian (Roadian): 272.95 +/- 0.11 Ma (Wu et al.,2016, Palaeo-3) - by request of SPS (Shen Shuzhong)
+
+2014/10 - Neogene: base Tortonian: 11.63 (cf. GTS2012; incorrectly was 11.62 in previous ICS versions)
+2014/10 - Paleogene: base Priabonian: 37.8 (cf. GTS2012 incorrectly was 38.0 in previous ICS versions)
+2014/10 - Paleogene: base Bartonian: 41.2 (cf. GTS2012; incorrectly was 41.3 in previous ICS versions)
+2014/10 - Silurian: base Rhuddanian: 443.8 (cf. GTS2012; incorrectly was 443.4 in previous ICS versions)
+
+2014/02 - Pleistocene: base Calabrian: 1.80 (removed 3rd decimal) - Argumentation to deviate from GTS2012: Gibbard & Head, 2009 
+2014/02 - Pleistocene: base Gelasian: 2.58 (removed 3rd decimal) - Argumentation to deviate from GTS2012: Gibbard & Head, 2009 
+
+2013 - Triassic: base Norian: ~227  
+2013 - Triassic: base Carnian: ~237
+2013 - Base Triassic: base: 252.17 +/- 0.06
+2013 - Permian: base Changhsingian: 254.14 +/- 0.07
+2013 - Permian: base Wuchiapingian: 259.8 +/- 0.4
+2013 - Permian: base Capitanian: 265.1 +/- 0.4
+2013 - Permian: base Wordian: 268.8 +/- 0.5
+2013 - Permian: base Roadian: 272.3 +/- 0.5
+2013 - Permian: base Kungurian: 283.5  +/- 0.6
+2013 - Permian: base Artinskian: 290.1 +/- 0.26
+2013 - Permian: base Sakmarian: 295.0  +/- 0.18
+2013 - Permian: base Asselian: 298.9 +/- 0.15   --------- Based on SPS Permian chart and communication with Triassic subcommission (S. Finney)
+
+2013 - BASE OF CRETACEOUS, BASE OF CARBONIFERUOUS, BASE OF CAMBRIAN, 
+the ages for these three also appear as top of Jurassic, Devonian, Ediacaran in the chart layout.
+the ages reported for the top are _exactly_ the same as for the base (e.g. ~ 145.0 for Base Cretaceous, not +-0.1)
+
+SUBSERIES GRAPHIC INDICATION
+- Starting 2018/07: Where ratified, these are indicated as thin lines to the right side of the Series column, and small font U/L, M, L/E indicators (see also the Descriptive text change log)
+- This differs from the way Subsystems are indicated (the Carboniferous Subsystems since long are incidated as full cells), for graphic reasons mainly.
+2020/01  Indication added for Pleistocene Subseries (ratified in parallel to GSSP Chibanian; 15/30-01-2020)
+2018/07  Infication added for Holocene Subseries (ratified in parallel to GSSP
+
+
+TYPE SETTING CHANGES
+2019/05 Precambrian font switched to italics, after discussion in Precambrian subcommission, ICS and ICS executive. Also Graphic changes (see below). 
+2018/07 Holocene ratified Subseries and Stages: Stage names put in smaller font than others for reason of chart design continuity. Also added U/L, M and L/E to the left of the Series column to indicate ratified Subseries to exist for this Series. 
+2016/04 Upper and Middle Pleistocene: capitalized placeholder subseries names in Stages column set in italics rather than regular font
+
+========================
+
+Descriptive text: 
+2018/07 - Authorship J.-X. Fan added to authors.
+2016/10 - Authorship of version of chart changed: DAT Harper has taken over role of SC Finney in ICS executive board (as per 35th IGC Capetown ICS business-meeting and IUGS assembly)
+
+2019/05 - Sentence added "Italic fonts indicate informal units and placeholders for unnamed units."
+2018/07 - Sentence added "Ratified Subseries/Subepochs are abbreviated as U/L (Upper/Late), M (Middle) and L/E (Lower/Early)."
+
+TWO TIMES, IN FIRST PART AND IN SECOND PART of sentence declaring deviations from GTS2012: 
+2018/07 - Lower Pleistocene changed into Quaternary: Q, upper Pg, C, T, P, PreC
+2017/02 - upper Paleogene ages (ages deviating) added  (2018/07: upper decapitalised)
+2016/10 - reordered ammended the ages/subcommissions to be chronological (lower Pl, C, T, P, PreC)
+2014/02 - Lower Pleistocene (ages deviating) added
+2013 - Permian (ages deviating) added
+2012 - Triassic and Cretaceous ones as deviating from 'A Geological Time Scale 2012' communicated status
+
+2014/02 - To cite: Cohen et al. (2013) Episodes reference added.
+
+
+GRAPHICS
+===========
+2019/05:
+ICS bottom of chart signature moved from base Hadean to base Archean (to better indicate the informal status of Hadean)
+2019/03:
+Cell widths of 'Precambrian' table column modified.
+2019/05:
+Header placement above cell columns of 'Precambrian' table column modified. 'Eonothem / Eon',  Erathem / Era and  System / Period headers rotated to 45 degreees as the Phanerozoic table columns. The reason for the change was to remove unclarity, former placement was suggesting that it was the header for the Precambrian cell too (following aforementioned discussion).
+
+
+2013/2015
+- 'Systems' cells of first column slimmed down to match the width in the second and third column
+- Vertical and horizontal centering of names in their cells checked and fixed
+
+Adobe-illustrator file (main version layers):
+- Background layer (not displayed as visible) contained 'made invisible' logos from 2012 congres and sponsor. These are deleted now.
+
+- Added the deep URL in the lowerright corner of the chart.
+- Added a line 'The URL to this chart is found below.' to the first paragraph of the text.
+- line spacing of the blank lines set to 7 pt, wheras the main text is in 9 pt font.
+- further fiddiling with the exact font size of the text lines to accommodate additions with versions.
+
+Adobe-illustrator file (layers storing translations)
+- Since 2019, the master file for the english version of the chart, also holds additional layers with translated versions
+- Importing those from separate illustrator files (Graphic Officer archive) and PDFs (translations produced independently Graphic Officer; Chinese and Japanese fonts) is in progress.
+- This serves to be able to update translated versions more easily. 
+- Some features are: 
+--- Toggle numeric ages layer in decimal point notations, numeric ages layer in decimal comma notation,
+--- Logo and text space at bottom of chart to feature translating parties.
+--- Logo space also used to produce four-annual IGC handout versions of chart.
+
+
+
