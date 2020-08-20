@@ -746,6 +746,7 @@ isc:BaseAeronian-location
 .
 isc:BaseAeronianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 8/2, p. 101 103, 1985 "@en ;
   dct:source "Geol. Series, Nat. Mus. Wales, 9, p. 36 50, 1989"@en ;
   gts:boundaryLevel "within Trefawar Formation"@en ;
@@ -763,6 +764,7 @@ isc:BaseAeronianSP
   skos:prefLabel "Stratotype Point Base of Aeronian"@en ;
 .
 isc:BaseAeronianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseAeronianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -790,6 +792,7 @@ isc:BaseAlbian-location
 .
 isc:BaseAlbianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:boundaryLevel "37.4 m above the base of the Marnes Bleues Formation and 40 cm above the base of the Niveau Kilian Marker Bed near Col de Pré-Guittard." ;
   gts:correlationEvent "Planktonic foraminiferan FAD Microhedbergella renilaevis"@en ;
   gts:ratifiedGSSP true ;
@@ -804,6 +807,7 @@ isc:BaseAlbianSP
   skos:prefLabel "Stratotype Point Base of Albian"@en ;
 .
 isc:BaseAlbianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 113.0 ;
@@ -825,6 +829,7 @@ isc:BaseAptian
 .
 isc:BaseAptianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Magnetic -- Base of Chron M0r; near FAD of Paradeshayesites oglanlensis ammonite zone"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseAptian ;
@@ -834,6 +839,7 @@ isc:BaseAptianSP
   skos:prefLabel "Stratotype Point Base of Aptian"@en ;
 .
 isc:BaseAptianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 125.0 ;
@@ -856,6 +862,7 @@ isc:BaseArchean
   time:inTemporalPosition isc:BaseArcheanTime ;
 .
 isc:BaseArcheanTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "4000"^^xsd:decimal ;
@@ -872,6 +879,7 @@ isc:BaseArtinskian
 .
 isc:BaseArtinskianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Conodont FAD Sweetognathus whitei"@en ;
   gts:ratifiedGSSP false ;
   gts:status "Anticipated 2009"@en ;
@@ -881,6 +889,7 @@ isc:BaseArtinskianSP
   skos:prefLabel "Stratotype Point Base of Artinskian"@en ;
 .
 isc:BaseArtinskianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseArtinskianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -909,6 +918,7 @@ isc:BaseBajocian-location
 .
 isc:BaseBajocianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 20/1, p.16  22, 1997"@en ;
   gts:boundaryLevel "Base of Bed AB 11 "@en ;
   gts:correlationEvent "Ammonite FAD Hyperlioceras mundum, Hyperlioceras furcatum, Braunsina aspera, and Braunsina elegantula"@en ;
@@ -924,6 +934,7 @@ isc:BaseBajocianSP
   skos:prefLabel "Stratotype Point Base of Bajocian"@en ;
 .
 isc:BaseBajocianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseBajocianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -946,6 +957,7 @@ isc:BaseBarremian
 .
 isc:BaseBarremianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Ammonite FAD Spitidiscus hugii – Spitidiscus vandeckii group"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseBarremian ;
@@ -955,6 +967,7 @@ isc:BaseBarremianSP
   skos:prefLabel "Stratotype Point Base of Barremian"@en ;
 .
 isc:BaseBarremianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 129.4 ;
@@ -971,6 +984,7 @@ isc:BaseBartonian
 .
 isc:BaseBartonianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "	provisional: base of magnetic polarity chronozone C18r" ;
   gts:correlationEvent "Calcareous nannofossil near LAD Reticulofenestra reticulata"@en ;
   gts:ratifiedGSSP false ;
@@ -981,6 +995,7 @@ isc:BaseBartonianSP
   skos:prefLabel "Stratotype Point Base of Bartonian"@en ;
 .
 isc:BaseBartonianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 41.2 ;
@@ -1003,6 +1018,7 @@ isc:BaseBathonian-location
 .
 isc:BaseBathonianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:boundaryLevel "Base of limestone bed RB07 "@en ;
   gts:correlationEvent "Ammonite FAD Gonolkite convergens (defines Base of Zigzagiceras zigzag Zone)"@en ;
   gts:ratifiedGSSP true ;
@@ -1018,6 +1034,7 @@ isc:BaseBathonianSP
   skos:prefLabel "Stratotype Point Base of Bathonian"@en ;
 .
 isc:BaseBathonianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseBathonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1040,6 +1057,7 @@ isc:BaseBurdigalian
 .
 isc:BaseBurdigalianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Near planktonic foraminifer FAD of Globigerinoides altiaperturus or near top of magnetic polarity chronozone C6An"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseBurdigalian ;
@@ -1049,6 +1067,7 @@ isc:BaseBurdigalianSP
   skos:prefLabel "Stratotype Point Base of Burdigalian"@en ;
 .
 isc:BaseBurdigalianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 20.44 ;
@@ -1071,6 +1090,7 @@ isc:BaseCalabrian-location
 .
 isc:BaseCalabrianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 35/3, p. 388-397, 2012"@en ;
   dct:source "Episodes 8/2, p. 116  120, 1985"@en ;
   gts:boundaryLevel "Base of the marine claystone overlying the sapropelic marker Bed  e (Mediterranean Precession Related Sapropel, MPRS 176)"@en ;
@@ -1089,6 +1109,7 @@ isc:BaseCalabrianSP
   skos:prefLabel "Stratotype Point Base of Calabrian"@en ;
 .
 isc:BaseCalabrianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 1.80 ;
@@ -1105,6 +1126,7 @@ isc:BaseCallovian
 .
 isc:BaseCallovianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent """Ammonite FAD of the genus Kepplerites (Kosmoceratidae)
  (defines Base of Macrocephalites herveyi Zone in sub-Boreal province of Great Britain to southwest Germany)"""@en ;
   gts:ratifiedGSSP false ;
@@ -1115,6 +1137,7 @@ isc:BaseCallovianSP
   skos:prefLabel "Stratotype Point Base of Callovian"@en ;
 .
 isc:BaseCallovianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseCallovianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1138,6 +1161,7 @@ isc:BaseCambrianSeries2
 .
 isc:BaseCambrianSeries2SP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Trilobites -- their FAD"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseCambrianSeries2 ;
@@ -1147,6 +1171,7 @@ isc:BaseCambrianSeries2SP
   skos:prefLabel "Stratotype Point Base of Cambrian Stage 3"@en ;
 .
 isc:BaseCambrianSeries2Time
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "521"^^xsd:decimal ;
@@ -1154,6 +1179,7 @@ isc:BaseCambrianSeries2Time
 isc:BaseCambrianSeries3
   a gts:GeochronologicBoundary ;
   a thors:EraBoundary ;
+  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseMiaolingian ;
   gts:stratotype isc:BaseMiaolingianSP ;
@@ -1174,6 +1200,7 @@ isc:BaseCambrianStage10
 .
 isc:BaseCambrianStage10SP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Agnostoid arthropod FAD of Lotagnostus americanus" ;
   gts:correlationEvent "Trilobite FAD of Lotagnostus americanus. An internal substage division might be FAD of Codylodus adesei conodont"@en ;
   gts:ratifiedGSSP false ;
@@ -1184,6 +1211,7 @@ isc:BaseCambrianStage10SP
   skos:prefLabel "Stratotype Point Base of Cambrian Stage 10"@en ;
 .
 isc:BaseCambrianStage10Time
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 489.5 ;
@@ -1200,6 +1228,7 @@ isc:BaseCambrianStage2
 .
 isc:BaseCambrianStage2SP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Small Shelly Fossils, or Archaeocyathid species"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseCambrianStage2 ;
@@ -1208,6 +1237,7 @@ isc:BaseCambrianStage2SP
   skos:prefLabel "Stratotype Point Base of Cambrian Stage 2"@en ;
 .
 isc:BaseCambrianStage2Time
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "529"^^xsd:decimal ;
@@ -1224,6 +1254,7 @@ isc:BaseCambrianStage4
 .
 isc:BaseCambrianStage4SP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Trilobite FAD Olenellus or Redlichia"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseCambrianStage4 ;
@@ -1232,6 +1263,7 @@ isc:BaseCambrianStage4SP
   skos:prefLabel "Stratotype Point Base of Cambrian Stage 4"@en ;
 .
 isc:BaseCambrianStage4Time
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "514"^^xsd:decimal ;
@@ -1248,6 +1280,7 @@ isc:BaseCampanian
 .
 isc:BaseCampanianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Crinoid LAD Marsupites testudinarius, or base of ChronC33r"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseCampanian ;
@@ -1257,6 +1290,7 @@ isc:BaseCampanianSP
   skos:prefLabel "Stratotype Point Base of Campanian"@en ;
 .
 isc:BaseCampanianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseCampanianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1285,6 +1319,7 @@ isc:BaseCapitanian-location
 .
 isc:BaseCapitanianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:boundaryLevel "4.5m above the Base of the outcrop section of the Pinery Limestone Member of the Bell Canyon Formation"@en ;
   gts:correlationEvent "Conodont FAD Jinogondolella postserrata |"@en ;
   gts:ratifiedGSSP true ;
@@ -1298,6 +1333,7 @@ isc:BaseCapitanianSP
   skos:prefLabel "Stratotype Point Base of Capitanian"@en ;
 .
 isc:BaseCapitanianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseCapitanianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1329,6 +1365,7 @@ isc:BaseCarboniferous-location
 .
 isc:BaseCarboniferousSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 14/4, p. 331 336, 1991 "@en ;
   dct:source "Newsletters on Stratigraphy, 43/2, p. 195 205, 2009 "@en ;
   gts:boundaryLevel "Base of Bed 89 in Trench E’ at La Serre, (but FAD now known to be at Base of Bed 85)"@en ;
@@ -1348,6 +1385,7 @@ isc:BaseCarboniferousSP
   skos:prefLabel "Stratotype Point Base of Tournaisian"@en ;
 .
 isc:BaseCarboniferousTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseCarboniferousUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1379,6 +1417,7 @@ isc:BaseCenozoic-location
 .
 isc:BaseCenozoicSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 29/4, p. 263  278, 2006"@en ;
   gts:boundaryLevel "reddish layer at the Base of the 50cm thick, dark boundary clay"@en ;
   gts:correlationEvent "Iridium geochemical anomaly. Associated with a major extinction horizon (dinosaurs, ammonites, foraminifers, etc.)"@en ;
@@ -1397,6 +1436,7 @@ isc:BaseCenozoicSP
   skos:prefLabel "Stratotype Point Base of Danian"@en ;
 .
 isc:BaseCenozoicTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 66.0 ;
@@ -1419,6 +1459,7 @@ isc:BaseChanghsingian-location
 .
 isc:BaseChanghsingianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 29/3, p. 175 182, 2006"@en ;
   gts:boundaryLevel "Base of Bed 4a 2, 88 cm above the Base of the Changxing Limestone at the Meishan D Section "@en ;
   gts:correlationEvent "Conodont FAD Clarkina wangi"@en ;
@@ -1433,6 +1474,7 @@ isc:BaseChanghsingianSP
   skos:prefLabel "Stratotype Point Base of Changhsingian"@en ;
 .
 isc:BaseChanghsingianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseChanghsingianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1460,6 +1502,7 @@ isc:BaseChattian-location
 .
 isc:BaseChattianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Nanno et al. exp. 2017" ;
   gts:boundaryLevel "at meter level 197" ;
   gts:correlationEvent "HCO (highest common occurrence) of planktonic foraminifer Chiloguembelina cubensis"@en ;
@@ -1475,12 +1518,14 @@ isc:BaseChattianSP
   skos:prefLabel "Stratotype Point Base of Chattian"@en ;
 .
 isc:BaseChattianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 27.82 ;
 .
 isc:BaseChibanianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:boundaryLevel "GSSP is 1 m below base Brunhes Chron in type section; base Brunhes Chron at 773 ka provided the numeric age in prior chart versions" ;
   gts:correlationEvent "Byk-E tephra; 1.1 m below directional midpoint of Brunhes–Matuyama magnetic reversal (base of Chron 1n)" ;
   gts:ratifiedGSSP true ;
@@ -1502,6 +1547,7 @@ isc:BaseConiacian
 .
 isc:BaseConiacianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Inoceramid bivalve FAD Cremnoceramus rotundatus (sensu Tröger non Fiege)"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseConiacian ;
@@ -1511,6 +1557,7 @@ isc:BaseConiacianSP
   skos:prefLabel "Stratotype Point Base of Coniaician"@en ;
 .
 isc:BaseConiacianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseConiacianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1534,6 +1581,7 @@ isc:BaseCretaceous
 .
 isc:BaseCretaceousSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Candidates include: (1) Magnetic -- Base of Chron M18r, (2) Base of Calpionellid zone B, (3) ammonite FAD of Berriasella jacobi"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseCretaceous ;
@@ -1545,6 +1593,7 @@ isc:BaseCretaceousSP
   skos:prefLabel "Stratotype Point Base of Berriaisian"@en ;
 .
 isc:BaseCretaceousTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 145.0 ;
@@ -1562,6 +1611,7 @@ isc:BaseCryogenian
 .
 isc:BaseCryogenianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 14/2,1991" ;
   gts:ratifiedGSSP true ;
   gts:status "Ratified 1990" ;
@@ -1571,6 +1621,7 @@ isc:BaseCryogenianSP
   skos:prefLabel "Stratotype Point Base of Cryogenian"@en ;
 .
 isc:BaseCryogenianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "720"^^xsd:decimal ;
@@ -1593,6 +1644,7 @@ isc:BaseDarriwilian-location
 .
 isc:BaseDarriwilianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 20/3, p. 158 166, 1997"@en ;
   gts:boundaryLevel "Base of Bed AEP 184"@en ;
   gts:correlationEvent "Graptolite FAD Undulograptus austrodentatus"@en ;
@@ -1609,6 +1661,7 @@ isc:BaseDarriwilianSP
   skos:prefLabel "Stratotype Point Base of Darriwilian"@en ;
 .
 isc:BaseDarriwilianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseDarriwilianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1639,6 +1692,7 @@ isc:BaseDevonian-location
 .
 isc:BaseDevonianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "IUGS Series A, 5, p. 96 109, 1977"@en ;
   gts:boundaryLevel "within Bed 20"@en ;
   gts:correlationEvent "Graptolite FAD Monograptus uniformis"@en ;
@@ -1655,6 +1709,7 @@ isc:BaseDevonianSP
   skos:prefLabel "Stratotype Point Base of Lochkovian"@en ;
 .
 isc:BaseDevonianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseDevonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1683,6 +1738,7 @@ isc:BaseDrumian-location
 .
 isc:BaseDrumianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 30/2,p. 85 95, 2007"@en ;
   gts:boundaryLevel "at the Base of a dark gray thinly laminated calcisiltite layer, 62 m above the Base of the Wheeler Formation"@en ;
   gts:correlationEvent "Agnostoid arthropod FAD Ptychagnostus atavus"@en ;
@@ -1699,6 +1755,7 @@ isc:BaseDrumianSP
   skos:prefLabel "Stratotype Point Base of Drumian"@en ;
 .
 isc:BaseDrumianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 504.5 ;
@@ -1715,6 +1772,7 @@ isc:BaseEctasian
   time:inTemporalPosition isc:BaseEctasianTime ;
 .
 isc:BaseEctasianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "1400"^^xsd:decimal ;
@@ -1737,6 +1795,7 @@ isc:BaseEdiacaran-location
 .
 isc:BaseEdiacaranSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Lethaia 39, p.13 30, 2006"@en ;
   gts:boundaryLevel "Base of the Marinoan cap Carbonate"@en ;
   gts:correlationEvent "(1) rapid decay of Marinoan ice sheets and onset of distinct cap carbonates throughout the world, and (2) the beginning of a distinctive pattern of secular changes in carbon isotopes."@en ;
@@ -1753,6 +1812,7 @@ isc:BaseEdiacaranSP
   skos:prefLabel "Stratotype Point Base of Ediacaran"@en ;
 .
 isc:BaseEdiacaranTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "635"^^xsd:decimal ;
@@ -1775,6 +1835,7 @@ isc:BaseEmsian-location
 .
 isc:BaseEmsianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 20/4, p. 235 240, 1997"@en ;
   gts:boundaryLevel "Base of Bed 9/5 "@en ;
   gts:correlationEvent "Conodont FAD Polygnathus kitabicus"@en ;
@@ -1791,6 +1852,7 @@ isc:BaseEmsianSP
   skos:prefLabel "Stratotype Point Base of Emsian"@en ;
 .
 isc:BaseEmsianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseEmsianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1820,6 +1882,7 @@ isc:BaseEocene-location
 .
 isc:BaseEoceneSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes	30/4,	p.	271	286,	2007"@en ;
   dct:source "Micropaleontology	49/1,	p.41	59,	2003"@en ;
   gts:boundaryLevel "Base of Bed 1 in DBH subsection"@en ;
@@ -1837,6 +1900,7 @@ isc:BaseEoceneSP
   skos:prefLabel "Stratotype Point Base of Ypresian"@en ;
 .
 isc:BaseEoceneTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "56"^^xsd:decimal ;
@@ -1859,6 +1923,7 @@ isc:BaseFamennian-location
 .
 isc:BaseFamennianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 16/4, p. 433 441, 1993"@en ;
   gts:boundaryLevel "Base of Bed 32a"@en ;
   gts:correlationEvent "Base of Conodont Palmatolepis triangularis Zone, just above a major extinction horizon (Kellwasser Event). Conodont FAD Palmatolepis subperlobata, conodont LADs Ancyrodella, Palmatolepis bogartensis and Ozarkodina, and Goniatite LADs of Gephuroceratidae and Beloceratidae"@en ;
@@ -1875,6 +1940,7 @@ isc:BaseFamennianSP
   skos:prefLabel "Stratotype Point Base of Famennian"@en ;
 .
 isc:BaseFamennianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseFamennianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1903,6 +1969,7 @@ isc:BaseFloian-location
 .
 isc:BaseFloianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 27/4, p. 265 272, 2004"@en ;
   gts:boundaryLevel "in the lower Tøyen Shale, 2.1m above the top of the Cambrian"@en ;
   gts:correlationEvent "Graptolite FAD Tetragraptus approximatus"@en ;
@@ -1918,6 +1985,7 @@ isc:BaseFloianSP
   skos:prefLabel "Stratotype Point Base of Floian"@en ;
 .
 isc:BaseFloianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseFloianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1947,6 +2015,7 @@ isc:BaseFurongian-location
 .
 isc:BaseFurongianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Lethaia 37, p. 365 379, 2004"@en ;
   gts:boundaryLevel "at 396 m in the Huaqiao Formation"@en ;
   gts:correlationEvent "Trilobite FAD Glyptagnostus reticulatus"@en ;
@@ -1963,6 +2032,7 @@ isc:BaseFurongianSP
   skos:prefLabel "Stratotype Point Base of Paibian"@en ;
 .
 isc:BaseFurongianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "497"^^xsd:decimal ;
@@ -1985,6 +2055,7 @@ isc:BaseGivetian-location
 .
 isc:BaseGivetianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 18/3, p. 107 115, 1995"@en ;
   gts:boundaryLevel "Base of Bed 123"@en ;
   gts:correlationEvent "Conodont FAD Polygnathus hemiansatus"@en ;
@@ -2001,6 +2072,7 @@ isc:BaseGivetianSP
   skos:prefLabel "Stratotype Point Base of Givetian"@en ;
 .
 isc:BaseGivetianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseGivetianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2030,6 +2102,7 @@ isc:BaseGuadalupian-location
 .
 isc:BaseGuadalupianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:boundaryLevel "42.7m above the Base of the Cutoff Formation"@en ;
   gts:correlationEvent "Conodont FAD Jinogondolella nankingensis"@en ;
   gts:ratifiedGSSP true ;
@@ -2044,6 +2117,7 @@ isc:BaseGuadalupianSP
   skos:prefLabel "Stratotype Point Base of Guadalupian"@en ;
 .
 isc:BaseGuadalupianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseGuadalupianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2072,6 +2146,7 @@ isc:BaseGuzhangian-location
 .
 isc:BaseGuzhangianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 32/1, p.41-55, 2009"@en ;
   gts:boundaryLevel "121.3 m above the Base of the Huaqiao Formation"@en ;
   gts:correlationEvent "Agnostoid arthropod FAD Lejopyge laevigata"@en ;
@@ -2087,6 +2162,7 @@ isc:BaseGuzhangianSP
   skos:prefLabel "Stratotype Point Base of Guzhangian "@en ;
 .
 isc:BaseGuzhangianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 500.5 ;
@@ -2103,6 +2179,7 @@ isc:BaseGzhelian
 .
 isc:BaseGzhelianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Conodont FAD Idiognathodus simulator (s.str.). Close to FAD of ammonoid Shumardites."@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseGzhelian ;
@@ -2112,6 +2189,7 @@ isc:BaseGzhelianSP
   skos:prefLabel "Stratotype Point Base of Gzhelian"@en ;
 .
 isc:BaseGzhelianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseGzhelianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2134,6 +2212,7 @@ isc:BaseHauterivian
 .
 isc:BaseHauterivianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:boundaryLevel "base of Bed 189 of La Charce Section." ;
   gts:correlationEvent "Ammonite FAD of genus Acanthodiscus (especially A. radiatus)"@en ;
   gts:ratifiedGSSP true ;
@@ -2146,6 +2225,7 @@ isc:BaseHauterivianSP
   skos:prefLabel "Stratotype Point Base of Hauterivian"@en ;
 .
 isc:BaseHauterivianTime
+  a skos:Concept ;
   a time:TimePosition ;
   skos:changeNote "2020/01 - Cretaceous: numeric age Base Hauterivian Stage changed to 132.6 Ma (was 132.9) - by request of CSC (Maria Rose Petrizio), in consultation with Hauterivian GSSP working group, awaiting GTS-2020 book publication, and based on data by Aguirre et al (2015) and Martinez et al. (2015) 132 Ma +-1 Ma. " ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2169,6 +2249,7 @@ isc:BaseHirnantian-location
 .
 isc:BaseHirnantianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 29/3, p. 183 196, 2006"@en ;
   gts:boundaryLevel "0.39m below the Base of the Kuanyinchiao Bed"@en ;
   gts:correlationEvent "Graptolite FAD Normalograptus extraordinarius"@en ;
@@ -2185,6 +2266,7 @@ isc:BaseHirnantianSP
   skos:prefLabel "Stratotype Point Base of Hirnantian"@en ;
 .
 isc:BaseHirnantianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseHirnantianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2214,6 +2296,7 @@ isc:BaseHolocene-location
 .
 isc:BaseHoloceneSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 31/2, 2008"@en ;
   dct:source "J. Quaternary Sci., Vol. 24 pp. 3–17, 2009"@en ;
   gts:boundaryLevel "1492.45m depth in Borehole NGRIP2"@en ;
@@ -2234,11 +2317,13 @@ isc:BaseHoloceneSP
   skos:prefLabel "Stratotype Point Base of Greenlandian"@en ;
 .
 isc:BaseHoloceneTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/bp> ;
   time:numericPosition "11700"^^xsd:decimal ;
 .
 isc:BaseHoloceneTimeMA
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 0.0117 ;
@@ -2261,6 +2346,7 @@ isc:BaseHomerian-location
 .
 isc:BaseHomerianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 5/3, p. 21 23, 1982"@en ;
   dct:source "Geol. Series, Nat. Mus. Wales, 9, p. 51 73, 1989"@en ;
   dct:source "Lethaia 14"@en ;
@@ -2279,6 +2365,7 @@ isc:BaseHomerianSP
   skos:prefLabel "Stratotype Point Base of Homerian"@en ;
 .
 isc:BaseHomerianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseHomerianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2307,6 +2394,7 @@ isc:BaseJiangshanianLocation
 .
 isc:BaseJiangshanianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 35/4, p.462-477, 2012"@en ;
   gts:boundaryLevel "108.12m above the base of the Huayansi Formation at the base of an 8 cm thick layer of dark gray calcisiltites"@en ;
   gts:boundaryLevel "28.2 m in Duibian B section"@en ;
@@ -2323,6 +2411,7 @@ isc:BaseJiangshanianSP
   skos:prefLabel "Stratotype Point Base of Jiangshanian"@en ;
 .
 isc:BaseJiangshanianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "494"^^xsd:decimal ;
@@ -2347,6 +2436,7 @@ isc:BaseJurassic-location
 .
 isc:BaseJurassicSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 36/3, p. 162-198, 2013"@en ;
   gts:boundaryLevel "11.5306°E	5.80 m above the base of the Tiefengraben Member of the Kendelbach Formation"@en ;
   gts:correlationEvent "FO of ammonite Psiloceras spelae tirolicum, FO of aragonitic foraminifer Praegubkinella turgescens"@en ;
@@ -2364,6 +2454,7 @@ isc:BaseJurassicSP
   skos:prefLabel "Stratotype Point Base of Hettangian"@en ;
 .
 isc:BaseJurassicTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseJurassicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2392,6 +2483,7 @@ isc:BaseKatian-location
 .
 isc:BaseKatianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 30/4, p.258 270, 2007"@en ;
   gts:boundaryLevel "4.0m above the Base of the Bigfork Chert"@en ;
   gts:correlationEvent "Graptolite FAD Diplacanthograptus caudatus"@en ;
@@ -2408,6 +2500,7 @@ isc:BaseKatianSP
   skos:prefLabel "Stratotype Point Base of Katian"@en ;
 .
 isc:BaseKatianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseKatianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2436,6 +2529,7 @@ isc:BaseKimmeridgianLocation
 .
 isc:BaseKimmeridgianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Ammonite near Base of Pictonia baylei ammonite zone of Boreal realm and base of magnetic polarity chron M26r"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseKimmeridgian ;
@@ -2447,6 +2541,7 @@ isc:BaseKimmeridgianSP
   skos:prefLabel "Stratotype Point Base of Kimmeridgian"@en ;
 .
 isc:BaseKimmeridgianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseKimmeridgianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2469,6 +2564,7 @@ isc:BaseKungurian
 .
 isc:BaseKungurianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Near conodont FAD Neostreptognathus pnevi"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseKungurian ;
@@ -2479,6 +2575,7 @@ isc:BaseKungurianSP
   skos:prefLabel "Stratotype Point Base of Kungurian"@en ;
 .
 isc:BaseKungurianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseKungurianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2507,6 +2604,7 @@ isc:BaseLadinian-location
 .
 isc:BaseLadinianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 28/4, p. 233  244, 2005"@en ;
   gts:boundaryLevel "Base of a 15  20cm thick limestone bed overlying a distinctive groove (Chiesense groove) of limestone nodules in a shaly matrix, located about 5m above the Base of the Buchenstein Beds"@en ;
   gts:correlationEvent "Ammonite FAD Eoprotrachyceras curionii (Base of the E. curionii zone). Conodont FAD Budurovignathus praehungaricus is in the uppermost Anisian."@en ;
@@ -2522,6 +2620,7 @@ isc:BaseLadinianSP
   skos:prefLabel "Stratotype Point Base of Ladinian"@en ;
 .
 isc:BaseLadinianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "242"^^xsd:decimal ;
@@ -2538,6 +2637,7 @@ isc:BaseLanghian
 .
 isc:BaseLanghianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Near planktonic foraminifer FAD of Praeorbulina glomerosa and top of magnetic polarity chronozone C5Cn.1n"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseLanghian ;
@@ -2548,6 +2648,7 @@ isc:BaseLanghianSP
   skos:prefLabel "Stratotype Point Base of Langhian"@en ;
 .
 isc:BaseLanghianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 15.97 ;
@@ -2571,6 +2672,7 @@ isc:BaseLateCretaceous-location
   rdfs:label "Location of Stratotype Point Base of Upper Cretaceous"@en ;
 .
 isc:BaseLateCretaceousTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperCretaceousTime ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2595,6 +2697,7 @@ isc:BaseLateDevonian-location
   rdfs:label "Location of Stratotype Point Base of Upper Devonian"@en ;
 .
 isc:BaseLateDevonianTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperDevonianTime ;
   gts:positionalUncertainty isc:BaseLateDevonianUncertainty ;
@@ -2619,6 +2722,7 @@ isc:BaseLateJurassic
   time:inTemporalPosition isc:BaseLateJurassicTime ;
 .
 isc:BaseLateJurassicTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperJurassicTime ;
   gts:positionalUncertainty isc:BaseLateJurassicUncertainty ;
@@ -2643,6 +2747,7 @@ isc:BaseLateMississippian
   time:inTemporalPosition isc:BaseLateMississippianTime ;
 .
 isc:BaseLateMississippianTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperMississippianTime ;
   gts:positionalUncertainty isc:BaseLateMississippianUncertainty ;
@@ -2673,6 +2778,7 @@ isc:BaseLateOrdovician-location
   rdfs:label "Location of Stratotype Point Base of Upper Ordovician"@en ;
 .
 isc:BaseLateOrdovicianTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperOrdovicianTime ;
   gts:positionalUncertainty isc:BaseLateOrdovicianUncertainty ;
@@ -2697,6 +2803,7 @@ isc:BaseLatePennsylvanian
   time:inTemporalPosition isc:BaseLatePennsylvanianTime ;
 .
 isc:BaseLatePennsylvanianTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperPennsylvanianTime ;
   gts:positionalUncertainty isc:BaseLatePennsylvanianUncertainty ;
@@ -2722,6 +2829,7 @@ isc:BaseLatePleistocene
   time:inTemporalPosition isc:BaseLatePleistoceneTimeMA ;
 .
 isc:BaseLatePleistoceneTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperPleistoceneTime ;
   skos:changeNote """2020/01 -         - Quaternary: numeric age Base Late Pleistocene (Subseries / unnamed Stage) changed to 129 ka (was 126 ka) - by request of SQS (Martin Head), anticipating renewed GSSP-candidate locality search. The age sought is near the mid-point of Termination II in the marine isotope stratigraphy. 
@@ -2730,6 +2838,7 @@ isc:BaseLatePleistoceneTime
   time:numericPosition "129000"^^xsd:decimal ;
 .
 isc:BaseLatePleistoceneTimeMA
+  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperPleistoceneTime ;
   skos:changeNote """2020/01 -         - Quaternary: numeric age Base Late Pleistocene (Subseries / unnamed Stage) changed to 129 ka (was 126 ka) - by request of SQS (Martin Head), anticipating renewed GSSP-candidate locality search. The age sought is near the mid-point of Termination II in the marine isotope stratigraphy. 
@@ -2756,6 +2865,7 @@ isc:BaseLateTriassic-location
   rdfs:label "Location of Stratotype Point Base of Upper Triassic"@en ;
 .
 isc:BaseLateTriassicTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperTriassicTime ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2780,6 +2890,7 @@ isc:BaseLopingian-location
 .
 isc:BaseLopingianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 29/4, p. 253 262, 2006 "@en ;
   gts:boundaryLevel "Base of Bed 6k in the Penglaitan Section"@en ;
   gts:correlationEvent "Conodont FAD Clarkina postbitteri postbitteri"@en ;
@@ -2796,6 +2907,7 @@ isc:BaseLopingianSP
   skos:prefLabel "Stratotype Point Base of Wuchiapingian"@en ;
 .
 isc:BaseLopingianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseLopingianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2824,6 +2936,7 @@ isc:BaseLudfordian-location
 .
 isc:BaseLudfordianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 5/3, p. 2123, 1982 "@en ;
   dct:source "Geol. Series, Nat. Mus. Wales, 9, p. 73 90, 1989"@en ;
   dct:source "Lethaia 14"@en ;
@@ -2842,6 +2955,7 @@ isc:BaseLudfordianSP
   skos:prefLabel "Stratotype Point Base of Ludfordian"@en ;
 .
 isc:BaseLudfordianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseLudfordianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2870,6 +2984,7 @@ isc:BaseLudlow-location
   rdfs:label "Location of Stratotype Point Base of Ludlow"@en ;
 .
 isc:BaseLudlowPosition
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseLudlowUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2877,6 +2992,7 @@ isc:BaseLudlowPosition
 .
 isc:BaseLudlowSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 5/3, p. 21-23, 1982; "@en ;
   dct:source "Geol. Series, Nat. Mus. Wales, 9, p. 73  90, 1989"@en ;
   dct:source "Lethaia 14"@en ;
@@ -2917,6 +3033,7 @@ isc:BaseLutetian-location
 .
 isc:BaseLutetianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 34/2, p.86 - 108, 2011"@en ;
   gts:boundaryLevel "dark marl at 167.85 m in Gorrondatxe sea-cliff section"@en ;
   gts:correlationEvent "Calcareous nannofossil FAD of Blackites inflatus"@en ;
@@ -2932,6 +3049,7 @@ isc:BaseLutetianSP
   skos:prefLabel "Stratotype Point Base of Lutetian"@en ;
 .
 isc:BaseLutetianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 47.8 ;
@@ -2954,6 +3072,7 @@ isc:BaseMaastrichtian-location
 .
 isc:BaseMaastrichtianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 24/4, p. 229  238, 2001"@en ;
   gts:boundaryLevel "level 115.2 on platform IV of the geological site at Tercis les Bains"@en ;
   gts:correlationEvent "Mean of 12 biostratigraphic criteria of equal importance. Closely above is FAD of ammonite Pachydiscus neubergicus. Boreal proxy is FAD of belemnite Belemnella lanceolata."@en ;
@@ -2969,6 +3088,7 @@ isc:BaseMaastrichtianSP
   skos:prefLabel "Stratotype Point Base of Maastrichtian"@en ;
 .
 isc:BaseMaastrichtianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMaastrichtianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2999,6 +3119,7 @@ isc:BaseMeghalayan-location
 .
 isc:BaseMeghalayanAuxSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "International Commission on Stratigraphy - Formal subdivision of the Holocene Series/Epoch"@en ;
   gts:ratifiedGSSP true ;
   gts:status "Auxiliary stratotype ratified 2018"@en ;
@@ -3010,6 +3131,7 @@ isc:BaseMeghalayanAuxSP
 .
 isc:BaseMeghalayanSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "International Commission on Stratigraphy - Formal subdivision of the Holocene Series/Epoch"@en ;
   gts:boundaryLevel "Mawmluh Cave speleothem dated at 4250yr bk2 (before AD2000)" ;
   gts:correlationEvent "Stable isotope profile shows a shift to heavier isotopic values" ;
@@ -3026,11 +3148,13 @@ isc:BaseMeghalayanSP
   skos:prefLabel "Stratotype Point Base of Meghalayan"@en ;
 .
 isc:BaseMeghalayanTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/bp> ;
   time:numericPosition "4200"^^xsd:decimal ;
 .
 isc:BaseMeghalayanTimeMA
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 0.0042 ;
@@ -3047,6 +3171,7 @@ isc:BaseMesoarchean
   time:inTemporalPosition isc:BaseMesoarcheanTime ;
 .
 isc:BaseMesoarcheanTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "3200"^^xsd:decimal ;
@@ -3064,6 +3189,7 @@ isc:BaseMesoproterozoic
   time:inTemporalPosition isc:BaseMesoproterozoicTime ;
 .
 isc:BaseMesoproterozoicTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "1600"^^xsd:decimal ;
@@ -3089,6 +3215,7 @@ isc:BaseMesozoic-location
 .
 isc:BaseMesozoicSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 24/2, p. 102  114, 2001"@en ;
   gts:boundaryLevel "Base of Bed 27c in the Meishan D Section"@en ;
   gts:correlationEvent "Conodont FAD Hindeodus parvus"@en ;
@@ -3108,6 +3235,7 @@ isc:BaseMesozoicSP
   skos:prefLabel "Stratotype Point Base of Induan"@en ;
 .
 isc:BaseMesozoicTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMesozoicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3136,6 +3264,7 @@ isc:BaseMessinian-location
 .
 isc:BaseMessinianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 23/3, p. 172  178, 2000"@en ;
   gts:boundaryLevel "reddish layer of sedimentary cycle number 15"@en ;
   gts:correlationEvent "Planktonic foraminifer first regular occurrence of Globorotalia miotumida, and calcareous nannofossil FAD Amaurolithus delicatus"@en ;
@@ -3152,6 +3281,7 @@ isc:BaseMessinianSP
   skos:prefLabel "Stratotype Point Base of Messinian"@en ;
 .
 isc:BaseMessinianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 7.246 ;
@@ -3175,6 +3305,7 @@ isc:BaseMiaolingian-location
 .
 isc:BaseMiaolingianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:boundaryLevel "at the base of a silty mudstone layer (within bed 9) 52.8m above the base of the Kaili Formation in the Wuliu-Zengjiayan section" ;
   gts:correlationEvent "Trilobite, FAD of Oryctocephalus indicus"@en ;
   gts:ratifiedGSSP true ;
@@ -3207,6 +3338,7 @@ isc:BaseMiddleDevonian-location
 .
 isc:BaseMiddleDevonianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 8/2, p. 104 109, 1985"@en ;
   gts:boundaryLevel "21.25m above the Base of the exposed section, Base of sample station WP30"@en ;
   gts:correlationEvent "Conodont FAD Polygnathus costatus partitus"@en ;
@@ -3223,6 +3355,7 @@ isc:BaseMiddleDevonianSP
   skos:prefLabel "Stratotype Point Base of Eifelian"@en ;
 .
 isc:BaseMiddleDevonianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddleDevonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3252,6 +3385,7 @@ isc:BaseMiddleJurassic-location
 .
 isc:BaseMiddleJurassicSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 24/3, p.166 175, 2001"@en ;
   gts:boundaryLevel "Base of Bed FZ 107 "@en ;
   gts:correlationEvent "Ammonite FAD Leioceras opalinum and Leioceras lineatum"@en ;
@@ -3267,6 +3401,7 @@ isc:BaseMiddleJurassicSP
   skos:prefLabel "Stratotype Point Base of Aalenian"@en ;
 .
 isc:BaseMiddleJurassicTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddleJurassicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3298,6 +3433,7 @@ isc:BaseMiddleMississippian-location
 .
 isc:BaseMiddleMississippianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 26/2, p. 105 –115, 2003"@en ;
   gts:boundaryLevel "Base of bed 83 in the Pengchong Section"@en ;
   gts:correlationEvent "Benthic Foraminifer FAD Eoparastaffella simplex"@en ;
@@ -3314,6 +3450,7 @@ isc:BaseMiddleMississippianSP
   skos:prefLabel "Stratotype Point Base of Visean"@en ;
 .
 isc:BaseMiddleMississippianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddleMississippianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3343,6 +3480,7 @@ isc:BaseMiddleOrdovician-location
 .
 isc:BaseMiddleOrdovicianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 28/2, p. 105  117, 2005"@en ;
   dct:source "Episodes 32/2, p. 96 113, 2009"@en ;
   gts:boundaryLevel "10.57 m above Base of the Dawan Formation"@en ;
@@ -3361,6 +3499,7 @@ isc:BaseMiddleOrdovicianSP
   skos:prefLabel "Stratotype Point Base of Dapingian"@en ;
 .
 isc:BaseMiddleOrdovicianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddleOrdovicianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3383,6 +3522,7 @@ isc:BaseMiddlePennsylvanian
 .
 isc:BaseMiddlePennsylvanianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Conodont FAD Diplognathodus ellesmerensis"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseMiddlePennsylvanian ;
@@ -3393,6 +3533,7 @@ isc:BaseMiddlePennsylvanianSP
   skos:prefLabel "Stratotype Point Base of Moscovian"@en ;
 .
 isc:BaseMiddlePennsylvanianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddlePennsylvanianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3416,6 +3557,7 @@ isc:BaseMiddlePleistocene
   time:inTemporalPosition isc:BaseMiddlePleistoceneTime ;
 .
 isc:BaseMiddlePleistoceneTime
+  a skos:Concept ;
   a time:TimePosition ;
   skos:changeNote "2020/01 - Quaternary: numeric age Base Chibanian Stage changed to 774 ka (in accordance with GSSP documentation; GSSP is 1 m below base Brunhes Chron in type section; base Brunhes " ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3440,6 +3582,7 @@ isc:BaseMiddleTriassicLocation
 .
 isc:BaseMiddleTriassicSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Albertiana 36, 2007"@en ;
   gts:boundaryLevel "In Section B, the Stratotype Point level will be either the FAD of conodont Chiosella timorensis at the Base of Bed GR7 at ca. 7 m; OR the Base of magnetozone MT1n at the 5.7 m level."@en ;
   gts:correlationEvent "Conodont FAD Chiosella timorensis or Magnetic -- Base of magnetic polarity MT1n"@en ;
@@ -3454,6 +3597,7 @@ isc:BaseMiddleTriassicSP
   skos:prefLabel "Stratotype Point Base of Anisian"@en ;
 .
 isc:BaseMiddleTriassicTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 247.2 ;
@@ -3470,6 +3614,7 @@ isc:BaseNeoarchean
   time:inTemporalPosition isc:BaseNeoarcheanTime ;
 .
 isc:BaseNeoarcheanTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "2800"^^xsd:decimal ;
@@ -3494,6 +3639,7 @@ isc:BaseNeogene-location
 .
 isc:BaseNeogeneSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 20/1, p. 23  28, 1997"@en ;
   gts:boundaryLevel "35m from the top of the section "@en ;
   gts:correlationEvent "Magnetic  Base of Chron C6Cn.2n planktonic foraminifer FAD of Paragloborotalia kugleri calcareous nannofossil near LAD Reticulofenestra bisecta (Base of Zone NN1) Oxygen isotopic event Mi 1."@en ;
@@ -3511,6 +3657,7 @@ isc:BaseNeogeneSP
   skos:prefLabel "Stratotype Point Base of Aquitainian"@en ;
 .
 isc:BaseNeogeneTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 23.03 ;
@@ -3528,6 +3675,7 @@ isc:BaseNeoproterozoic
   time:inTemporalPosition isc:BaseNeoproterozoicTime ;
 .
 isc:BaseNeoproterozoicTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "1000"^^xsd:decimal ;
@@ -3544,6 +3692,7 @@ isc:BaseNorian
 .
 isc:BaseNorianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Base of Stikinoceras kerri ammonoid zone and near FAD of Metapolygnathus echinatus within the M. communisti conodont zones"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseNorian ;
@@ -3553,6 +3702,7 @@ isc:BaseNorianSP
   skos:prefLabel "Stratotype Point Base of Norian"@en ;
 .
 isc:BaseNorianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "227"^^xsd:decimal ;
@@ -3576,6 +3726,7 @@ isc:BaseNorthgrippian-location
 .
 isc:BaseNorthgrippianAuxSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "International Commission on Stratigraphy - Formal subdivision of the Holocene Series/Epoch"@en ;
   gts:ratifiedGSSP true ;
   gts:status "Auxiliary Stratotype Ratified 2018"@en ;
@@ -3587,6 +3738,7 @@ isc:BaseNorthgrippianAuxSP
 .
 isc:BaseNorthgrippianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "International Commission on Stratigraphy - Formal subdivision of the Holocene Series/Epoch"@en ;
   gts:boundaryLevel " 42.3200°W	1228.67 m depth in NGRIP 1 ice core" ;
   gts:correlationEvent "Climatic cooling following a period of generally rising temperatures during the Early Holocene" ;
@@ -3605,11 +3757,13 @@ isc:BaseNorthgrippianSP
   skos:prefLabel "Stratotype Point Base of Northgrippian"@en ;
 .
 isc:BaseNorthgrippianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/bp> ;
   time:numericPosition "8276"^^xsd:decimal ;
 .
 isc:BaseNorthgrippianTimeMA
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 0.0082 ;
@@ -3632,6 +3786,7 @@ isc:BaseOlenekianLocation
 .
 isc:BaseOlenekianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Albertiana 36, 2007"@en ;
   gts:boundaryLevel "Base of Bed 13A-2, about 4.8m up in Mikin Formation., Section M04 (~4000 m elevation)"@en ;
   gts:correlationEvent "Conodont FAD Neospathodus waageni, just above Base of Rohillites rohilla ammonite zone, and below lowest occurrence of Flemingites and Euflemingites ammonite genera. Within a prominent positive Carbon-13 peak, and just above widely recognizable sequence boundary."@en ;
@@ -3645,6 +3800,7 @@ isc:BaseOlenekianSP
   skos:prefLabel "Stratotype Point Base of Olenekian"@en ;
 .
 isc:BaseOlenekianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 251.2 ;
@@ -3668,6 +3824,7 @@ isc:BaseOligocene-location
 .
 isc:BaseOligoceneSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 16/3, p.379  382, 2001"@en ;
   gts:boundaryLevel "Base of a 0.5m thick greenishgrey marl bed 19m above Base of section"@en ;
   gts:correlationEvent "Foraminifer LAD Hantkenina and ribrohantkenina"@en ;
@@ -3683,6 +3840,7 @@ isc:BaseOligoceneSP
   skos:prefLabel "Stratotype Point Base of Rupelian"@en ;
 .
 isc:BaseOligoceneTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 33.9 ;
@@ -3707,6 +3865,7 @@ isc:BaseOrdovician-location
 .
 isc:BaseOrdovicianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 24/1, p.   19  28, 2001"@en ;
   gts:boundaryLevel "at the 101.8m level, within Bed 23, in the measured section"@en ;
   gts:correlationEvent "Conodont FAD Iapetognathus fluctivagus"@en ;
@@ -3725,6 +3884,7 @@ isc:BaseOrdovicianSP
   skos:prefLabel "Stratotype Point Base of Tremadocian"@en ;
 .
 isc:BaseOrdovicianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseOrdovicianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3746,6 +3906,7 @@ isc:BaseOrosirian
   time:inTemporalPosition isc:BaseOrosirianTime ;
 .
 isc:BaseOrosirianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "2050"^^xsd:decimal ;
@@ -3762,6 +3923,7 @@ isc:BasePaleoarchean
   time:inTemporalPosition isc:BasePaleoarcheanTime ;
 .
 isc:BasePaleoarcheanTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "3600"^^xsd:decimal ;
@@ -3786,6 +3948,7 @@ isc:BasePennsylvanian-location
 .
 isc:BasePennsylvanianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 22/4, p. 272 283, 1999"@en ;
   gts:boundaryLevel "82.9m above the top of the Battleship Formation in the lower Bird Spring Formation"@en ;
   gts:correlationEvent "Conodont FAD Declinognathodus noduliferus"@en ;
@@ -3803,6 +3966,7 @@ isc:BasePennsylvanianSP
   skos:prefLabel "Stratotype Point Base of Bashkirian"@en ;
 .
 isc:BasePennsylvanianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BasePennsylvanianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3833,6 +3997,7 @@ isc:BasePermian-location
 .
 isc:BasePermianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes	21/1, p. 11 18, 1998"@en ;
   gts:boundaryLevel "27m above the Base of Bed 19, Aidaralash Creek"@en ;
   gts:correlationEvent "Conodont FAD of isolated-nodular morphotype of Streptognathodus wabaunsensis"@en ;
@@ -3850,6 +4015,7 @@ isc:BasePermianSP
   skos:prefLabel "Stratotype Point Base of Asselian"@en ;
 .
 isc:BasePermianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BasePermianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3882,6 +4048,7 @@ isc:BasePhanerozoic-location
 .
 isc:BasePhanerozoicSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 17/1 2, p. 95 100, 1994"@en ;
   gts:boundaryLevel "2.4m above the Base of Member 2 in the Chapel Island Formation"@en ;
   gts:correlationEvent "Trace fossil FAD Trichophycus pedum"@en ;
@@ -3901,6 +4068,7 @@ isc:BasePhanerozoicSP
   skos:prefLabel "Stratotype Point Base of Fortunian"@en ;
 .
 isc:BasePhanerozoicTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BasePhanerozoicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3929,6 +4097,7 @@ isc:BasePiacenzian
 .
 isc:BasePiacenzianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 21/2, p. 88 93, 1998"@en ;
   gts:boundaryLevel "Base of the beige marl bed of small-scale carbonate cycle 77 (MPRS 347) "@en ;
   gts:correlationEvent "Magnetic  Gauss/Gilbert (C2An/C2Ar) magnetic reversal is recorded immediately above the GSSP"@en ;
@@ -3943,6 +4112,7 @@ isc:BasePiacenzianSP
   skos:prefLabel "Stratotype Point Base of Piacenzian"@en ;
 .
 isc:BasePiacenzianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 3.6 ;
@@ -3965,6 +4135,7 @@ isc:BasePliensbachian-location
 .
 isc:BasePliensbachianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 29/2, p.93  106, 2006"@en ;
   gts:boundaryLevel "Base of Bed 73b "@en ;
   gts:correlationEvent "Ammonite association of Bifericeras donovani and Apoderoceras sp."@en ;
@@ -3981,6 +4152,7 @@ isc:BasePliensbachianSP
   skos:prefLabel "Stratotype Point Base of Pliensbachian"@en ;
 .
 isc:BasePliensbachianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BasePliensbachianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4010,6 +4182,7 @@ isc:BasePliocene-location
 .
 isc:BasePlioceneSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 23/3, p. 179  187, 2000"@en ;
   gts:boundaryLevel "Base of the Trubi Formation which corresponds to Insolation cycle 510 "@en ;
   gts:correlationEvent "Magnetic Base of the Thvera magnetic event  (C3n.4n) is only 96 kyr (5 precession cycles) younger than the GSSP."@en ;
@@ -4026,6 +4199,7 @@ isc:BasePlioceneSP
   skos:prefLabel "Stratotype Point Base of Zanclean"@en ;
 .
 isc:BasePlioceneTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 5.333 ;
@@ -4048,6 +4222,7 @@ isc:BasePragian-location
 .
 isc:BasePragianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 12/2, p. 109 113, 1989"@en ;
   gts:boundaryLevel "Base of Bed 12 in Velka Chuchle Quarry"@en ;
   gts:correlationEvent "Conodont FAD Eognathodus sulcatus sulcatus and Latericriodus steinachensis Morph beta"@en ;
@@ -4063,6 +4238,7 @@ isc:BasePragianSP
   skos:prefLabel "Stratotype Point Base of Pragian"@en ;
 .
 isc:BasePragianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BasePragianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4085,6 +4261,7 @@ isc:BasePriabonian
 .
 isc:BasePriabonianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:boundaryLevel "Tiziano Bed"@en ;
   gts:correlationEvent "Foraminifer LAD of Morozovelloides, Calcareous nannofossil near FAD Chiasmolithus oamaruensis (Base of Zone NP18)"@en ;
   gts:ratifiedGSSP false ;
@@ -4095,6 +4272,7 @@ isc:BasePriabonianSP
   skos:prefLabel "Stratotype Point Base of Priabonian"@en ;
 .
 isc:BasePriabonianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 37.8 ;
@@ -4117,6 +4295,7 @@ isc:BasePridoli-location
 .
 isc:BasePridoliSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 8/2, p. 101 103, 1985"@en ;
   dct:source "Geol. Series, Nat. Mus. Wales, 9, p. 90  100, 1989"@en ;
   gts:boundaryLevel "within Bed 96"@en ;
@@ -4133,6 +4312,7 @@ isc:BasePridoliSP
   skos:prefLabel "Stratotype Point Base of Přídolí"@en ;
 .
 isc:BasePridoliTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BasePridoliUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4157,6 +4337,7 @@ isc:BaseProterozoic
   time:inTemporalPosition isc:BaseProterozoicTime ;
 .
 isc:BaseProterozoicTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "2500"^^xsd:decimal ;
@@ -4181,6 +4362,7 @@ isc:BaseQuaternary-location
 .
 isc:BaseQuaternarySP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 21/2, p. 82 87, 1998"@en ;
   dct:source "Episodes 33/3, p. 152-158, 2010"@en ;
   gts:boundaryLevel "Base of marly layer overlying sapropel MPRS 250"@en ;
@@ -4200,6 +4382,7 @@ isc:BaseQuaternarySP
   skos:prefLabel "Stratotype Point Base of Gelasian"@en ;
 .
 isc:BaseQuaternaryTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 2.58 ;
@@ -4216,6 +4399,7 @@ isc:BaseRhaetian
 .
 isc:BaseRhaetianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Near FAD of ammonite Cochloceras, conodonts Misikella spp. and Epigondolella mosheri, and radiolarian Proparvicingula moniliformis"@en ;
   gts:correlationEvent "Near FAD of conodonts Misikella posthernsteini s.s. or Misikella posthernsteini s.l."@en ;
   gts:ratifiedGSSP false ;
@@ -4226,6 +4410,7 @@ isc:BaseRhaetianSP
   skos:prefLabel "Stratotype Point Base of Rhaetian"@en ;
 .
 isc:BaseRhaetianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 208.5 ;
@@ -4241,6 +4426,7 @@ isc:BaseRhyacian
   time:inTemporalPosition isc:BaseRhyacianTime ;
 .
 isc:BaseRhyacianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "2300"^^xsd:decimal ;
@@ -4257,6 +4443,7 @@ isc:BaseSakmarian
 .
 isc:BaseSakmarianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:boundaryLevel "55.4m above the base in Bed 26/3" ;
   gts:correlationEvent "Conodont FAD Mesogondolella monstra"@en ;
   gts:ratifiedGSSP true ;
@@ -4268,6 +4455,7 @@ isc:BaseSakmarianSP
   skos:prefLabel "Stratotype Point Base of Sakmarian"@en ;
 .
 isc:BaseSakmarianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseSakmarianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4296,6 +4484,7 @@ isc:BaseSantonian-location
 .
 isc:BaseSantonianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 37/1, p. 2-13, 2014"@en ;
   gts:boundaryLevel "94.4 m in the Cantera de Margas quarry section"@en ;
   gts:correlationEvent "The FO of the inoceramid bivalve Platyceramus undulatoplicatus"@en ;
@@ -4311,6 +4500,7 @@ isc:BaseSantonianSP
   skos:prefLabel "Stratotype Point Base of Santonian"@en ;
 .
 isc:BaseSantonianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseSantonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4339,6 +4529,7 @@ isc:BaseSelandian-location
 .
 isc:BaseSelandianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 34/4, p.220 - 243, 2011"@en ;
   gts:boundaryLevel "Base of the red marls of Itzurun Formation "@en ;
   gts:correlationEvent "Onset of a carbon isotope shift and sea-level drop, 30 precession cycles (~630 kyr) above the top of magnetic polarity Chron 27n"@en ;
@@ -4354,6 +4545,7 @@ isc:BaseSelandianSP
   skos:prefLabel "Stratotype Point Base of Selandian"@en ;
 .
 isc:BaseSelandianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 61.6 ;
@@ -4376,6 +4568,7 @@ isc:BaseSerravallian-location
 .
 isc:BaseSerravallianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes, 32/3, 152 - 166, 2009"@en ;
   gts:boundaryLevel "formation boundary between the Globigerina Limestone and Blue Clay"@en ;
   gts:correlationEvent "Oxygen isotopic event (global cooling episode) Mi3b near calcareous nannofossil LAD of Sphenolithus heteromorphus"@en ;
@@ -4391,6 +4584,7 @@ isc:BaseSerravallianSP
   skos:prefLabel "Stratotype Point Base of Serravallian"@en ;
 .
 isc:BaseSerravallianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 13.82 ;
@@ -4415,6 +4609,7 @@ isc:BaseSilurian-location
 .
 isc:BaseSilurianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 8/2, p. 101 103, 1985"@en ;
   dct:source "Silurian Times No. 14 (2006)"@en ;
   gts:boundaryLevel "1.6m above theBase of the Birkhill Shale Formation"@en ;
@@ -4433,6 +4628,7 @@ isc:BaseSilurianSP
   skos:prefLabel "Stratotype Point Base of Rhuddanian"@en ;
 .
 isc:BaseSilurianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseSilurianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4461,6 +4657,7 @@ isc:BaseSinemurian-location
 .
 isc:BaseSinemurianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 25/1, p. 22 28, 2002"@en ;
   gts:boundaryLevel "0.90 m above the Base of Bed 145 "@en ;
   gts:correlationEvent "Ammonite FAD Vermiceras quantoxense, Vermiceras palmeri"@en ;
@@ -4476,6 +4673,7 @@ isc:BaseSinemurianSP
   skos:prefLabel "Stratotype Point Base of Sinemurian"@en ;
 .
 isc:BaseSinemurianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseSinemurianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4497,6 +4695,7 @@ isc:BaseStatherian
   time:inTemporalPosition isc:BaseStatherianTime ;
 .
 isc:BaseStatherianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "1800"^^xsd:decimal ;
@@ -4513,12 +4712,14 @@ isc:BaseStenian
   time:inTemporalPosition isc:BaseStenianTime ;
 .
 isc:BaseStenianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "1200"^^xsd:decimal ;
 .
 isc:BaseTarentianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:boundaryLevel "63.5 m below surface" ;
   gts:correlationEvent "Climatic -- Base of the Eemian interglacial stage (= base of marine isotope stage 5e) before final glacial episode of Pleistocene." ;
   gts:ratifiedGSSP false ;
@@ -4547,6 +4748,7 @@ isc:BaseTelychianLocation
 .
 isc:BaseTelychianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source " Geol. Series, Nat. Mus. Wales, 9, p. 36-50, 1989"@en ;
   dct:source "Episodes 8/2, p. 101-103, 1985"@en ;
   gts:boundaryLevel "within the Wormwood Formation"@en ;
@@ -4564,6 +4766,7 @@ isc:BaseTelychianSP
   skos:prefLabel "Stratotype Point Base of Telychian"@en ;
 .
 isc:BaseTelychianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseTelychianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4592,6 +4795,7 @@ isc:BaseThanetian-location
 .
 isc:BaseThanetianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 34/4, p.220 - 243, 2011"@en ;
   gts:boundaryLevel "30.5m above the Base of Itzurun Formation"@en ;
   gts:boundaryLevel "About 78 m above the Cretaceous/ Paleogene boundary; 6.5m above the base of Member B of the Itzurun Formation"@en ;
@@ -4609,6 +4813,7 @@ isc:BaseThanetianSP
   skos:prefLabel "Stratotype Point Base of Thanetian"@en ;
 .
 isc:BaseThanetianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 59.2 ;
@@ -4625,6 +4830,7 @@ isc:BaseTithonian
 .
 isc:BaseTithonianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Near Base of Hybonoticeras hybonotum ammonite zone and lowest occurrence of Gravesia genus, and the Base of magnetic polarity Chron M22An"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseTithonian ;
@@ -4634,6 +4840,7 @@ isc:BaseTithonianSP
   skos:prefLabel "Stratotype Point Base of Tithonian"@en ;
 .
 isc:BaseTithonianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseTithonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4661,6 +4868,7 @@ isc:BaseToarcian-location
 .
 isc:BaseToarcianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:boundaryLevel "base of micritic limestone bed 15e in the uppermost Lemede Formation" ;
   gts:correlationEvent "Ammonite near FAD of a diversified Eodactylites ammonite fauna; correlates with the NW European Protogrammoceras paltus horizon."@en ;
   gts:ratifiedGSSP true ;
@@ -4674,6 +4882,7 @@ isc:BaseToarcianSP
   skos:prefLabel "Stratotype Point Base of Toarcian"@en ;
 .
 isc:BaseToarcianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseToarcianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4702,6 +4911,7 @@ isc:BaseTortonian-location
 .
 isc:BaseTortonianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 28/1, p. 6  17, 2005"@en ;
   gts:boundaryLevel "mid-point of sapropel layer of basic cycle number 76"@en ;
   gts:correlationEvent "Calcareous nannofossil last common occurrence of Discoaster kugleri"@en ;
@@ -4717,6 +4927,7 @@ isc:BaseTortonianSP
   skos:prefLabel "Stratotype Point Base of Tortonian"@en ;
 .
 isc:BaseTortonianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 11.63 ;
@@ -4739,6 +4950,7 @@ isc:BaseTuronian-location
 .
 isc:BaseTuronianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 28/2,p. 93  104, 2005"@en ;
   gts:boundaryLevel "Base of Bed 86 of the Bridge Creek Limestone Member "@en ;
   gts:correlationEvent "Ammonite FAD Watinoceras devonense"@en ;
@@ -4754,6 +4966,7 @@ isc:BaseTuronianSP
   skos:prefLabel "Stratotype Point Base of Turonian"@en ;
 .
 isc:BaseTuronianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 93.9 ;
@@ -4761,6 +4974,7 @@ isc:BaseTuronianTime
 isc:BaseUpperCretaceous
   a gts:GeochronologicBoundary ;
   a thors:EraBoundary ;
+  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLateCretaceous ;
   gts:stratotype isc:BaseUpperCretaceousSP ;
@@ -4771,6 +4985,7 @@ isc:BaseUpperCretaceous
 .
 isc:BaseUpperCretaceousSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 27/1, p. 21 32, 2004"@en ;
   gts:boundaryLevel "36 meters below the top of the Marnes Bleues Formation on the south side of Mont Risou "@en ;
   gts:correlationEvent "Planktonic foraminifer FAD Rotalipora globotruncanoides"@en ;
@@ -4786,12 +5001,14 @@ isc:BaseUpperCretaceousSP
   skos:prefLabel "Stratotype Point Base of Cenomanian"@en ;
 .
 isc:BaseUpperCretaceousTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLateCretaceousTime ;
 .
 isc:BaseUpperDevonian
   a gts:GeochronologicBoundary ;
   a thors:EraBoundary ;
+  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLateDevonian ;
   gts:stratotype isc:BaseUpperDevonianSP ;
@@ -4802,6 +5019,7 @@ isc:BaseUpperDevonian
 .
 isc:BaseUpperDevonianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 10/2, p. 97101, 1987"@en ;
   gts:boundaryLevel "Base of Bed 42  at Col du Puech de la Suque section E"@en ;
   gts:correlationEvent "Conodont FAD Ancyrodella rotundiloba"@en ;
@@ -4818,12 +5036,14 @@ isc:BaseUpperDevonianSP
   skos:prefLabel "Stratotype Point Base of Frasnian"@en ;
 .
 isc:BaseUpperDevonianTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLateDevonianTime ;
 .
 isc:BaseUpperJurassic
   a gts:GeochronologicBoundary ;
   a thors:EraBoundary ;
+  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLateJurassic ;
   gts:stratotype isc:BaseUpperJurassicSP ;
@@ -4834,6 +5054,7 @@ isc:BaseUpperJurassic
 .
 isc:BaseUpperJurassicSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Ammonite FAD Brightia thuouxensis"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseUpperJurassic ;
@@ -4844,12 +5065,14 @@ isc:BaseUpperJurassicSP
   skos:prefLabel "Stratotype Point Base of Oxfordian"@en ;
 .
 isc:BaseUpperJurassicTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLateJurassicTime ;
 .
 isc:BaseUpperMississippian
   a gts:GeochronologicBoundary ;
   a thors:EraBoundary ;
+  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLateMississippian ;
   gts:stratotype isc:BaseUpperMississippianSP ;
@@ -4860,6 +5083,7 @@ isc:BaseUpperMississippian
 .
 isc:BaseUpperMississippianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Conodont FAD Lochriea ziegleri"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseUpperMississippian ;
@@ -4871,12 +5095,14 @@ isc:BaseUpperMississippianSP
   skos:prefLabel "Stratotype Point Base of Serpukhovian"@en ;
 .
 isc:BaseUpperMississippianTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLateMississippianTime ;
 .
 isc:BaseUpperOrdovician
   a gts:GeochronologicBoundary ;
   a thors:EraBoundary ;
+  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLateOrdovician ;
   gts:stratotype isc:BaseUpperOrdovicianSP ;
@@ -4887,6 +5113,7 @@ isc:BaseUpperOrdovician
 .
 isc:BaseUpperOrdovicianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 23/2, p. 102 109, 2000"@en ;
   gts:boundaryLevel "1.4m below a phosphorite marker bed in the E14b outcrop"@en ;
   gts:correlationEvent "Graptolite FAD Nemagraptus gracilis"@en ;
@@ -4903,12 +5130,14 @@ isc:BaseUpperOrdovicianSP
   skos:prefLabel "Stratotype Point Base of Sandbian"@en ;
 .
 isc:BaseUpperOrdovicianTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLateOrdovicianTime ;
 .
 isc:BaseUpperPennsylvanian
   a gts:GeochronologicBoundary ;
   a thors:EraBoundary ;
+  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLatePennsylvanian ;
   gts:stratotype isc:BaseUpperPennsylvanianSP ;
@@ -4919,6 +5148,7 @@ isc:BaseUpperPennsylvanian
 .
 isc:BaseUpperPennsylvanianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Conodont FAD Idiognathodus heckeli"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseUpperPennsylvanian ;
@@ -4929,12 +5159,14 @@ isc:BaseUpperPennsylvanianSP
   skos:prefLabel "Stratotype Point Base of Kasimovian"@en ;
 .
 isc:BaseUpperPennsylvanianTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLatePennsylvanianTime ;
 .
 isc:BaseUpperPleistocene
   a gts:GeochronologicBoundary ;
   a thors:EraBoundary ;
+  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLatePleistocene ;
   gts:stratotype isc:BaseTarentianSP ;
@@ -4943,12 +5175,14 @@ isc:BaseUpperPleistocene
   time:inTemporalPosition isc:BaseLatePleistoceneTime ;
 .
 isc:BaseUpperPleistoceneTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLatePleistoceneTime ;
 .
 isc:BaseUpperTriassic
   a gts:GeochronologicBoundary ;
   a thors:EraBoundary ;
+  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLateTriassic ;
   gts:stratotype isc:BaseUpperTriassicSP ;
@@ -4959,6 +5193,7 @@ isc:BaseUpperTriassic
 .
 isc:BaseUpperTriassicSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 35/3, p. 414 –430, 2012"@en ;
   gts:boundaryLevel "Base of marly limestone bed SW4, 45m from Base of San Cassiano Formation"@en ;
   gts:correlationEvent "FAD of the ammonoid Daxatina canadensis; just below FO of conodont Paragondolella polygnathiformis and Base of normal-polarity magnetic zone S2n"@en ;
@@ -4975,6 +5210,7 @@ isc:BaseUpperTriassicSP
   skos:prefLabel "Stratotype Point Base of Carnian"@en ;
 .
 isc:BaseUpperTriassicTime
+  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLateTriassicTime ;
 .
@@ -4990,6 +5226,7 @@ isc:BaseValanginian
 .
 isc:BaseValanginianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:correlationEvent "Calpionellid FAD Calpionellites darderi (Base of Calpionellid Zone E); followed by ammonite FAD “Thurmanniceras” pertransiens"@en ;
   gts:ratifiedGSSP false ;
   gts:representsBoundary isc:BaseValanginian ;
@@ -4999,6 +5236,7 @@ isc:BaseValanginianSP
   skos:prefLabel "Stratotype Point Base of Valanginian"@en ;
 .
 isc:BaseValanginianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 139.8 ;
@@ -5022,6 +5260,7 @@ isc:BaseWenlock-location
 .
 isc:BaseWenlockSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   dct:source "Episodes 5/3, p. 21-23, 1982"@en ;
   dct:source "Geol. Series, Nat. Mus. Wales, 9, p. 51 73, 1989"@en ;
   dct:source "Lethaia 14"@en ;
@@ -5040,6 +5279,7 @@ isc:BaseWenlockSP
   skos:prefLabel "Stratotype Point Base of Sheinwoodian"@en ;
 .
 isc:BaseWenlockTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseWenlockUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -5068,6 +5308,7 @@ isc:BaseWordian-location
 .
 isc:BaseWordianSP
   a gts:StratigraphicPoint ;
+  a skos:Concept ;
   gts:boundaryLevel "7.6m above the Base of the Getaway Ledge outcrop Section of the Getaway Limestone Member of the Cherry Canyon Formation"@en ;
   gts:correlationEvent "Conodont FAD Jinogondolella aserrata"@en ;
   gts:ratifiedGSSP true ;
@@ -5081,6 +5322,7 @@ isc:BaseWordianSP
   skos:prefLabel "Stratotype Point Base of Wordian"@en ;
 .
 isc:BaseWordianTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseWordianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -5898,6 +6140,7 @@ isc:CambrianSeries2
 .
 isc:CambrianSeries3
   a gts:GeochronologicEra ;
+  a skos:Concept ;
   dct:isReplacedBy isc:Miaolingian ;
   rdfs:label "Cambrian Series 3 Epoch"@en ;
   skos:prefLabel "Cambrian Series 3"@en ;
@@ -6101,6 +6344,7 @@ isc:CambrianStage4
 .
 isc:CambrianStage5
   a gts:GeochronologicEra ;
+  a skos:Concept ;
   dct:isReplacedBy isc:Wuliuan ;
   rdfs:label "Cambrian Stage 5 Age"@en ;
   skos:prefLabel "Cambrian-Stage 5"@en ;
@@ -7462,6 +7706,7 @@ isc:FormationOfEarth
   time:inTemporalPosition isc:FormationOfEarthTime ;
 .
 isc:FormationOfEarthTime
+  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:FormationOfEarthUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -8270,6 +8515,7 @@ isc:Induan
 .
 isc:Ionian
   a gts:GeochronologicEra ;
+  a skos:Concept ;
   dct:isReplacedBy isc:MiddlePleistocene ;
   skos:changeNote "Superseded by \"Middle Pleistocene\""@en ;
   skos:prefLabel "Ion"@cs ;
@@ -9765,6 +10011,7 @@ isc:Miaolingian
   time:intervalStartedBy isc:Wuliuan ;
 .
 isc:MiaolingianTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "509"^^xsd:decimal ;
@@ -11826,6 +12073,7 @@ isc:Present
   time:inXSDDate "1950-01-01"^^xsd:date ;
 .
 isc:PresentTime
+  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 0.0 ;
@@ -14383,6 +14631,27 @@ isc:Zanclean
 gts:StratigraphicPoint
   rdfs:subClassOf skos:Concept ;
 .
+rank:Age
+  a skos:Concept ;
+.
+rank:Eon
+  a skos:Concept ;
+.
+rank:Epoch
+  a skos:Concept ;
+.
+rank:Era
+  a skos:Concept ;
+.
+rank:Period
+  a skos:Concept ;
+.
+rank:Sub-Period
+  a skos:Concept ;
+.
+rank:Super-Eon
+  a skos:Concept ;
+.
 ts:gts2020
   a void:Dataset ;
   a gts:GeologicTimescale ;
@@ -14397,7 +14666,7 @@ ts:gts2020
   dct:creator "Simon J D COX, CSIRO"@en ;
   dct:description "RDF representation of the Geologic Time Scale, as defined in the International Chronostratigraphic Chart (ICC) from the International Commission on Stratigraphy (ICS). The ICC embraces both chronostratigraphic (time-rock) units and their equivalent geochronologic (geologic-time) units, the former being related to the ‘Stratigraphic points’ referred to below, and the latter (geochronologic units) being employed in this RDF representation."@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-  dct:modified "2020-01-13"^^xsd:date ;
+  dct:modified "2020-06-12"^^xsd:date ;
   dct:replaces ts:gts2018 ;
   dct:rights "Original version Copyright © 2020 International Commission on Stratigraphy"@en ;
   dct:rights "RDF version Copyright © 2020 CSIRO, IUGS"@en ;
