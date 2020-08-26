@@ -764,7 +764,6 @@ isc:BaseAeronianSP
   skos:prefLabel "Stratotype Point Base of Aeronian"@en ;
 .
 isc:BaseAeronianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseAeronianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -807,7 +806,6 @@ isc:BaseAlbianSP
   skos:prefLabel "Stratotype Point Base of Albian"@en ;
 .
 isc:BaseAlbianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 113.0 ;
@@ -839,7 +837,6 @@ isc:BaseAptianSP
   skos:prefLabel "Stratotype Point Base of Aptian"@en ;
 .
 isc:BaseAptianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 125.0 ;
@@ -862,7 +859,6 @@ isc:BaseArchean
   time:inTemporalPosition isc:BaseArcheanTime ;
 .
 isc:BaseArcheanTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "4000"^^xsd:decimal ;
@@ -889,7 +885,6 @@ isc:BaseArtinskianSP
   skos:prefLabel "Stratotype Point Base of Artinskian"@en ;
 .
 isc:BaseArtinskianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseArtinskianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -934,7 +929,6 @@ isc:BaseBajocianSP
   skos:prefLabel "Stratotype Point Base of Bajocian"@en ;
 .
 isc:BaseBajocianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseBajocianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -967,7 +961,6 @@ isc:BaseBarremianSP
   skos:prefLabel "Stratotype Point Base of Barremian"@en ;
 .
 isc:BaseBarremianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 129.4 ;
@@ -995,7 +988,6 @@ isc:BaseBartonianSP
   skos:prefLabel "Stratotype Point Base of Bartonian"@en ;
 .
 isc:BaseBartonianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 41.2 ;
@@ -1034,7 +1026,6 @@ isc:BaseBathonianSP
   skos:prefLabel "Stratotype Point Base of Bathonian"@en ;
 .
 isc:BaseBathonianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseBathonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1067,7 +1058,6 @@ isc:BaseBurdigalianSP
   skos:prefLabel "Stratotype Point Base of Burdigalian"@en ;
 .
 isc:BaseBurdigalianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 20.44 ;
@@ -1109,7 +1099,6 @@ isc:BaseCalabrianSP
   skos:prefLabel "Stratotype Point Base of Calabrian"@en ;
 .
 isc:BaseCalabrianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 1.80 ;
@@ -1137,7 +1126,6 @@ isc:BaseCallovianSP
   skos:prefLabel "Stratotype Point Base of Callovian"@en ;
 .
 isc:BaseCallovianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseCallovianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1171,19 +1159,15 @@ isc:BaseCambrianSeries2SP
   skos:prefLabel "Stratotype Point Base of Cambrian Stage 3"@en ;
 .
 isc:BaseCambrianSeries2Time
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "521"^^xsd:decimal ;
 .
 isc:BaseCambrianSeries3
-  a gts:GeochronologicBoundary ;
-  a thors:EraBoundary ;
-  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseMiaolingian ;
-  gts:stratotype isc:BaseMiaolingianSP ;
   rdfs:label "Base of Cambrian Series 3"@en ;
+  owl:deprecated true ;
   skos:altLabel "Base of Cambrian Stage 5"@en ;
   skos:prefLabel "Base of Cambrian Series 3"@en ;
   time:inTemporalPosition isc:MiaolingianTime ;
@@ -1211,7 +1195,6 @@ isc:BaseCambrianStage10SP
   skos:prefLabel "Stratotype Point Base of Cambrian Stage 10"@en ;
 .
 isc:BaseCambrianStage10Time
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 489.5 ;
@@ -1237,7 +1220,6 @@ isc:BaseCambrianStage2SP
   skos:prefLabel "Stratotype Point Base of Cambrian Stage 2"@en ;
 .
 isc:BaseCambrianStage2Time
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "529"^^xsd:decimal ;
@@ -1263,7 +1245,6 @@ isc:BaseCambrianStage4SP
   skos:prefLabel "Stratotype Point Base of Cambrian Stage 4"@en ;
 .
 isc:BaseCambrianStage4Time
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "514"^^xsd:decimal ;
@@ -1290,7 +1271,6 @@ isc:BaseCampanianSP
   skos:prefLabel "Stratotype Point Base of Campanian"@en ;
 .
 isc:BaseCampanianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseCampanianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1333,7 +1313,6 @@ isc:BaseCapitanianSP
   skos:prefLabel "Stratotype Point Base of Capitanian"@en ;
 .
 isc:BaseCapitanianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseCapitanianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1385,7 +1364,6 @@ isc:BaseCarboniferousSP
   skos:prefLabel "Stratotype Point Base of Tournaisian"@en ;
 .
 isc:BaseCarboniferousTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseCarboniferousUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1436,7 +1414,6 @@ isc:BaseCenozoicSP
   skos:prefLabel "Stratotype Point Base of Danian"@en ;
 .
 isc:BaseCenozoicTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 66.0 ;
@@ -1474,7 +1451,6 @@ isc:BaseChanghsingianSP
   skos:prefLabel "Stratotype Point Base of Changhsingian"@en ;
 .
 isc:BaseChanghsingianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseChanghsingianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1518,7 +1494,6 @@ isc:BaseChattianSP
   skos:prefLabel "Stratotype Point Base of Chattian"@en ;
 .
 isc:BaseChattianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 27.82 ;
@@ -1557,7 +1532,6 @@ isc:BaseConiacianSP
   skos:prefLabel "Stratotype Point Base of Coniaician"@en ;
 .
 isc:BaseConiacianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseConiacianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1593,7 +1567,6 @@ isc:BaseCretaceousSP
   skos:prefLabel "Stratotype Point Base of Berriaisian"@en ;
 .
 isc:BaseCretaceousTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 145.0 ;
@@ -1621,7 +1594,6 @@ isc:BaseCryogenianSP
   skos:prefLabel "Stratotype Point Base of Cryogenian"@en ;
 .
 isc:BaseCryogenianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "720"^^xsd:decimal ;
@@ -1661,7 +1633,6 @@ isc:BaseDarriwilianSP
   skos:prefLabel "Stratotype Point Base of Darriwilian"@en ;
 .
 isc:BaseDarriwilianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseDarriwilianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1709,7 +1680,6 @@ isc:BaseDevonianSP
   skos:prefLabel "Stratotype Point Base of Lochkovian"@en ;
 .
 isc:BaseDevonianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseDevonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1755,7 +1725,6 @@ isc:BaseDrumianSP
   skos:prefLabel "Stratotype Point Base of Drumian"@en ;
 .
 isc:BaseDrumianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 504.5 ;
@@ -1772,7 +1741,6 @@ isc:BaseEctasian
   time:inTemporalPosition isc:BaseEctasianTime ;
 .
 isc:BaseEctasianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "1400"^^xsd:decimal ;
@@ -1812,7 +1780,6 @@ isc:BaseEdiacaranSP
   skos:prefLabel "Stratotype Point Base of Ediacaran"@en ;
 .
 isc:BaseEdiacaranTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "635"^^xsd:decimal ;
@@ -1852,7 +1819,6 @@ isc:BaseEmsianSP
   skos:prefLabel "Stratotype Point Base of Emsian"@en ;
 .
 isc:BaseEmsianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseEmsianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1900,7 +1866,6 @@ isc:BaseEoceneSP
   skos:prefLabel "Stratotype Point Base of Ypresian"@en ;
 .
 isc:BaseEoceneTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "56"^^xsd:decimal ;
@@ -1940,7 +1905,6 @@ isc:BaseFamennianSP
   skos:prefLabel "Stratotype Point Base of Famennian"@en ;
 .
 isc:BaseFamennianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseFamennianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -1985,7 +1949,6 @@ isc:BaseFloianSP
   skos:prefLabel "Stratotype Point Base of Floian"@en ;
 .
 isc:BaseFloianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseFloianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2032,7 +1995,6 @@ isc:BaseFurongianSP
   skos:prefLabel "Stratotype Point Base of Paibian"@en ;
 .
 isc:BaseFurongianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "497"^^xsd:decimal ;
@@ -2072,7 +2034,6 @@ isc:BaseGivetianSP
   skos:prefLabel "Stratotype Point Base of Givetian"@en ;
 .
 isc:BaseGivetianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseGivetianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2117,7 +2078,6 @@ isc:BaseGuadalupianSP
   skos:prefLabel "Stratotype Point Base of Guadalupian"@en ;
 .
 isc:BaseGuadalupianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseGuadalupianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2162,7 +2122,6 @@ isc:BaseGuzhangianSP
   skos:prefLabel "Stratotype Point Base of Guzhangian "@en ;
 .
 isc:BaseGuzhangianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 500.5 ;
@@ -2189,7 +2148,6 @@ isc:BaseGzhelianSP
   skos:prefLabel "Stratotype Point Base of Gzhelian"@en ;
 .
 isc:BaseGzhelianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseGzhelianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2225,7 +2183,6 @@ isc:BaseHauterivianSP
   skos:prefLabel "Stratotype Point Base of Hauterivian"@en ;
 .
 isc:BaseHauterivianTime
-  a skos:Concept ;
   a time:TimePosition ;
   skos:changeNote "2020/01 - Cretaceous: numeric age Base Hauterivian Stage changed to 132.6 Ma (was 132.9) - by request of CSC (Maria Rose Petrizio), in consultation with Hauterivian GSSP working group, awaiting GTS-2020 book publication, and based on data by Aguirre et al (2015) and Martinez et al. (2015) 132 Ma +-1 Ma. " ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2266,7 +2223,6 @@ isc:BaseHirnantianSP
   skos:prefLabel "Stratotype Point Base of Hirnantian"@en ;
 .
 isc:BaseHirnantianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseHirnantianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2317,13 +2273,11 @@ isc:BaseHoloceneSP
   skos:prefLabel "Stratotype Point Base of Greenlandian"@en ;
 .
 isc:BaseHoloceneTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/bp> ;
   time:numericPosition "11700"^^xsd:decimal ;
 .
 isc:BaseHoloceneTimeMA
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 0.0117 ;
@@ -2365,7 +2319,6 @@ isc:BaseHomerianSP
   skos:prefLabel "Stratotype Point Base of Homerian"@en ;
 .
 isc:BaseHomerianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseHomerianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2411,7 +2364,6 @@ isc:BaseJiangshanianSP
   skos:prefLabel "Stratotype Point Base of Jiangshanian"@en ;
 .
 isc:BaseJiangshanianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "494"^^xsd:decimal ;
@@ -2454,7 +2406,6 @@ isc:BaseJurassicSP
   skos:prefLabel "Stratotype Point Base of Hettangian"@en ;
 .
 isc:BaseJurassicTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseJurassicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2500,7 +2451,6 @@ isc:BaseKatianSP
   skos:prefLabel "Stratotype Point Base of Katian"@en ;
 .
 isc:BaseKatianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseKatianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2541,7 +2491,6 @@ isc:BaseKimmeridgianSP
   skos:prefLabel "Stratotype Point Base of Kimmeridgian"@en ;
 .
 isc:BaseKimmeridgianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseKimmeridgianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2575,7 +2524,6 @@ isc:BaseKungurianSP
   skos:prefLabel "Stratotype Point Base of Kungurian"@en ;
 .
 isc:BaseKungurianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseKungurianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2620,7 +2568,6 @@ isc:BaseLadinianSP
   skos:prefLabel "Stratotype Point Base of Ladinian"@en ;
 .
 isc:BaseLadinianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "242"^^xsd:decimal ;
@@ -2648,7 +2595,6 @@ isc:BaseLanghianSP
   skos:prefLabel "Stratotype Point Base of Langhian"@en ;
 .
 isc:BaseLanghianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 15.97 ;
@@ -2672,7 +2618,6 @@ isc:BaseLateCretaceous-location
   rdfs:label "Location of Stratotype Point Base of Upper Cretaceous"@en ;
 .
 isc:BaseLateCretaceousTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperCretaceousTime ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2697,7 +2642,6 @@ isc:BaseLateDevonian-location
   rdfs:label "Location of Stratotype Point Base of Upper Devonian"@en ;
 .
 isc:BaseLateDevonianTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperDevonianTime ;
   gts:positionalUncertainty isc:BaseLateDevonianUncertainty ;
@@ -2722,7 +2666,6 @@ isc:BaseLateJurassic
   time:inTemporalPosition isc:BaseLateJurassicTime ;
 .
 isc:BaseLateJurassicTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperJurassicTime ;
   gts:positionalUncertainty isc:BaseLateJurassicUncertainty ;
@@ -2747,7 +2690,6 @@ isc:BaseLateMississippian
   time:inTemporalPosition isc:BaseLateMississippianTime ;
 .
 isc:BaseLateMississippianTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperMississippianTime ;
   gts:positionalUncertainty isc:BaseLateMississippianUncertainty ;
@@ -2778,7 +2720,6 @@ isc:BaseLateOrdovician-location
   rdfs:label "Location of Stratotype Point Base of Upper Ordovician"@en ;
 .
 isc:BaseLateOrdovicianTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperOrdovicianTime ;
   gts:positionalUncertainty isc:BaseLateOrdovicianUncertainty ;
@@ -2803,7 +2744,6 @@ isc:BaseLatePennsylvanian
   time:inTemporalPosition isc:BaseLatePennsylvanianTime ;
 .
 isc:BaseLatePennsylvanianTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperPennsylvanianTime ;
   gts:positionalUncertainty isc:BaseLatePennsylvanianUncertainty ;
@@ -2829,7 +2769,6 @@ isc:BaseLatePleistocene
   time:inTemporalPosition isc:BaseLatePleistoceneTimeMA ;
 .
 isc:BaseLatePleistoceneTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperPleistoceneTime ;
   skos:changeNote """2020/01 -         - Quaternary: numeric age Base Late Pleistocene (Subseries / unnamed Stage) changed to 129 ka (was 126 ka) - by request of SQS (Martin Head), anticipating renewed GSSP-candidate locality search. The age sought is near the mid-point of Termination II in the marine isotope stratigraphy. 
@@ -2838,7 +2777,6 @@ isc:BaseLatePleistoceneTime
   time:numericPosition "129000"^^xsd:decimal ;
 .
 isc:BaseLatePleistoceneTimeMA
-  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperPleistoceneTime ;
   skos:changeNote """2020/01 -         - Quaternary: numeric age Base Late Pleistocene (Subseries / unnamed Stage) changed to 129 ka (was 126 ka) - by request of SQS (Martin Head), anticipating renewed GSSP-candidate locality search. The age sought is near the mid-point of Termination II in the marine isotope stratigraphy. 
@@ -2865,7 +2803,6 @@ isc:BaseLateTriassic-location
   rdfs:label "Location of Stratotype Point Base of Upper Triassic"@en ;
 .
 isc:BaseLateTriassicTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:replaces isc:BaseUpperTriassicTime ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2907,7 +2844,6 @@ isc:BaseLopingianSP
   skos:prefLabel "Stratotype Point Base of Wuchiapingian"@en ;
 .
 isc:BaseLopingianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseLopingianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2955,7 +2891,6 @@ isc:BaseLudfordianSP
   skos:prefLabel "Stratotype Point Base of Ludfordian"@en ;
 .
 isc:BaseLudfordianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseLudfordianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -2984,7 +2919,6 @@ isc:BaseLudlow-location
   rdfs:label "Location of Stratotype Point Base of Ludlow"@en ;
 .
 isc:BaseLudlowPosition
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseLudlowUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3049,7 +2983,6 @@ isc:BaseLutetianSP
   skos:prefLabel "Stratotype Point Base of Lutetian"@en ;
 .
 isc:BaseLutetianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 47.8 ;
@@ -3088,7 +3021,6 @@ isc:BaseMaastrichtianSP
   skos:prefLabel "Stratotype Point Base of Maastrichtian"@en ;
 .
 isc:BaseMaastrichtianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMaastrichtianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3148,13 +3080,11 @@ isc:BaseMeghalayanSP
   skos:prefLabel "Stratotype Point Base of Meghalayan"@en ;
 .
 isc:BaseMeghalayanTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/bp> ;
   time:numericPosition "4200"^^xsd:decimal ;
 .
 isc:BaseMeghalayanTimeMA
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 0.0042 ;
@@ -3171,7 +3101,6 @@ isc:BaseMesoarchean
   time:inTemporalPosition isc:BaseMesoarcheanTime ;
 .
 isc:BaseMesoarcheanTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "3200"^^xsd:decimal ;
@@ -3189,7 +3118,6 @@ isc:BaseMesoproterozoic
   time:inTemporalPosition isc:BaseMesoproterozoicTime ;
 .
 isc:BaseMesoproterozoicTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "1600"^^xsd:decimal ;
@@ -3235,7 +3163,6 @@ isc:BaseMesozoicSP
   skos:prefLabel "Stratotype Point Base of Induan"@en ;
 .
 isc:BaseMesozoicTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMesozoicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3281,7 +3208,6 @@ isc:BaseMessinianSP
   skos:prefLabel "Stratotype Point Base of Messinian"@en ;
 .
 isc:BaseMessinianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 7.246 ;
@@ -3355,7 +3281,6 @@ isc:BaseMiddleDevonianSP
   skos:prefLabel "Stratotype Point Base of Eifelian"@en ;
 .
 isc:BaseMiddleDevonianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddleDevonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3401,7 +3326,6 @@ isc:BaseMiddleJurassicSP
   skos:prefLabel "Stratotype Point Base of Aalenian"@en ;
 .
 isc:BaseMiddleJurassicTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddleJurassicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3450,7 +3374,6 @@ isc:BaseMiddleMississippianSP
   skos:prefLabel "Stratotype Point Base of Visean"@en ;
 .
 isc:BaseMiddleMississippianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddleMississippianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3499,7 +3422,6 @@ isc:BaseMiddleOrdovicianSP
   skos:prefLabel "Stratotype Point Base of Dapingian"@en ;
 .
 isc:BaseMiddleOrdovicianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddleOrdovicianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3533,7 +3455,6 @@ isc:BaseMiddlePennsylvanianSP
   skos:prefLabel "Stratotype Point Base of Moscovian"@en ;
 .
 isc:BaseMiddlePennsylvanianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseMiddlePennsylvanianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3557,7 +3478,6 @@ isc:BaseMiddlePleistocene
   time:inTemporalPosition isc:BaseMiddlePleistoceneTime ;
 .
 isc:BaseMiddlePleistoceneTime
-  a skos:Concept ;
   a time:TimePosition ;
   skos:changeNote "2020/01 - Quaternary: numeric age Base Chibanian Stage changed to 774 ka (in accordance with GSSP documentation; GSSP is 1 m below base Brunhes Chron in type section; base Brunhes " ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3597,7 +3517,6 @@ isc:BaseMiddleTriassicSP
   skos:prefLabel "Stratotype Point Base of Anisian"@en ;
 .
 isc:BaseMiddleTriassicTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 247.2 ;
@@ -3614,7 +3533,6 @@ isc:BaseNeoarchean
   time:inTemporalPosition isc:BaseNeoarcheanTime ;
 .
 isc:BaseNeoarcheanTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "2800"^^xsd:decimal ;
@@ -3657,7 +3575,6 @@ isc:BaseNeogeneSP
   skos:prefLabel "Stratotype Point Base of Aquitainian"@en ;
 .
 isc:BaseNeogeneTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 23.03 ;
@@ -3675,7 +3592,6 @@ isc:BaseNeoproterozoic
   time:inTemporalPosition isc:BaseNeoproterozoicTime ;
 .
 isc:BaseNeoproterozoicTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "1000"^^xsd:decimal ;
@@ -3702,7 +3618,6 @@ isc:BaseNorianSP
   skos:prefLabel "Stratotype Point Base of Norian"@en ;
 .
 isc:BaseNorianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "227"^^xsd:decimal ;
@@ -3757,13 +3672,11 @@ isc:BaseNorthgrippianSP
   skos:prefLabel "Stratotype Point Base of Northgrippian"@en ;
 .
 isc:BaseNorthgrippianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/bp> ;
   time:numericPosition "8276"^^xsd:decimal ;
 .
 isc:BaseNorthgrippianTimeMA
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 0.0082 ;
@@ -3800,7 +3713,6 @@ isc:BaseOlenekianSP
   skos:prefLabel "Stratotype Point Base of Olenekian"@en ;
 .
 isc:BaseOlenekianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 251.2 ;
@@ -3840,7 +3752,6 @@ isc:BaseOligoceneSP
   skos:prefLabel "Stratotype Point Base of Rupelian"@en ;
 .
 isc:BaseOligoceneTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 33.9 ;
@@ -3884,7 +3795,6 @@ isc:BaseOrdovicianSP
   skos:prefLabel "Stratotype Point Base of Tremadocian"@en ;
 .
 isc:BaseOrdovicianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseOrdovicianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -3906,7 +3816,6 @@ isc:BaseOrosirian
   time:inTemporalPosition isc:BaseOrosirianTime ;
 .
 isc:BaseOrosirianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "2050"^^xsd:decimal ;
@@ -3923,7 +3832,6 @@ isc:BasePaleoarchean
   time:inTemporalPosition isc:BasePaleoarcheanTime ;
 .
 isc:BasePaleoarcheanTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "3600"^^xsd:decimal ;
@@ -3966,7 +3874,6 @@ isc:BasePennsylvanianSP
   skos:prefLabel "Stratotype Point Base of Bashkirian"@en ;
 .
 isc:BasePennsylvanianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BasePennsylvanianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4015,7 +3922,6 @@ isc:BasePermianSP
   skos:prefLabel "Stratotype Point Base of Asselian"@en ;
 .
 isc:BasePermianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BasePermianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4068,7 +3974,6 @@ isc:BasePhanerozoicSP
   skos:prefLabel "Stratotype Point Base of Fortunian"@en ;
 .
 isc:BasePhanerozoicTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BasePhanerozoicUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4112,7 +4017,6 @@ isc:BasePiacenzianSP
   skos:prefLabel "Stratotype Point Base of Piacenzian"@en ;
 .
 isc:BasePiacenzianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 3.6 ;
@@ -4152,7 +4056,6 @@ isc:BasePliensbachianSP
   skos:prefLabel "Stratotype Point Base of Pliensbachian"@en ;
 .
 isc:BasePliensbachianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BasePliensbachianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4199,7 +4102,6 @@ isc:BasePlioceneSP
   skos:prefLabel "Stratotype Point Base of Zanclean"@en ;
 .
 isc:BasePlioceneTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 5.333 ;
@@ -4238,7 +4140,6 @@ isc:BasePragianSP
   skos:prefLabel "Stratotype Point Base of Pragian"@en ;
 .
 isc:BasePragianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BasePragianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4272,7 +4173,6 @@ isc:BasePriabonianSP
   skos:prefLabel "Stratotype Point Base of Priabonian"@en ;
 .
 isc:BasePriabonianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 37.8 ;
@@ -4312,7 +4212,6 @@ isc:BasePridoliSP
   skos:prefLabel "Stratotype Point Base of Přídolí"@en ;
 .
 isc:BasePridoliTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BasePridoliUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4337,7 +4236,6 @@ isc:BaseProterozoic
   time:inTemporalPosition isc:BaseProterozoicTime ;
 .
 isc:BaseProterozoicTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "2500"^^xsd:decimal ;
@@ -4382,7 +4280,6 @@ isc:BaseQuaternarySP
   skos:prefLabel "Stratotype Point Base of Gelasian"@en ;
 .
 isc:BaseQuaternaryTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 2.58 ;
@@ -4410,7 +4307,6 @@ isc:BaseRhaetianSP
   skos:prefLabel "Stratotype Point Base of Rhaetian"@en ;
 .
 isc:BaseRhaetianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 208.5 ;
@@ -4426,7 +4322,6 @@ isc:BaseRhyacian
   time:inTemporalPosition isc:BaseRhyacianTime ;
 .
 isc:BaseRhyacianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "2300"^^xsd:decimal ;
@@ -4455,7 +4350,6 @@ isc:BaseSakmarianSP
   skos:prefLabel "Stratotype Point Base of Sakmarian"@en ;
 .
 isc:BaseSakmarianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseSakmarianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4500,7 +4394,6 @@ isc:BaseSantonianSP
   skos:prefLabel "Stratotype Point Base of Santonian"@en ;
 .
 isc:BaseSantonianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseSantonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4545,7 +4438,6 @@ isc:BaseSelandianSP
   skos:prefLabel "Stratotype Point Base of Selandian"@en ;
 .
 isc:BaseSelandianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 61.6 ;
@@ -4584,7 +4476,6 @@ isc:BaseSerravallianSP
   skos:prefLabel "Stratotype Point Base of Serravallian"@en ;
 .
 isc:BaseSerravallianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 13.82 ;
@@ -4628,7 +4519,6 @@ isc:BaseSilurianSP
   skos:prefLabel "Stratotype Point Base of Rhuddanian"@en ;
 .
 isc:BaseSilurianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseSilurianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4673,7 +4563,6 @@ isc:BaseSinemurianSP
   skos:prefLabel "Stratotype Point Base of Sinemurian"@en ;
 .
 isc:BaseSinemurianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseSinemurianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4695,7 +4584,6 @@ isc:BaseStatherian
   time:inTemporalPosition isc:BaseStatherianTime ;
 .
 isc:BaseStatherianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "1800"^^xsd:decimal ;
@@ -4712,7 +4600,6 @@ isc:BaseStenian
   time:inTemporalPosition isc:BaseStenianTime ;
 .
 isc:BaseStenianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "1200"^^xsd:decimal ;
@@ -4766,7 +4653,6 @@ isc:BaseTelychianSP
   skos:prefLabel "Stratotype Point Base of Telychian"@en ;
 .
 isc:BaseTelychianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseTelychianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4813,7 +4699,6 @@ isc:BaseThanetianSP
   skos:prefLabel "Stratotype Point Base of Thanetian"@en ;
 .
 isc:BaseThanetianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 59.2 ;
@@ -4840,7 +4725,6 @@ isc:BaseTithonianSP
   skos:prefLabel "Stratotype Point Base of Tithonian"@en ;
 .
 isc:BaseTithonianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseTithonianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4882,7 +4766,6 @@ isc:BaseToarcianSP
   skos:prefLabel "Stratotype Point Base of Toarcian"@en ;
 .
 isc:BaseToarcianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseToarcianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -4927,7 +4810,6 @@ isc:BaseTortonianSP
   skos:prefLabel "Stratotype Point Base of Tortonian"@en ;
 .
 isc:BaseTortonianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 11.63 ;
@@ -4966,19 +4848,15 @@ isc:BaseTuronianSP
   skos:prefLabel "Stratotype Point Base of Turonian"@en ;
 .
 isc:BaseTuronianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 93.9 ;
 .
 isc:BaseUpperCretaceous
-  a gts:GeochronologicBoundary ;
-  a thors:EraBoundary ;
-  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLateCretaceous ;
-  gts:stratotype isc:BaseUpperCretaceousSP ;
   rdfs:label "Base of Upper Cretaceous"@en ;
+  owl:deprecated true ;
   skos:altLabel "Base of Cenomanian"@en ;
   skos:prefLabel "Base of Upper Cretaceous"@en ;
   time:inTemporalPosition isc:BaseLateCretaceousTime ;
@@ -5001,18 +4879,15 @@ isc:BaseUpperCretaceousSP
   skos:prefLabel "Stratotype Point Base of Cenomanian"@en ;
 .
 isc:BaseUpperCretaceousTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLateCretaceousTime ;
+  owl:deprecated true ;
 .
 isc:BaseUpperDevonian
-  a gts:GeochronologicBoundary ;
-  a thors:EraBoundary ;
-  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLateDevonian ;
-  gts:stratotype isc:BaseUpperDevonianSP ;
   rdfs:label "Base of Upper Devonian"@en ;
+  owl:deprecated true ;
   skos:altLabel "Base of Frasnian"@en ;
   skos:prefLabel "Base of Upper Devonian"@en ;
   time:inTemporalPosition isc:BaseLateDevonianTime ;
@@ -5036,18 +4911,15 @@ isc:BaseUpperDevonianSP
   skos:prefLabel "Stratotype Point Base of Frasnian"@en ;
 .
 isc:BaseUpperDevonianTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLateDevonianTime ;
+  owl:deprecated true ;
 .
 isc:BaseUpperJurassic
-  a gts:GeochronologicBoundary ;
-  a thors:EraBoundary ;
-  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLateJurassic ;
-  gts:stratotype isc:BaseUpperJurassicSP ;
   rdfs:label "Base of Upper Jurassic"@en ;
+  owl:deprecated true ;
   skos:altLabel "Base of Oxfordian"@en ;
   skos:prefLabel "Base of Upper Jurassic"@en ;
   time:inTemporalPosition isc:BaseLateJurassicTime ;
@@ -5065,18 +4937,15 @@ isc:BaseUpperJurassicSP
   skos:prefLabel "Stratotype Point Base of Oxfordian"@en ;
 .
 isc:BaseUpperJurassicTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLateJurassicTime ;
+  owl:deprecated true ;
 .
 isc:BaseUpperMississippian
-  a gts:GeochronologicBoundary ;
-  a thors:EraBoundary ;
-  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLateMississippian ;
-  gts:stratotype isc:BaseUpperMississippianSP ;
   rdfs:label "Base of Upper Mississippian"@en ;
+  owl:deprecated true ;
   skos:altLabel "Base of Serpukhovian"@en ;
   skos:prefLabel "Base of Upper Mississippian"@en ;
   time:inTemporalPosition isc:BaseLateMississippianTime ;
@@ -5095,18 +4964,15 @@ isc:BaseUpperMississippianSP
   skos:prefLabel "Stratotype Point Base of Serpukhovian"@en ;
 .
 isc:BaseUpperMississippianTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLateMississippianTime ;
+  owl:deprecated true ;
 .
 isc:BaseUpperOrdovician
-  a gts:GeochronologicBoundary ;
-  a thors:EraBoundary ;
-  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLateOrdovician ;
-  gts:stratotype isc:BaseUpperOrdovicianSP ;
   rdfs:label "Base of Upper Ordovician"@en ;
+  owl:deprecated true ;
   skos:altLabel "Base of Sandbian"@en ;
   skos:prefLabel "Base of Upper Ordovician"@en ;
   time:inTemporalPosition isc:BaseLateOrdovicianTime ;
@@ -5130,18 +4996,15 @@ isc:BaseUpperOrdovicianSP
   skos:prefLabel "Stratotype Point Base of Sandbian"@en ;
 .
 isc:BaseUpperOrdovicianTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLateOrdovicianTime ;
+  owl:deprecated true ;
 .
 isc:BaseUpperPennsylvanian
-  a gts:GeochronologicBoundary ;
-  a thors:EraBoundary ;
-  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLatePennsylvanian ;
-  gts:stratotype isc:BaseUpperPennsylvanianSP ;
   rdfs:label "Base of Upper Pennsylvanian"@en ;
+  owl:deprecated true ;
   skos:altLabel "Base of Kasimovian"@en ;
   skos:prefLabel "Base of Upper Pennsylvanian"@en ;
   time:inTemporalPosition isc:BaseLatePennsylvanianTime ;
@@ -5159,34 +5022,28 @@ isc:BaseUpperPennsylvanianSP
   skos:prefLabel "Stratotype Point Base of Kasimovian"@en ;
 .
 isc:BaseUpperPennsylvanianTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLatePennsylvanianTime ;
+  owl:deprecated true ;
 .
 isc:BaseUpperPleistocene
-  a gts:GeochronologicBoundary ;
-  a thors:EraBoundary ;
-  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLatePleistocene ;
-  gts:stratotype isc:BaseTarentianSP ;
   rdfs:label "Base of Upper Pleistocene"@en ;
+  owl:deprecated true ;
   skos:prefLabel "Base of Upper Pleistocene"@en ;
   time:inTemporalPosition isc:BaseLatePleistoceneTime ;
 .
 isc:BaseUpperPleistoceneTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLatePleistoceneTime ;
+  owl:deprecated true ;
 .
 isc:BaseUpperTriassic
-  a gts:GeochronologicBoundary ;
-  a thors:EraBoundary ;
-  a skos:Concept ;
   a time:Instant ;
   dct:isReplacedBy isc:BaseLateTriassic ;
-  gts:stratotype isc:BaseUpperTriassicSP ;
   rdfs:label "Base of Upper Triassic"@en ;
+  owl:deprecated true ;
   skos:altLabel "Base of Carnian"@en ;
   skos:prefLabel "Base of Upper Triassic"@en ;
   time:inTemporalPosition isc:BaseLateTriassicTime ;
@@ -5210,9 +5067,9 @@ isc:BaseUpperTriassicSP
   skos:prefLabel "Stratotype Point Base of Carnian"@en ;
 .
 isc:BaseUpperTriassicTime
-  a skos:Concept ;
   a time:TimePosition ;
   dct:isReplacedBy isc:BaseLateTriassicTime ;
+  owl:deprecated true ;
 .
 isc:BaseValanginian
   a gts:GeochronologicBoundary ;
@@ -5236,7 +5093,6 @@ isc:BaseValanginianSP
   skos:prefLabel "Stratotype Point Base of Valanginian"@en ;
 .
 isc:BaseValanginianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 139.8 ;
@@ -5279,7 +5135,6 @@ isc:BaseWenlockSP
   skos:prefLabel "Stratotype Point Base of Sheinwoodian"@en ;
 .
 isc:BaseWenlockTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseWenlockUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -5322,7 +5177,6 @@ isc:BaseWordianSP
   skos:prefLabel "Stratotype Point Base of Wordian"@en ;
 .
 isc:BaseWordianTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:BaseWordianUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -6013,10 +5867,10 @@ isc:CambrianSeries2
   time:intervalStartedBy isc:CambrianStage3 ;
 .
 isc:CambrianSeries3
-  a gts:GeochronologicEra ;
-  a skos:Concept ;
+  a time:ProperInterval ;
   dct:isReplacedBy isc:Miaolingian ;
   rdfs:label "Cambrian Series 3 Epoch"@en ;
+  owl:deprecated true ;
   skos:prefLabel "Cambrian Series 3"@en ;
   skos:prefLabel "Cambrien-Séries 3"@fr ;
   skos:prefLabel "Cambrium, Zone 3"@nl ;
@@ -6217,10 +6071,10 @@ isc:CambrianStage4
   time:intervalMetBy isc:CambrianStage3 ;
 .
 isc:CambrianStage5
-  a gts:GeochronologicEra ;
-  a skos:Concept ;
+  a time:ProperInterval ;
   dct:isReplacedBy isc:Wuliuan ;
   rdfs:label "Cambrian Stage 5 Age"@en ;
+  owl:deprecated true ;
   skos:prefLabel "Cambrian-Stage 5"@en ;
   skos:prefLabel "Cambrien-Etage 5"@fr ;
   skos:prefLabel "Cambrium, Zone 5"@nl ;
@@ -7580,7 +7434,6 @@ isc:FormationOfEarth
   time:inTemporalPosition isc:FormationOfEarthTime ;
 .
 isc:FormationOfEarthTime
-  a skos:Concept ;
   a time:TimePosition ;
   gts:positionalUncertainty isc:FormationOfEarthUncertainty ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
@@ -8388,9 +8241,9 @@ isc:Induan
   foaf:primaryTopicOf <http://sweetontology.net/stateTimeGeologic/Induan> ;
 .
 isc:Ionian
-  a gts:GeochronologicEra ;
-  a skos:Concept ;
+  a time:ProperInterval ;
   dct:isReplacedBy isc:MiddlePleistocene ;
+  owl:deprecated true ;
   skos:changeNote "Superseded by \"Middle Pleistocene\""@en ;
   skos:prefLabel "Ion"@cs ;
   skos:prefLabel "Ion"@fi ;
@@ -9885,7 +9738,6 @@ isc:Miaolingian
   time:intervalStartedBy isc:Wuliuan ;
 .
 isc:MiaolingianTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "509"^^xsd:decimal ;
@@ -11947,7 +11799,6 @@ isc:Present
   time:inXSDDate "1950-01-01"^^xsd:date ;
 .
 isc:PresentTime
-  a skos:Concept ;
   a time:TimePosition ;
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition 0.0 ;
@@ -14428,7 +14279,7 @@ ts:gts2020
   dct:creator "Simon J D COX, CSIRO"@en ;
   dct:description "RDF representation of the Geologic Time Scale, as defined in the International Chronostratigraphic Chart (ICC) from the International Commission on Stratigraphy (ICS). The ICC embraces both chronostratigraphic (time-rock) units and their equivalent geochronologic (geologic-time) units, the former being related to the ‘Stratigraphic points’ referred to below, and the latter (geochronologic units) being employed in this RDF representation."@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-  dct:modified "2020-08-20"^^xsd:date ;
+  dct:modified "2020-08-26"^^xsd:date ;
   dct:replaces ts:gts2018 ;
   dct:rights "Original version Copyright © 2020 International Commission on Stratigraphy"@en ;
   dct:rights "RDF version Copyright © 2020 CSIRO, IUGS"@en ;
@@ -14600,8 +14451,13 @@ Also: changed samfl:shape --> geo:hasGeometry"""@en ;
   skos:changeNote "2020-01-13 - fix errors in Permian/Carboniferous - see https://github.com/GeoscienceAustralia/geosciml.org/issues/3#issuecomment-560054965"@en ;
   skos:changeNote "2020-01-13 - updated to 2019 version see http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014-2015-2016-2017-2018-2019.txt"@en ;
   skos:changeNote "2020-06-05 - updated to 2020 version see https://stratigraphy.org/icschart/ChangeLog2012-2013-2014-2015-2016-2017-2018-2019-2020.txt"@en ;
-  skos:changeNote "2020-08-20 - removed concepts added to spoof the RVA preview; added rdf:type skos:Concept classification to all individuals whose type is a sub-class of skos:Concept"@en ;
-  skos:changeNote "Added informal definition of chronometric temporal reference system - Millions of years, counting backwards from 1950"@en ;
+  skos:changeNote """2020-08-26 - 
+1. removed concepts added to spoof the RVA preview; 
+2. added rdf:type skos:Concept classification to all individuals whose type is a sub-class of skos:Concept 
+3. remove time:TimePosition subClassOf skos:Concept . and axioms following from that 
+4. mark concepts that are replaced owl:deprecated true 
+5. remove most object-properties and rdf:type properties from deprecated resources"""@en ;
+  skos:changeNote "Added informal definition of chronometric temporal reference system - Millions of years, counting backwards from 1950 {@en}." ;
   skos:changeNote "See <http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014-2015-2016-2017-2018.txt> for changes from prior versions"@en ;
   skos:editorialNote """<p>This dataset is being <a href=\"https://github.com/CGI-IUGS/timescale-data/\">maintained in GitHub</a></p>
 
@@ -14610,7 +14466,4 @@ Also: changed samfl:shape --> geo:hasGeometry"""@en ;
   skos:hasTopConcept isc:Precambrian ;
   skos:prefLabel "Geological Timescale (2020)"@en ;
   sdo:codeRepository <https://github.com/CGI-IUGS/timescale-data.git> ;
-.
-time:TimePosition
-  rdfs:subClassOf skos:Concept ;
 .
