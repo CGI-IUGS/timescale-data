@@ -12833,6 +12833,7 @@ isc:Stratotypes
   skos:member isc:BaseCenozoicSP ;
   skos:member isc:BaseChanghsingianSP ;
   skos:member isc:BaseChattianSP ;
+  skos:member isc:BaseChibanianSP ;
   skos:member isc:BaseConiacianSP ;
   skos:member isc:BaseCretaceousSP ;
   skos:member isc:BaseCryogenianSP ;
@@ -12900,6 +12901,7 @@ isc:Stratotypes
   skos:member isc:BaseSerravallianSP ;
   skos:member isc:BaseSilurianSP ;
   skos:member isc:BaseSinemurianSP ;
+  skos:member isc:BaseTarentianSP ;
   skos:member isc:BaseTelychianSP ;
   skos:member isc:BaseThanetianSP ;
   skos:member isc:BaseTithonianSP ;
@@ -14243,27 +14245,6 @@ isc:Zanclean
 .
 gts:StratigraphicPoint
   rdfs:subClassOf skos:Concept ;
-.
-rank:Age
-  a skos:Concept ;
-.
-rank:Eon
-  a skos:Concept ;
-.
-rank:Epoch
-  a skos:Concept ;
-.
-rank:Era
-  a skos:Concept ;
-.
-rank:Period
-  a skos:Concept ;
-.
-rank:Sub-Period
-  a skos:Concept ;
-.
-rank:Super-Eon
-  a skos:Concept ;
 .
 ts:gts2020
   a void:Dataset ;
