@@ -157,7 +157,7 @@ isc:Aeronian
 .
 isc:Ages
   a xkos:ClassificationLevel ;
-  a skos:Collection ;
+  a skos:OrderedCollection ;
   xkos:depth "7"^^xsd:positiveInteger ;
   rdfs:label "GeochronologicEras of rank \"Age\""@en ;
   skos:member isc:Aalenian ;
@@ -187,6 +187,7 @@ isc:Ages
   skos:member isc:Cenomanian ;
   skos:member isc:Changhsingian ;
   skos:member isc:Chattian ;
+  skos:member isc:Chibanian ;
   skos:member isc:Coniacian ;
   skos:member isc:Danian ;
   skos:member isc:Dapingian ;
@@ -222,7 +223,6 @@ isc:Ages
   skos:member isc:Maastrichtian ;
   skos:member isc:Meghalayan ;
   skos:member isc:Messinian ;
-  skos:member isc:MiddlePleistocene ;
   skos:member isc:Moscovian ;
   skos:member isc:Norian ;
   skos:member isc:Northgrippian ;
@@ -233,6 +233,7 @@ isc:Ages
   skos:member isc:Pliensbachian ;
   skos:member isc:Pragian ;
   skos:member isc:Priabonian ;
+  skos:member isc:Pridoli ;
   skos:member isc:Rhaetian ;
   skos:member isc:Rhuddanian ;
   skos:member isc:Roadian ;
@@ -261,6 +262,110 @@ isc:Ages
   skos:member isc:Wuliuan ;
   skos:member isc:Ypresian ;
   skos:member isc:Zanclean ;
+  skos:memberList (
+      isc:Fortunian
+      isc:CambrianStage2
+      isc:CambrianStage3
+      isc:CambrianStage4
+      isc:Wuliuan
+      isc:Drumian
+      isc:Guzhangian
+      isc:Paibian
+      isc:Jiangshanian
+      isc:CambrianStage10
+      isc:Tremadocian
+      isc:Floian
+      isc:Dapingian
+      isc:Darriwilian
+      isc:Sandbian
+      isc:Katian
+      isc:Hirnantian
+      isc:Rhuddanian
+      isc:Aeronian
+      isc:Telychian
+      isc:Sheinwoodian
+      isc:Homerian
+      isc:Gorstian
+      isc:Ludfordian
+      isc:Pridoli
+      isc:Lochkovian
+      isc:Pragian
+      isc:Emsian
+      isc:Eifelian
+      isc:Givetian
+      isc:Frasnian
+      isc:Famennian
+      isc:Tournaisian
+      isc:Visean
+      isc:Serpukhovian
+      isc:Bashkirian
+      isc:Moscovian
+      isc:Kasimovian
+      isc:Gzhelian
+      isc:Asselian
+      isc:Sakmarian
+      isc:Artinskian
+      isc:Kungurian
+      isc:Roadian
+      isc:Wordian
+      isc:Capitanian
+      isc:Wuchiapingian
+      isc:Changhsingian
+      isc:Induan
+      isc:Olenekian
+      isc:Anisian
+      isc:Ladinian
+      isc:Carnian
+      isc:Norian
+      isc:Rhaetian
+      isc:Hettangian
+      isc:Sinemurian
+      isc:Pliensbachian
+      isc:Toarcian
+      isc:Aalenian
+      isc:Bajocian
+      isc:Bathonian
+      isc:Callovian
+      isc:Oxfordian
+      isc:Kimmeridgian
+      isc:Tithonian
+      isc:Berriasian
+      isc:Valanginian
+      isc:Hauterivian
+      isc:Barremian
+      isc:Aptian
+      isc:Albian
+      isc:Cenomanian
+      isc:Turonian
+      isc:Coniacian
+      isc:Santonian
+      isc:Campanian
+      isc:Maastrichtian
+      isc:Danian
+      isc:Selandian
+      isc:Thanetian
+      isc:Ypresian
+      isc:Lutetian
+      isc:Bartonian
+      isc:Priabonian
+      isc:Rupelian
+      isc:Chattian
+      isc:Aquitanian
+      isc:Burdigalian
+      isc:Langhian
+      isc:Serravallian
+      isc:Tortonian
+      isc:Messinian
+      isc:Zanclean
+      isc:Piacenzian
+      isc:Gelasian
+      isc:Calabrian
+      isc:Chibanian
+      isc:UpperPleistocene
+      isc:Greenlandian
+      isc:Northgrippian
+      isc:Meghalayan
+    ) ;
 .
 isc:Albian
   a gts:Age ;
@@ -7262,17 +7367,23 @@ isc:Eocene
 .
 isc:Eons
   a xkos:ClassificationLevel ;
-  a skos:Collection ;
+  a skos:OrderedCollection ;
   xkos:depth "3"^^xsd:positiveInteger ;
   rdfs:label "GeochronologicEras of rank \"Eon\""@en ;
   skos:member isc:Archean ;
   skos:member isc:Hadean ;
   skos:member isc:Phanerozoic ;
   skos:member isc:Proterozoic ;
+  skos:memberList (
+      isc:Hadean
+      isc:Archean
+      isc:Proterozoic
+      isc:Phanerozoic
+    ) ;
 .
 isc:Epochs
   a xkos:ClassificationLevel ;
-  a skos:Collection ;
+  a skos:OrderedCollection ;
   xkos:depth "6"^^xsd:positiveInteger ;
   rdfs:label "GeochronologicEras of rank \"Epoch\""@en ;
   skos:member isc:CambrianSeries2 ;
@@ -7313,10 +7424,50 @@ isc:Epochs
   skos:member isc:UpperPennsylvanian ;
   skos:member isc:UpperTriassic ;
   skos:member isc:Wenlock ;
+  skos:memberList (
+      isc:Terreneuvian
+      isc:CambrianSeries2
+      isc:Miaolingian
+      isc:Furongian
+      isc:LowerOrdovician
+      isc:MiddleOrdovician
+      isc:UpperOrdovician
+      isc:Llandovery
+      isc:Wenlock
+      isc:Ludlow
+      isc:Pridoli
+      isc:LowerDevonian
+      isc:MiddleDevonian
+      isc:UpperDevonian
+      isc:LowerMississippian
+      isc:MiddleMississippian
+      isc:UpperMississippian
+      isc:LowerPennsylvanian
+      isc:MiddlePennsylvanian
+      isc:UpperPennsylvanian
+      isc:Cisuralian
+      isc:Guadalupian
+      isc:Lopingian
+      isc:LowerTriassic
+      isc:MiddleTriassic
+      isc:UpperTriassic
+      isc:LowerJurassic
+      isc:MiddleJurassic
+      isc:UpperJurassic
+      isc:LowerCretaceous
+      isc:UpperCretaceous
+      isc:Paleocene
+      isc:Eocene
+      isc:Oligocene
+      isc:Miocene
+      isc:Pliocene
+      isc:Pleistocene
+      isc:Holocene
+    ) ;
 .
 isc:Eras
   a xkos:ClassificationLevel ;
-  a skos:Collection ;
+  a skos:OrderedCollection ;
   xkos:depth "4"^^xsd:positiveInteger ;
   rdfs:label "GeochronologicEras of rank \"Era\""@en ;
   skos:member isc:Cenozoic ;
@@ -7329,6 +7480,18 @@ isc:Eras
   skos:member isc:Paleoarchean ;
   skos:member isc:Paleoproterozoic ;
   skos:member isc:Paleozoic ;
+  skos:memberList (
+      isc:Eoarchean
+      isc:Paleoarchean
+      isc:Mesoarchean
+      isc:Neoarchean
+      isc:Paleoproterozoic
+      isc:Mesoproterozoic
+      isc:Neoproterozoic
+      isc:Paleozoic
+      isc:Mesozoic
+      isc:Cenozoic
+    ) ;
 .
 isc:Famennian
   a gts:Age ;
@@ -11187,7 +11350,8 @@ isc:Pennsylvanian
   foaf:primaryTopicOf <http://sweetontology.net/stateTimeGeologic/Pennsylvanian> ;
 .
 isc:Periods
-  a skos:Collection ;
+  a xkos:ClassificationLevel ;
+  a skos:OrderedCollection ;
   xkos:depth "5"^^xsd:positiveInteger ;
   rdfs:label "GeochronologicEras of rank \"Period\""@en ;
   skos:member isc:Calymmian ;
@@ -11212,6 +11376,30 @@ isc:Periods
   skos:member isc:Stenian ;
   skos:member isc:Tonian ;
   skos:member isc:Triassic ;
+  skos:memberList (
+      isc:Siderian
+      isc:Rhyacian
+      isc:Orosirian
+      isc:Statherian
+      isc:Calymmian
+      isc:Ectasian
+      isc:Stenian
+      isc:Tonian
+      isc:Cryogenian
+      isc:Ediacaran
+      isc:Cambrian
+      isc:Ordovician
+      isc:Silurian
+      isc:Devonian
+      isc:Carboniferous
+      isc:Permian
+      isc:Triassic
+      isc:Jurassic
+      isc:Cretaceous
+      isc:Paleogene
+      isc:Neogene
+      isc:Quaternary
+    ) ;
 .
 isc:Permian
   a gts:GeochronologicEra ;
@@ -11850,10 +12038,12 @@ isc:Priabonian
   foaf:primaryTopicOf <http://sweetontology.net/stateTimeGeologic/Priabonian> ;
 .
 isc:Pridoli
+  a gts:Age ;
   a gts:Epoch ;
   a gts:GeochronologicEra ;
   a skos:Concept ;
   a time:ProperInterval ;
+  gts:rank rank:Age ;
   gts:rank rank:Epoch ;
   rdfs:comment "older bound -423 +|-2.3 Ma"@en ;
   rdfs:comment "younger bound -419.2 +|-3.2 Ma"@en ;
@@ -14260,7 +14450,7 @@ ts:gts2020
   dct:creator "Simon J D COX, CSIRO"@en ;
   dct:description "RDF representation of the Geologic Time Scale, as defined in the International Chronostratigraphic Chart (ICC) from the International Commission on Stratigraphy (ICS). The ICC embraces both chronostratigraphic (time-rock) units and their equivalent geochronologic (geologic-time) units, the former being related to the ‘Stratigraphic points’ referred to below, and the latter (geochronologic units) being employed in this RDF representation."@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-  dct:modified "2020-08-26"^^xsd:date ;
+  dct:modified "2020-08-28"^^xsd:date ;
   dct:replaces ts:gts2018 ;
   dct:rights "Original version Copyright © 2020 International Commission on Stratigraphy"@en ;
   dct:rights "RDF version Copyright © 2020 CSIRO, IUGS"@en ;
