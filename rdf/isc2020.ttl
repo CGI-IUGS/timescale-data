@@ -187,7 +187,6 @@ isc:Ages
   skos:member isc:Cenomanian ;
   skos:member isc:Changhsingian ;
   skos:member isc:Chattian ;
-  skos:member isc:Chibanian ;
   skos:member isc:Coniacian ;
   skos:member isc:Danian ;
   skos:member isc:Dapingian ;
@@ -223,6 +222,7 @@ isc:Ages
   skos:member isc:Maastrichtian ;
   skos:member isc:Meghalayan ;
   skos:member isc:Messinian ;
+  skos:member isc:MiddlePleistocene ;
   skos:member isc:Moscovian ;
   skos:member isc:Norian ;
   skos:member isc:Northgrippian ;
@@ -360,7 +360,7 @@ isc:Ages
       isc:Piacenzian
       isc:Gelasian
       isc:Calabrian
-      isc:Chibanian
+      isc:MiddlePleistocene
       isc:UpperPleistocene
       isc:Greenlandian
       isc:Northgrippian
