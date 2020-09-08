@@ -842,6 +842,7 @@ isc:BaseAeronian
   a time:Instant ;
   gts:stratotype isc:BaseAeronianSP ;
   rdfs:label "Base of Aeronian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Aeronian"@en ;
   time:inTemporalPosition isc:BaseAeronianTime ;
 .
@@ -888,6 +889,7 @@ isc:BaseAlbian
   a time:Instant ;
   gts:stratotype isc:BaseAlbianSP ;
   rdfs:label "Base of Albian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Albian"@en ;
   time:inTemporalPosition isc:BaseAlbianTime ;
 .
@@ -929,6 +931,7 @@ isc:BaseAptian
   a time:Instant ;
   gts:stratotype isc:BaseAptianSP ;
   rdfs:label "Base of Aptian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Aptian"@en ;
   time:inTemporalPosition isc:BaseAptianTime ;
 .
@@ -977,6 +980,7 @@ isc:BaseArtinskian
   a time:Instant ;
   gts:stratotype isc:BaseArtinskianSP ;
   rdfs:label "Base of Artinskian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Artinskian"@en ;
   time:inTemporalPosition isc:BaseArtinskianTime ;
 .
@@ -1009,6 +1013,7 @@ isc:BaseBajocian
   a time:Instant ;
   gts:stratotype isc:BaseBajocianSP ;
   rdfs:label "Base of Bajocian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Bajocian"@en ;
   time:inTemporalPosition isc:BaseBajocianTime ;
 .
@@ -1053,6 +1058,7 @@ isc:BaseBarremian
   a time:Instant ;
   gts:stratotype isc:BaseBarremianSP ;
   rdfs:label "Base of Barremian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Barremian"@en ;
   time:inTemporalPosition isc:BaseBarremianTime ;
 .
@@ -1079,6 +1085,7 @@ isc:BaseBartonian
   a time:Instant ;
   gts:stratotype isc:BaseBartonianSP ;
   rdfs:label "Base of Bartonian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Bartonian"@en ;
   time:inTemporalPosition isc:BaseBartonianTime ;
 .
@@ -1106,6 +1113,7 @@ isc:BaseBathonian
   a time:Instant ;
   gts:stratotype isc:BaseBathonianSP ;
   rdfs:label "Base of Bathonian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Bathonian"@en ;
   time:inTemporalPosition isc:BaseBathonianTime ;
 .
@@ -1150,6 +1158,7 @@ isc:BaseBurdigalian
   a time:Instant ;
   gts:stratotype isc:BaseBurdigalianSP ;
   rdfs:label "Base of Burdigalian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Burdigalian"@en ;
   time:inTemporalPosition isc:BaseBurdigalianTime ;
 .
@@ -1176,6 +1185,7 @@ isc:BaseCalabrian
   a time:Instant ;
   gts:stratotype isc:BaseCalabrianSP ;
   rdfs:label "Base of Calabrian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Calabrian"@en ;
   time:inTemporalPosition isc:BaseCalabrianTime ;
 .
@@ -1217,6 +1227,7 @@ isc:BaseCallovian
   a time:Instant ;
   gts:stratotype isc:BaseCallovianSP ;
   rdfs:label "Base of Callovian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Callovian"@en ;
   time:inTemporalPosition isc:BaseCallovianTime ;
 .
@@ -1251,6 +1262,7 @@ isc:BaseCambrianSeries2
   gts:stratotype isc:BaseCambrianSeries2SP ;
   rdfs:label "Base of Cambrian Series 2"@en ;
   skos:altLabel "Base of Cambrian Stage 3"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Cambrian Series 2"@en ;
   time:inTemporalPosition isc:BaseCambrianSeries2Time ;
 .
@@ -1286,6 +1298,7 @@ isc:BaseCambrianStage10
   a time:Instant ;
   gts:stratotype isc:BaseCambrianStage10SP ;
   rdfs:label "Base of Cambrian Stage 10"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Cambrian Stage 10"@en ;
   time:inTemporalPosition isc:BaseCambrianStage10Time ;
 .
@@ -1313,6 +1326,7 @@ isc:BaseCambrianStage2
   a time:Instant ;
   gts:stratotype isc:BaseCambrianStage2SP ;
   rdfs:label "Base of Cambrian Stage 2"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Cambrian Stage 2"@en ;
   time:inTemporalPosition isc:BaseCambrianStage2Time ;
 .
@@ -1338,6 +1352,7 @@ isc:BaseCambrianStage4
   a time:Instant ;
   gts:stratotype isc:BaseCambrianStage4SP ;
   rdfs:label "Base of Cambrian Stage 4"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Cambrian Stage 4"@en ;
   time:inTemporalPosition isc:BaseCambrianStage4Time ;
 .
@@ -1363,6 +1378,7 @@ isc:BaseCampanian
   a time:Instant ;
   gts:stratotype isc:BaseCampanianSP ;
   rdfs:label "Base of Campanian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Campanian"@en ;
   time:inTemporalPosition isc:BaseCampanianTime ;
 .
@@ -1395,6 +1411,7 @@ isc:BaseCapitanian
   a time:Instant ;
   gts:stratotype isc:BaseCapitanianSP ;
   rdfs:label "Base of Capitanian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Capitanian"@en ;
   time:inTemporalPosition isc:BaseCapitanianTime ;
 .
@@ -1440,6 +1457,7 @@ isc:BaseCarboniferous
   skos:altLabel "Base of Early Mississippian"@en ;
   skos:altLabel "Base of Mississippian"@en ;
   skos:altLabel "Base of Tournaisian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Carboniferous"@en ;
   time:inTemporalPosition isc:BaseCarboniferousTime ;
 .
@@ -1491,6 +1509,7 @@ isc:BaseCenozoic
   skos:altLabel "Base of Danian"@en ;
   skos:altLabel "Base of Paleocene"@en ;
   skos:altLabel "Base of Paleogene"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Cenozoic"@en ;
   time:inTemporalPosition isc:BaseCenozoicTime ;
 .
@@ -1532,6 +1551,7 @@ isc:BaseChanghsingian
   a time:Instant ;
   gts:stratotype isc:BaseChanghsingianSP ;
   rdfs:label "Base of Changhsingian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Changhsingian"@en ;
   time:inTemporalPosition isc:BaseChanghsingianTime ;
 .
@@ -1575,6 +1595,7 @@ isc:BaseChattian
   a time:Instant ;
   gts:stratotype isc:BaseChattianSP ;
   rdfs:label "Base of Chattian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Chattian"@en ;
   time:inTemporalPosition isc:BaseChattianTime ;
 .
@@ -1624,6 +1645,7 @@ isc:BaseConiacian
   a time:Instant ;
   gts:stratotype isc:BaseConiacianSP ;
   rdfs:label "Base of Coniacian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Coniacian"@en ;
   time:inTemporalPosition isc:BaseConiacianTime ;
 .
@@ -1657,6 +1679,7 @@ isc:BaseCretaceous
   rdfs:label "Base of Cretaceous"@en ;
   skos:altLabel "Base of Berriasian"@en ;
   skos:altLabel "Base of Lower Cretaceous"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Cretaceous"@en ;
   time:inTemporalPosition isc:BaseCretaceousTime ;
 .
@@ -1712,6 +1735,7 @@ isc:BaseDarriwilian
   a time:Instant ;
   gts:stratotype isc:BaseDarriwilianSP ;
   rdfs:label "Base of Darriwillian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Darriwilian"@en ;
   time:inTemporalPosition isc:BaseDarriwilianTime ;
 .
@@ -1759,6 +1783,7 @@ isc:BaseDevonian
   rdfs:label "Base of Devonian"@en ;
   skos:altLabel "Base of Lochkovian"@en ;
   skos:altLabel "Base of Lower Devonian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Devonian"@en ;
   time:inTemporalPosition isc:BaseDevonianTime ;
 .
@@ -1804,6 +1829,7 @@ isc:BaseDrumian
   a time:Instant ;
   gts:stratotype isc:BaseDrumianSP ;
   rdfs:label "Base of Drumian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Drumian"@en ;
   time:inTemporalPosition isc:BaseDrumianTime ;
 .
@@ -1859,6 +1885,7 @@ isc:BaseEdiacaran
   a time:Instant ;
   gts:stratotype isc:BaseEdiacaranSP ;
   rdfs:label "Base of Ediacaran"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Ediacaran"@en ;
   time:inTemporalPosition isc:BaseEdiacaranTime ;
 .
@@ -1898,6 +1925,7 @@ isc:BaseEmsian
   a time:Instant ;
   gts:stratotype isc:BaseEmsianSP ;
   rdfs:label "Base of Emsian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Emsian"@en ;
   time:inTemporalPosition isc:BaseEmsianTime ;
 .
@@ -1944,6 +1972,7 @@ isc:BaseEocene
   gts:stratotype isc:BaseEoceneSP ;
   rdfs:label "Base of Eocene"@en ;
   skos:altLabel "Base of Ypresian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Eocene"@en ;
   time:inTemporalPosition isc:BaseEoceneTime ;
 .
@@ -1984,6 +2013,7 @@ isc:BaseFamennian
   a time:Instant ;
   gts:stratotype isc:BaseFamennianSP ;
   rdfs:label "Base of Famennian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Famennian"@en ;
   time:inTemporalPosition isc:BaseFamennianTime ;
 .
@@ -2029,6 +2059,7 @@ isc:BaseFloian
   a time:Instant ;
   gts:stratotype isc:BaseFloianSP ;
   rdfs:label "Base of Floian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Floian"@en ;
   time:inTemporalPosition isc:BaseFloianTime ;
 .
@@ -2074,6 +2105,7 @@ isc:BaseFurongian
   gts:stratotype isc:BaseFurongianSP ;
   rdfs:label "Base of Furongian"@en ;
   skos:altLabel "Base of Paibian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Furongian"@en ;
   time:inTemporalPosition isc:BaseFurongianTime ;
 .
@@ -2113,6 +2145,7 @@ isc:BaseGivetian
   a time:Instant ;
   gts:stratotype isc:BaseGivetianSP ;
   rdfs:label "Base of Givetian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Givetian"@en ;
   time:inTemporalPosition isc:BaseGivetianTime ;
 .
@@ -2159,6 +2192,7 @@ isc:BaseGuadalupian
   gts:stratotype isc:BaseGuadalupianSP ;
   rdfs:label "Base of Guadalupian"@en ;
   skos:altLabel "Base of Roadian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Guadalupian"@en ;
   time:inTemporalPosition isc:BaseGuadalupianTime ;
 .
@@ -2202,6 +2236,7 @@ isc:BaseGuzhangian
   a time:Instant ;
   gts:stratotype isc:BaseGuzhangianSP ;
   rdfs:label "Base of Guzhangian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Guzhangian"@en ;
   time:inTemporalPosition isc:BaseGuzhangianTime ;
 .
@@ -2240,6 +2275,7 @@ isc:BaseGzhelian
   a time:Instant ;
   gts:stratotype isc:BaseGzhelianSP ;
   rdfs:label "Base of Gzhelian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Gzhelian"@en ;
   time:inTemporalPosition isc:BaseGzhelianTime ;
 .
@@ -2272,6 +2308,7 @@ isc:BaseHauterivian
   a time:Instant ;
   gts:stratotype isc:BaseHauterivianSP ;
   rdfs:label "Base of Hauterivian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Hauterivian"@en ;
   time:inTemporalPosition isc:BaseHauterivianTime ;
 .
@@ -2302,6 +2339,7 @@ isc:BaseHirnantian
   a time:Instant ;
   gts:stratotype isc:BaseHirnantianSP ;
   rdfs:label "Base of Hirnantian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Hirnantian"@en ;
   time:inTemporalPosition isc:BaseHirnantianTime ;
 .
@@ -2347,6 +2385,7 @@ isc:BaseHolocene
   a time:Instant ;
   gts:stratotype isc:BaseHoloceneSP ;
   rdfs:label "Base of Holocene"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Holocene"@en ;
   time:inTemporalPosition isc:BaseHoloceneTime ;
   time:inTemporalPosition isc:BaseHoloceneTimeMA ;
@@ -2396,6 +2435,7 @@ isc:BaseHomerian
   a time:Instant ;
   gts:stratotype isc:BaseHomerianSP ;
   rdfs:label "Base of Homerian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Homerian"@en ;
   time:inTemporalPosition isc:BaseHomerianTime ;
 .
@@ -2443,6 +2483,7 @@ isc:BaseJiangshanian
   a time:Instant ;
   gts:stratotype isc:BaseJiangshanianSP ;
   rdfs:label "Base of Jiangshanian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Jiangshanian"@en ;
   time:inTemporalPosition isc:BaseJiangshanianTime ;
 .
@@ -2484,6 +2525,7 @@ isc:BaseJurassic
   rdfs:label "Base of Jurassic"@en ;
   skos:altLabel "Base of Hettangian"@en ;
   skos:altLabel "Base of Lower Jurassic"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Jurassic"@en ;
   time:inTemporalPosition isc:BaseJurassicTime ;
 .
@@ -2530,6 +2572,7 @@ isc:BaseKatian
   a time:Instant ;
   gts:stratotype isc:BaseKatianSP ;
   rdfs:label "Base of Katian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Katian"@en ;
   time:inTemporalPosition isc:BaseKatianTime ;
 .
@@ -2575,6 +2618,7 @@ isc:BaseKimmeridgian
   a time:Instant ;
   gts:stratotype isc:BaseKimmeridgianSP ;
   rdfs:label "Base of Kimmeridgian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Kimmeridgian"@en ;
   time:inTemporalPosition isc:BaseKimmeridgianTime ;
 .
@@ -2615,6 +2659,7 @@ isc:BaseKungurian
   a time:Instant ;
   gts:stratotype isc:BaseKungurianSP ;
   rdfs:label "Base of Kungurian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Kungurian"@en ;
   time:inTemporalPosition isc:BaseKungurianTime ;
 .
@@ -2648,6 +2693,7 @@ isc:BaseLadinian
   a time:Instant ;
   gts:stratotype isc:BaseLadinianSP ;
   rdfs:label "Base of Ladinian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Ladinian"@en ;
   time:inTemporalPosition isc:BaseLadinianTime ;
 .
@@ -2686,6 +2732,7 @@ isc:BaseLanghian
   a time:Instant ;
   gts:stratotype isc:BaseLanghianSP ;
   rdfs:label "Base of Langhian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Langhian"@en ;
   time:inTemporalPosition isc:BaseLanghianTime ;
 .
@@ -2715,6 +2762,7 @@ isc:BaseLateCretaceous
   gts:stratotype isc:BaseUpperCretaceousSP ;
   rdfs:label "Base of Late Cretaceous"@en ;
   skos:altLabel "Base of Cenomanian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Late Cretaceous"@en ;
   time:inTemporalPosition isc:BaseLateCretaceousTime ;
 .
@@ -2739,6 +2787,7 @@ isc:BaseLateDevonian
   gts:stratotype isc:BaseUpperDevonianSP ;
   rdfs:label "Base of Late Devonian"@en ;
   skos:altLabel "Base of Frasnian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Late Devonian"@en ;
   time:inTemporalPosition isc:BaseLateDevonianTime ;
 .
@@ -2769,6 +2818,7 @@ isc:BaseLateJurassic
   gts:stratotype isc:BaseUpperJurassicSP ;
   rdfs:label "Base of Late Jurassic"@en ;
   skos:altLabel "Base of Oxfordian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Late Jurassic"@en ;
   time:inTemporalPosition isc:BaseLateJurassicTime ;
 .
@@ -2793,6 +2843,7 @@ isc:BaseLateMississippian
   gts:stratotype isc:BaseUpperMississippianSP ;
   rdfs:label "Base of Late Mississippian"@en ;
   skos:altLabel "Base of Serpukhovian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Late Mississippian"@en ;
   time:inTemporalPosition isc:BaseLateMississippianTime ;
 .
@@ -2817,6 +2868,7 @@ isc:BaseLateOrdovician
   gts:stratotype isc:BaseUpperOrdovicianSP ;
   rdfs:label "Base of Late Ordovician"@en ;
   skos:altLabel "Base of Sandbian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Late Ordovician"@en ;
   time:inTemporalPosition isc:BaseLateOrdovicianTime ;
 .
@@ -2847,6 +2899,7 @@ isc:BaseLatePennsylvanian
   gts:stratotype isc:BaseUpperPennsylvanianSP ;
   rdfs:label "Base of Late Pennsylvanian"@en ;
   skos:altLabel "Base of Kasimovian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Late Pennsylvanian"@en ;
   time:inTemporalPosition isc:BaseLatePennsylvanianTime ;
 .
@@ -2871,6 +2924,7 @@ isc:BaseLatePleistocene
   gts:stratotype isc:BaseTarentianSP ;
   rdfs:comment "The age sought is near the mid-point of Termination II in the marine isotope stratigraphy." ;
   rdfs:label "Base of Late Pleistocene"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Late Pleistocene"@en ;
   time:inTemporalPosition isc:BaseLatePleistoceneTime ;
   time:inTemporalPosition isc:BaseLatePleistoceneTimeMA ;
@@ -2900,6 +2954,7 @@ isc:BaseLateTriassic
   gts:stratotype isc:BaseUpperTriassicSP ;
   rdfs:label "Base of Late Triassic"@en ;
   skos:altLabel "Base of Carnian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Late Triassic"@en ;
   time:inTemporalPosition isc:BaseLateTriassicTime ;
 .
@@ -2923,6 +2978,7 @@ isc:BaseLopingian
   gts:stratotype isc:BaseLopingianSP ;
   rdfs:label "Base of Lopingian"@en ;
   skos:altLabel "Base of Wuchiapingian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Lopingian"@en ;
   time:inTemporalPosition isc:BaseLopingianTime ;
 .
@@ -2968,6 +3024,7 @@ isc:BaseLudfordian
   a time:Instant ;
   gts:stratotype isc:BaseLudfordianSP ;
   rdfs:label "Base of Ludfordian Stage"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Ludfordian Stage"@en ;
   time:inTemporalPosition isc:BaseLudfordianTime ;
 .
@@ -3016,6 +3073,7 @@ isc:BaseLudlow
   gts:stratotype isc:BaseLudlowSP ;
   rdfs:label "Base of Ludlow"@en ;
   skos:altLabel "Base of Gorstian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Ludlow"@en ;
   time:inTemporalPosition isc:BaseLudlowPosition ;
 .
@@ -3063,6 +3121,7 @@ isc:BaseLutetian
   a time:Instant ;
   gts:stratotype isc:BaseLutetianSP ;
   rdfs:label "Base of Lutetian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Lutetian"@en ;
   time:inTemporalPosition isc:BaseLutetianTime ;
 .
@@ -3101,6 +3160,7 @@ isc:BaseMaastrichtian
   a time:Instant ;
   gts:stratotype isc:BaseMaastrichtianSP ;
   rdfs:label "Base of Maastrichtian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Maastrichtian"@en ;
   time:inTemporalPosition isc:BaseMaastrichtianTime ;
 .
@@ -3146,6 +3206,7 @@ isc:BaseMeghalayan
   gts:stratotype isc:BaseMeghalayanAuxSP ;
   gts:stratotype isc:BaseMeghalayanSP ;
   rdfs:label "Base of Meghalayan"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Meghalayan"@en ;
   time:inTemporalPosition isc:BaseMeghalayanTime ;
   time:inTemporalPosition isc:BaseMeghalayanTimeMA ;
@@ -3239,6 +3300,7 @@ isc:BaseMesozoic
   skos:altLabel "Base of Induan"@en ;
   skos:altLabel "Base of Lower Triassic"@en ;
   skos:altLabel "Base of Triassic"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Mesozoic"@en ;
   time:inTemporalPosition isc:BaseMesozoicTime ;
 .
@@ -3287,6 +3349,7 @@ isc:BaseMessinian
   a time:Instant ;
   gts:stratotype isc:BaseMessinianSP ;
   rdfs:label "Base of Messinian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Messinian"@en ;
   time:inTemporalPosition isc:BaseMessinianTime ;
 .
@@ -3328,6 +3391,7 @@ isc:BaseMiaolingian
   gts:stratotype isc:BaseMiaolingianSP ;
   rdfs:label "Base of Miaolingian"@en ;
   skos:altLabel "Base of Cambrian Series 3"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Miaolingian"@en ;
   time:inTemporalPosition isc:MiaolingianTime ;
 .
@@ -3360,6 +3424,7 @@ isc:BaseMiddleDevonian
   gts:stratotype isc:BaseMiddleDevonianSP ;
   rdfs:label "Base of Middle Devonian"@en ;
   skos:altLabel "Base of Eifelian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Middle Devonian"@en ;
   time:inTemporalPosition isc:BaseMiddleDevonianTime ;
 .
@@ -3406,6 +3471,7 @@ isc:BaseMiddleJurassic
   gts:stratotype isc:BaseMiddleJurassicSP ;
   rdfs:label "Base of Middle Jurassic"@en ;
   skos:altLabel "Base of Aalenian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Middle Jurassic"@en ;
   time:inTemporalPosition isc:BaseMiddleJurassicTime ;
 .
@@ -3453,6 +3519,7 @@ isc:BaseMiddleMississippian
   rdfs:label "Base of Visean"@en ;
   owl:sameAs isc:BaseMiddleMississippian ;
   skos:altLabel "Base of Visean"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Middle Mississippian"@en ;
   time:inTemporalPosition isc:BaseMiddleMississippianTime ;
 .
@@ -3499,6 +3566,7 @@ isc:BaseMiddleOrdovician
   gts:stratotype isc:BaseMiddleOrdovicianSP ;
   rdfs:label "Base of Middle Ordovician"@en ;
   skos:altLabel "Base of Dapingian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Middle Ordovician"@en ;
   time:inTemporalPosition isc:BaseMiddleOrdovicianTime ;
 .
@@ -3546,6 +3614,7 @@ isc:BaseMiddlePennsylvanian
   a time:Instant ;
   rdfs:label "Base of Middle Pennsylvanian"@en ;
   skos:altLabel "Base of Moscovian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Middle Pennsylvanian"@en ;
   time:inTemporalPosition isc:BaseMiddlePennsylvanianTime ;
 .
@@ -3581,6 +3650,7 @@ isc:BaseMiddlePleistocene
   rdfs:label "Base of Chibanian"@en ;
   skos:altLabel "Base of Ionian"@en ;
   skos:altLabel "Base of Middle Pleistocene"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Chibanian"@en ;
   time:inTemporalPosition isc:BaseMiddlePleistoceneTime ;
 .
@@ -3598,6 +3668,7 @@ isc:BaseMiddleTriassic
   gts:stratotype isc:BaseMiddleTriassicSP ;
   rdfs:label "Base of Middle Triassic"@en ;
   skos:altLabel "Base of Anisian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Middle Triassic"@en ;
   time:inTemporalPosition isc:BaseMiddleTriassicTime ;
 .
@@ -3653,6 +3724,7 @@ isc:BaseNeogene
   rdfs:label "Base of Neogene"@en ;
   skos:altLabel "Base of Aquitanian"@en ;
   skos:altLabel "Base of Miocene"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Neogene"@en ;
   time:inTemporalPosition isc:BaseNeogeneTime ;
 .
@@ -3710,6 +3782,7 @@ isc:BaseNorian
   a time:Instant ;
   gts:stratotype isc:BaseNorianSP ;
   rdfs:label "Base of Norian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Norian"@en ;
   time:inTemporalPosition isc:BaseNorianTime ;
 .
@@ -3737,6 +3810,7 @@ isc:BaseNorthgrippian
   gts:stratotype isc:BaseNorthgrippianAuxSP ;
   gts:stratotype isc:BaseNorthgrippianSP ;
   rdfs:label "Base of Northgrippian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Northgrippian"@en ;
   time:inTemporalPosition isc:BaseNorthgrippianTime ;
   time:inTemporalPosition isc:BaseNorthgrippianTimeMA ;
@@ -3795,6 +3869,7 @@ isc:BaseOlenekian
   a time:Instant ;
   gts:stratotype isc:BaseOlenekianSP ;
   rdfs:label "Base of Olenekian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Olenekian"@en ;
   time:inTemporalPosition isc:BaseOlenekianTime ;
 .
@@ -3832,6 +3907,7 @@ isc:BaseOligocene
   gts:stratotype isc:BaseOligoceneSP ;
   rdfs:label "Base of Oligocene"@en ;
   skos:altLabel "Base of Rupelian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Oligocene"@en ;
   time:inTemporalPosition isc:BaseOligoceneTime ;
 .
@@ -3872,6 +3948,7 @@ isc:BaseOrdovician
   rdfs:label "Base of Ordovician"@en ;
   skos:altLabel "Base of Lower Ordovician"@en ;
   skos:altLabel "Base of Tremadocian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Ordovician"@en ;
   time:inTemporalPosition isc:BaseOrdovicianTime ;
 .
@@ -3952,6 +4029,7 @@ isc:BasePennsylvanian
   rdfs:label "Base of Pennsylvanian"@en ;
   skos:altLabel "Base of Bashkirian"@en ;
   skos:altLabel "Base of Lower Pennsylvanian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Pennsylvanian"@en ;
   time:inTemporalPosition isc:BasePennsylvanianTime ;
 .
@@ -4000,6 +4078,7 @@ isc:BasePermian
   rdfs:label "Base of Permian"@en ;
   skos:altLabel "Base of Asselian"@en ;
   skos:altLabel "Base of Cisuralian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Permian"@en ;
   time:inTemporalPosition isc:BasePermianTime ;
 .
@@ -4050,6 +4129,7 @@ isc:BasePhanerozoic
   skos:altLabel "Base of Fortunian"@en ;
   skos:altLabel "Base of Paleozoic"@en ;
   skos:altLabel "Base of Terreneuvian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Phanerozoic"@en ;
   time:inTemporalPosition isc:BasePhanerozoicTime ;
 .
@@ -4104,6 +4184,7 @@ isc:BasePiacenzian
   a time:Instant ;
   gts:stratotype isc:BasePiacenzianSP ;
   rdfs:label "Base of Piacenzian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Piacenzian"@en ;
   time:inTemporalPosition isc:BasePiacenzianTime ;
 .
@@ -4135,6 +4216,7 @@ isc:BasePliensbachian
   a time:Instant ;
   gts:stratotype isc:BasePliensbachianSP ;
   rdfs:label "Base of Pliensbachian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Pliensbachian"@en ;
   time:inTemporalPosition isc:BasePliensbachianTime ;
 .
@@ -4181,6 +4263,7 @@ isc:BasePliocene
   gts:stratotype isc:BasePlioceneSP ;
   rdfs:label "Base of Pliocene"@en ;
   skos:altLabel "Base of Zanclean"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Pliocene"@en ;
   time:inTemporalPosition isc:BasePlioceneTime ;
 .
@@ -4220,6 +4303,7 @@ isc:BasePragian
   a time:Instant ;
   gts:stratotype isc:BasePragianSP ;
   rdfs:label "Base of Pragian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Pragian"@en ;
   time:inTemporalPosition isc:BasePragianTime ;
 .
@@ -4264,6 +4348,7 @@ isc:BasePriabonian
   a time:Instant ;
   gts:stratotype isc:BasePriabonianSP ;
   rdfs:label "Base of Priabonian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Priabonian"@en ;
   time:inTemporalPosition isc:BasePriabonianTime ;
 .
@@ -4291,6 +4376,7 @@ isc:BasePridoli
   a time:Instant ;
   gts:stratotype isc:BasePridoliSP ;
   rdfs:label "Base of Pridoli"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Pridoli"@en ;
   time:inTemporalPosition isc:BasePridoliTime ;
 .
@@ -4356,6 +4442,7 @@ isc:BaseQuaternary
   rdfs:label "Base of Quaternary"@en ;
   skos:altLabel "Base of Gelasian"@en ;
   skos:altLabel "Base of Pleistocene"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Quaternary"@en ;
   time:inTemporalPosition isc:BaseQuaternaryTime ;
 .
@@ -4398,6 +4485,7 @@ isc:BaseRhaetian
   a time:Instant ;
   gts:stratotype isc:BaseRhaetianSP ;
   rdfs:label "Base of Rhaetian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Rhaetian"@en ;
   time:inTemporalPosition isc:BaseRhaetianTime ;
 .
@@ -4440,6 +4528,7 @@ isc:BaseSakmarian
   a time:Instant ;
   gts:stratotype isc:BaseSakmarianSP ;
   rdfs:label "Base of Sakmarian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Sakmarian"@en ;
   time:inTemporalPosition isc:BaseSakmarianTime ;
 .
@@ -4474,6 +4563,7 @@ isc:BaseSantonian
   a time:Instant ;
   gts:stratotype isc:BaseSantonianSP ;
   rdfs:label "Base of Santonian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Santonian"@en ;
   time:inTemporalPosition isc:BaseSantonianTime ;
 .
@@ -4518,6 +4608,7 @@ isc:BaseSelandian
   a time:Instant ;
   gts:stratotype isc:BaseSelandianSP ;
   rdfs:label "Base of Selandian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Selandian"@en ;
   time:inTemporalPosition isc:BaseSelandianTime ;
 .
@@ -4556,6 +4647,7 @@ isc:BaseSerravallian
   a time:Instant ;
   gts:stratotype isc:BaseSerravallianSP ;
   rdfs:label "Base of Serravallian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Serravallian"@en ;
   time:inTemporalPosition isc:BaseSerravallianTime ;
 .
@@ -4596,6 +4688,7 @@ isc:BaseSilurian
   rdfs:label "Base of Silurian"@en ;
   skos:altLabel "Base of Llandovery"@en ;
   skos:altLabel "Base of Rhuddanian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Silurian"@en ;
   time:inTemporalPosition isc:BaseSilurianTime ;
 .
@@ -4643,6 +4736,7 @@ isc:BaseSinemurian
   a time:Instant ;
   gts:stratotype isc:BaseSinemurianSP ;
   rdfs:label "Base of Sinemurian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Sinemurian"@en ;
   time:inTemporalPosition isc:BaseSinemurianTime ;
 .
@@ -4731,6 +4825,7 @@ isc:BaseTelychian
   a time:Instant ;
   gts:stratotype isc:BaseTelychianSP ;
   rdfs:label "Base of Telychian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Telychian"@en ;
   time:inTemporalPosition isc:BaseTelychianTime ;
 .
@@ -4777,6 +4872,7 @@ isc:BaseThanetian
   a time:Instant ;
   gts:stratotype isc:BaseThanetianSP ;
   rdfs:label "Base of Thanetian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Thanetian"@en ;
   time:inTemporalPosition isc:BaseThanetianTime ;
 .
@@ -4817,6 +4913,7 @@ isc:BaseTithonian
   a time:Instant ;
   gts:stratotype isc:BaseTithonianSP ;
   rdfs:label "Base of Tithonian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Tithonian"@en ;
   time:inTemporalPosition isc:BaseTithonianTime ;
 .
@@ -4849,6 +4946,7 @@ isc:BaseToarcian
   a time:Instant ;
   gts:stratotype isc:BaseToarcianSP ;
   rdfs:label "Base of Toarcian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Toarcian"@en ;
   time:inTemporalPosition isc:BaseToarcianTime ;
 .
@@ -4890,6 +4988,7 @@ isc:BaseTortonian
   a time:Instant ;
   gts:stratotype isc:BaseTortonianSP ;
   rdfs:label "Base of Tortonian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Tortonian"@en ;
   time:inTemporalPosition isc:BaseTortonianTime ;
 .
@@ -4928,6 +5027,7 @@ isc:BaseTuronian
   a time:Instant ;
   gts:stratotype isc:BaseTuronianSP ;
   rdfs:label "Base of Turonian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Turonian"@en ;
   time:inTemporalPosition isc:BaseTuronianTime ;
 .
@@ -5185,6 +5285,7 @@ isc:BaseValanginian
   a time:Instant ;
   gts:stratotype isc:BaseValanginianSP ;
   rdfs:label "Base of Valanginian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Valanginian"@en ;
   time:inTemporalPosition isc:BaseValanginianTime ;
 .
@@ -5212,6 +5313,7 @@ isc:BaseWenlock
   gts:stratotype isc:BaseWenlockSP ;
   rdfs:label "Base of Wenlock"@en ;
   skos:altLabel "Base of Sheinwoodian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Wenlock"@en ;
   time:inTemporalPosition isc:BaseWenlockTime ;
 .
@@ -5259,6 +5361,7 @@ isc:BaseWordian
   a time:Instant ;
   gts:stratotype isc:BaseWordianSP ;
   rdfs:label "Base of Wordian"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:prefLabel "Base of Wordian"@en ;
   time:inTemporalPosition isc:BaseWordianTime ;
 .
