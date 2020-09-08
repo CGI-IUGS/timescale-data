@@ -158,6 +158,7 @@ isc:Aeronian
 isc:Ages
   a xkos:ClassificationLevel ;
   a skos:OrderedCollection ;
+  dct:description "GeochronologicEras of rank \"Age\" arranged in sequence old-->young" ;
   xkos:depth "7"^^xsd:positiveInteger ;
   rdfs:label "GeochronologicEras of rank \"Age\""@en ;
   skos:member isc:Aalenian ;
@@ -366,6 +367,7 @@ isc:Ages
       isc:Northgrippian
       isc:Meghalayan
     ) ;
+  skos:prefLabel "GeochronologicEras of rank \"Age\""@en ;
 .
 isc:Albian
   a gts:Age ;
@@ -5435,6 +5437,7 @@ isc:Berriasian
 .
 isc:Boundaries
   a skos:OrderedCollection ;
+  dct:description "Boundaries in the International Chronostratigraphic Chart arranged in sequence old-->young" ;
   rdfs:label "Boundaries in the International Chronostratigraphic Chart"@en ;
   skos:member isc:BaseAeronian ;
   skos:member isc:BaseAlbian ;
@@ -7368,6 +7371,7 @@ isc:Eocene
 isc:Eons
   a xkos:ClassificationLevel ;
   a skos:OrderedCollection ;
+  dct:description "GeochronologicEras of rank \"Eon\" arranged in sequence old-->young" ;
   xkos:depth "3"^^xsd:positiveInteger ;
   rdfs:label "GeochronologicEras of rank \"Eon\""@en ;
   skos:member isc:Archean ;
@@ -7380,10 +7384,12 @@ isc:Eons
       isc:Proterozoic
       isc:Phanerozoic
     ) ;
+  skos:prefLabel "GeochronologicEras of rank \"Eon\""@en ;
 .
 isc:Epochs
   a xkos:ClassificationLevel ;
   a skos:OrderedCollection ;
+  dct:description "GeochronologicEras of rank \"Epoch\" arranged in sequence old-->young" ;
   xkos:depth "6"^^xsd:positiveInteger ;
   rdfs:label "GeochronologicEras of rank \"Epoch\""@en ;
   skos:member isc:CambrianSeries2 ;
@@ -7464,10 +7470,12 @@ isc:Epochs
       isc:Pleistocene
       isc:Holocene
     ) ;
+  skos:prefLabel "GeochronologicEras of rank \"Epoch\""@en ;
 .
 isc:Eras
   a xkos:ClassificationLevel ;
   a skos:OrderedCollection ;
+  dct:description "GeochronologicEras of rank \"Era\" arranged in sequence old-->young" ;
   xkos:depth "4"^^xsd:positiveInteger ;
   rdfs:label "GeochronologicEras of rank \"Era\""@en ;
   skos:member isc:Cenozoic ;
@@ -7492,6 +7500,7 @@ isc:Eras
       isc:Mesozoic
       isc:Cenozoic
     ) ;
+  skos:prefLabel "GeochronologicEras of rank \"Era\""@en ;
 .
 isc:Famennian
   a gts:Age ;
@@ -11352,6 +11361,7 @@ isc:Pennsylvanian
 isc:Periods
   a xkos:ClassificationLevel ;
   a skos:OrderedCollection ;
+  dct:description "GeochronologicEras of rank \"Period\" arranged in sequence old-->young" ;
   xkos:depth "5"^^xsd:positiveInteger ;
   rdfs:label "GeochronologicEras of rank \"Period\""@en ;
   skos:member isc:Calymmian ;
@@ -11400,6 +11410,7 @@ isc:Periods
       isc:Neogene
       isc:Quaternary
     ) ;
+  skos:prefLabel "GeochronologicEras of rank \"Period\""@en ;
 .
 isc:Permian
   a gts:GeochronologicEra ;
@@ -14450,7 +14461,7 @@ ts:gts2020
   dct:creator "Simon J D COX, CSIRO"@en ;
   dct:description "RDF representation of the Geologic Time Scale, as defined in the International Chronostratigraphic Chart (ICC) from the International Commission on Stratigraphy (ICS). The ICC embraces both chronostratigraphic (time-rock) units and their equivalent geochronologic (geologic-time) units, the former being related to the ‘Stratigraphic points’ referred to below, and the latter (geochronologic units) being employed in this RDF representation."@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-  dct:modified "2020-08-28"^^xsd:date ;
+  dct:modified "2020-09-08"^^xsd:date ;
   dct:replaces ts:gts2018 ;
   dct:rights "Original version Copyright © 2020 International Commission on Stratigraphy"@en ;
   dct:rights "RDF version Copyright © 2020 CSIRO, IUGS"@en ;
@@ -14628,6 +14639,8 @@ Also: changed samfl:shape --> geo:hasGeometry"""@en ;
 3. remove time:TimePosition subClassOf skos:Concept . and axioms following from that 
 4. mark concepts that are replaced owl:deprecated true 
 5. remove most object-properties and rdf:type properties from deprecated resources"""@en ;
+  skos:changeNote """2020-09-08
+Changed all collections of eras of a single rank into OrderedCollections""" ;
   skos:changeNote "Added informal definition of chronometric temporal reference system - Millions of years, counting backwards from 1950 {@en}." ;
   skos:changeNote "See <http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014-2015-2016-2017-2018.txt> for changes from prior versions"@en ;
   skos:editorialNote """<p>This dataset is being <a href=\"https://github.com/CGI-IUGS/timescale-data/\">maintained in GitHub</a></p>
