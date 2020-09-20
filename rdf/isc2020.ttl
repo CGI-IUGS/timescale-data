@@ -5542,6 +5542,7 @@ isc:Boundaries
   a skos:OrderedCollection ;
   dct:description "Boundaries in the International Chronostratigraphic Chart arranged in sequence old-->young" ;
   rdfs:label "Boundaries in the International Chronostratigraphic Chart"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:member isc:BaseAeronian ;
   skos:member isc:BaseAlbian ;
   skos:member isc:BaseAptian ;
@@ -7918,6 +7919,7 @@ isc:GeochronologicEras
   a skos:Collection ;
   xkos:depth "1"^^xsd:positiveInteger ;
   rdfs:label "GeochronologicEras (all ranks) in the International Chronostratigraphic Chart"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:member isc:Ages ;
   skos:member isc:Eons ;
   skos:member isc:Epochs ;
@@ -13116,6 +13118,7 @@ isc:Stenian
 isc:Stratotypes
   a skos:Collection ;
   rdfs:label "Stratotypes of boundaries in the International Chronostratigraphic Chart"@en ;
+  skos:inScheme ts:gts2020 ;
   skos:member isc:BaseAeronianSP ;
   skos:member isc:BaseAlbianSP ;
   skos:member isc:BaseAptianSP ;
@@ -14564,7 +14567,7 @@ ts:gts2020
   dct:creator "Simon J D COX, CSIRO"@en ;
   dct:description "RDF representation of the Geologic Time Scale, as defined in the International Chronostratigraphic Chart (ICC) from the International Commission on Stratigraphy (ICS). The ICC embraces both chronostratigraphic (time-rock) units and their equivalent geochronologic (geologic-time) units, the former being related to the ‘Stratigraphic points’ referred to below, and the latter (geochronologic units) being employed in this RDF representation."@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-  dct:modified "2020-09-08"^^xsd:date ;
+  dct:modified "2020-09-20"^^xsd:date ;
   dct:replaces ts:gts2018 ;
   dct:rights "Original version Copyright © 2020 International Commission on Stratigraphy"@en ;
   dct:rights "RDF version Copyright © 2020 CSIRO, IUGS"@en ;
@@ -14744,6 +14747,7 @@ Also: changed samfl:shape --> geo:hasGeometry"""@en ;
 5. remove most object-properties and rdf:type properties from deprecated resources"""@en ;
   skos:changeNote """2020-09-08
 Changed all collections of eras of a single rank into OrderedCollections""" ;
+  skos:changeNote "2020-09-20 - added skos:inScheme links from the primary collections" ;
   skos:changeNote "Added informal definition of chronometric temporal reference system - Millions of years, counting backwards from 1950 {@en}." ;
   skos:changeNote "See <http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014-2015-2016-2017-2018.txt> for changes from prior versions"@en ;
   skos:editorialNote """<p>This dataset is being <a href=\"https://github.com/CGI-IUGS/timescale-data/\">maintained in GitHub</a></p>
