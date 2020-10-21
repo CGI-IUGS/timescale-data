@@ -5542,7 +5542,6 @@ isc:Boundaries
   a skos:OrderedCollection ;
   dct:description "Boundaries in the International Chronostratigraphic Chart arranged in sequence old-->young" ;
   rdfs:label "Boundaries in the International Chronostratigraphic Chart"@en ;
-  skos:inScheme ts:gts2020 ;
   skos:member isc:BaseAeronian ;
   skos:member isc:BaseAlbian ;
   skos:member isc:BaseAptian ;
@@ -7919,7 +7918,6 @@ isc:GeochronologicEras
   a skos:Collection ;
   xkos:depth "1"^^xsd:positiveInteger ;
   rdfs:label "GeochronologicEras (all ranks) in the International Chronostratigraphic Chart"@en ;
-  skos:inScheme ts:gts2020 ;
   skos:member isc:Ages ;
   skos:member isc:Eons ;
   skos:member isc:Epochs ;
@@ -13118,7 +13116,6 @@ isc:Stenian
 isc:Stratotypes
   a skos:Collection ;
   rdfs:label "Stratotypes of boundaries in the International Chronostratigraphic Chart"@en ;
-  skos:inScheme ts:gts2020 ;
   skos:member isc:BaseAeronianSP ;
   skos:member isc:BaseAlbianSP ;
   skos:member isc:BaseAptianSP ;
