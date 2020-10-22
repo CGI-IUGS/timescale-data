@@ -1,5 +1,5 @@
 # baseURI: http://resource.geosciml.org/vocabulary/timescale/gts2019
-# imports: http://resource.geosciml.org/ontology/timescale/gts
+# imports: http://resource.geosciml.org/ontology/timescale/gts/w3c
 # imports: http://www.opengis.net/ont/geosparql
 # imports: https://def.isotc211.org/iso19108/2006/TemporalReferenceSystem.rdf
 
@@ -14172,7 +14172,7 @@ ts:gts2019
   rdfs:seeAlso <http://stratigraphy.org/ICSchart/ChronostratChart2019-05.pdf> ;
   rdfs:seeAlso <http://www.episodes.co.in/contents/2013/september/p199-204.pdf> ;
   rdfs:seeAlso <http://www.stratigraphy.org/GSSP/index.html> ;
-  owl:imports <http://resource.geosciml.org/ontology/timescale/gts> ;
+  owl:imports <http://resource.geosciml.org/ontology/timescale/gts/w3c> ;
   owl:imports <http://www.opengis.net/ont/geosparql> ;
   owl:imports <https://def.isotc211.org/iso19108/2006/TemporalReferenceSystem.rdf> ;
   owl:sameAs <http://resource.geosciml.org/classifierscheme/ics/2019/ischart> ;
